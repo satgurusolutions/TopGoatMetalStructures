@@ -1,0 +1,1066 @@
+[
+  {
+    "slug": "agriculture-farm",
+    "name": "Agricultural & Farm",
+    "image": "/images/applications/agricultural-farm.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Agricultural & Farm</h2><p class='text-base xl:text-2xl'>Farm sheds and barns made with the highest quality steel offer excellent storage and shelter options for all of your farming and agricultural needs.</p><p class='text-base xl:text-2xl pt-4'>Our cost-effective metal carports are worth the investment over traditional wooden barns that are prone to weathering and infestations. Steel agricultural and farm buildings are low-maintenance, yet they provide greater protection from pests, decay, and the elements without the fire hazard of wood.</p></div>",
+    "components": [
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "Uses for <span class='text-accent'>Agricultural and Farm Buildings</span>",
+            "description": "Whether you require secure space to shelter animals or store farming equipment and agricultural produce, Millennium’s customized carports can be built for your needs, including:",
+            "bullets": [
+              "Equipment storage",
+              "A storage room",
+              "Animal barns and shelters",
+              "Feed storage",
+              "Workshop space",
+              "Greenhouse or Growhouse"
+            ]
+          },
+          "right": {
+            "title": "Metal Agricultural and Farm Building Features",
+            "description": "<span>Metal barns are the most diverse structures you can find to fill your farming needs. They can be built to stay open for storing equipment and hay easily or fully enclosed to shelter animals or store dry feed.</span><span>To maximize space and customize the barn to fit your needs, our metal barns can be designed to include side entries, stalls, windows, walk-in doors, and garage doors.</span><br /> Additional features:",
+            "bullets": [
+              "Size options ranging from 36’ to 48’ wide. Standard heights are 9’/6’ – 16’/13’",
+              "Units can be certified up to 105 MPH wind load and 65 PSF snow load (with 12ga framing and constructed on cement)",
+              "Galvanized steel to protect against rust, rot, mold, termites, and other insects",
+              "Barn style including Carolina, Seneca, or Horse barns",
+              "Up to 16 different color options from siding to screws",
+              "Courtesy site inspection prior to manufacturing",
+              "Dedicated customer service contact to help with design, delivery, and installation",
+              "Financing options, including rent-to-own",
+              "Free delivery on your schedule"
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP1003", "APP1002", "APP1001"]
+  },
+  {
+    "slug": "animal-shelters",
+    "name": "Animal Shelters",
+    "image": "/images/applications/animal-shelters.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Animal Shelters</h2><p class='text-base xl:text-2xl'>Millennium’s metal barns can be designed to provide a safe, comfortable space for animals at an affordable cost. Metal barns are more cost effective and easily maintained compared to wood products that are susceptible to rot, mold and insects, making metal the ideal material for long-lasting and durable animal shelters.</p><p class='text-base xl:text-2xl pt-4'>With simple updates, your metal barn can remain open for access or fully enclosed for shelter from wind, weather, and other elements. Lean-tos can be added to one or both sides for additional, semi-enclosed space that will shelter animals while giving them the freedom to move and explore outside. For larger animals, a barn can be designed with two enclosed side lean-tos and an open central structure to use as a run-in area. If used as a shelter for smaller animals, open lean-tos can help keep them dry and warm in winter months but cool and shaded in the heat of the summer.</p></div>",
+    "components": [
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "Types of <span class='text-accent'>Animal Shelters</span>",
+            "description": "Whether you require secure space to shelter animals or store farming equipment and agricultural produce, Millennium’s customized carports can be built for your needs, including:",
+            "bullets": ["Dog shelters", "Horse barns", "Run-in sheds", "Livestock shelters"]
+          },
+          "right": {
+            "title": "Metal Agricultural and Farm Building Features",
+            "description": "Your pets and farm animals deserve the best. All of our durable yet economical metal animal shelters are made in America with the highest quality materials available. <br /> <br /> Additional features:",
+            "bullets": [
+              "Size options ranging from 12’ — 60’ wide",
+              "Galvanized steel to protect against rust, rot, mold, termites, and other insects",
+              "Roof styles including regular, boxed eave, or vertical",
+              "Type of barn style including Carolina, Seneca, or Horse barns",
+              "Color customizing with up to 16 options depending on style and location",
+              "Courtesy site inspection prior to manufacturing",
+              "Dedicated customer service contact to help with design, delivery, and installation",
+              "Financing options, including rent-to-own",
+              "Free delivery on your schedule"
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP1004", "APP1023", "APP1016"]
+  },
+  {
+    "slug": "boats",
+    "name": "Boats",
+    "image": "/images/applications/boats.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Boats</h2><p class='text-base xl:text-2xl'>Storing your boat at a marina is not only expensive but also leaves it easily exposed and open to potential damage. Instead, Millennium’s metal boat covers will protect your boat from all weather, theft, and animal threats all while keeping it close and easily accessible for maintenance.</p><p class='text-base xl:text-2xl pt-4'>Our broad range of economical boat covers are made with the highest quality, “Made in the USA” materials and can be customized to fit just about any space and budget. They range from 12′ to 60′ wide and up to 20′ tall and can be constructed up to the length needed.</p></div>",
+    "components": [
+      {
+        "type": "Ruler",
+        "background": "bg-white",
+        "padding": "pb-8 lg:pb-14"
+      },
+      {
+        "type": "Faqs",
+        "background": "bg-white",
+        "padding": "pb-8 lg:pb-14",
+        "props": {
+          "title": "Uses for",
+          "description": " ",
+          "highlight": "Agricultural and Farm Buildings",
+          "faqData": [
+            {
+              "id": "1",
+              "question": "Durability",
+              "answer": "<div class='prose max-w-none text-base text-muted-foreground'><p class='text-base xl:text-2xl'>Our galvanized steel framing is the highest quality offered on the market, and it comes with a 20-year limited Rust-Through Warranty. The warranty can be used for the following:</p><ul class='list-disc pl-6 space-y-2 text-base xl:text-2xl'><li>Regular style up to 31’ long</li><li>Boxed Eave style up to 31’ long</li><li>Vertical roof style up to any length</li><li>12 gauge framing</li><li>Limited lifetime warranty on all certified units for snow loads and wind</li><li>Upgrades are also available from 14-gauge to 12-gauge framing for areas that receive great amounts of wind, rain, or snow.</li></ul></div>"
+            },
+            {
+              "id": "2",
+              "question": "Economic",
+              "answer": "Metal buildings are cost-effective and can save you more money in the long run over any kind of wooden structure."
+            },
+            {
+              "id": "3",
+              "question": "Low-Maintenance",
+              "answer": "With low-maintenance metal, these units can be cleaned easily with mild soap and water. Also, unlike structures built from wood components, our steel boat covers will remain free from rust, rot, mold, termites, and insects."
+            }
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white",
+        "padding": "pt-8 lg:pt-14",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "Advantages",
+        "props": {
+          "title": "Carport Options",
+          "content": "<h2 class='text-[32px] lg:text-6xl font-bold mb-8 text-center text-white'>Metal Boat Cover Customization</h2><section><p class='text-base text-white mb-6'>There are many ways to upgrade or customize your boat cover to fit your needs and budget. It is important to consider space as well as local regulations and weather conditions.</p></section><section><p class='text-base text-white mb-6'>While our certified carports can withstand wind speeds up to 180 miles per hour, if you live in a location that is prone to high winds during hurricanes or tornadoes, you should also consider adding anchors to your carport to help keep it grounded during these events. In these cases, more is better.</p></section><section><h3 class='text-3xl font-semibold text-accent mt-8 mb-4'>Other customization options include:</h3><ul class='list-disc pl-6 space-y-2 text-base text-white'><li>Length, width, and height variations</li><li>Roof styles, including: regular, boxed eave, and vertical</li><li>Vertical, horizontal, and lap siding</li><li>2 tone wall options</li><li>Certified, up to 180 MPH wind loads and 65 PSF snow loads</li><li>29-gauge or 26-gauge sheet metal</li><li>14-gauge or 12-gauge galvanized tubing</li><li>16 different available color choices</li></ul></section>"
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["MBCV01", "APP1005"]
+  },
+  {
+    "slug": "dual-car",
+    "name": "Dual Car",
+    "image": "/images/applications/dual-car.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Dual Car</h2><p class='text-base xl:text-2xl'>Two-car metal carports are great options for extra space, whether you need to store a second vehicle, a pair of bikes or motorcycles, or a new set of kayaks. They can house tools and equipment or simply provide added space around your car to prevent bumps and scratches.</p><p class='text-base xl:text-2xl pt-4'>Like other types of carports, a dual car version is a low-maintenance, cost-effective, energy efficient option to protect your high-value investments. Our two-car garages come in various sizes and can be covered, partially enclosed, or fully enclosed.</p><p class='text-base xl:text-2xl pt-4'>Millennium’s metal garages are manufactured using American-made parts and the highest quality steel available on the market. These steel-frame structures are reliable options in harsh weather like rain and snow, and they won’t leak or be susceptible to fires like standard wooden structures.</p></div>",
+    "components": [
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+
+      {
+        "type": "Advantages",
+        "props": {
+          "title": "Dual Carport Features",
+          "content": "<h2 class='text-[32px] lg:text-6xl font-bold mb-8 text-center text-white'>Dual Carport Features</h2><section><p class='text-base text-white mb-6'>Our expert design consultants and sales specialists can answer any questions you may have regarding your building project. With customizable carport options, our associates will work with you to ensure that you get the best building to suit your needs for your budget.</p></section><section><h3 class='text-3xl font-semibold text-accent mt-8 mb-4'>Additional features</h3><ul class='list-disc pl-6 space-y-2 text-base text-white'><li>Dedicated customer service contact to help with design, delivery, and installation</li><li>Courtesy site inspection prior to manufacturing</li><li>Easy, fast installation</li><li>Welded truss system for maximum durability</li><li>Galvanized steel that protects against rust</li><li>12-gauge and 14-gauge steel framing options</li><li>Wind loads up to 170MPH</li><li>Snow loads up to 65PSF</li><li>Up to 16 different color choices, from siding to screws</li><li>Financing options, including rent-to-own</li><li>Fast, free delivery starting at just two weeks</li></ul></section>"
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP1006", "APP1011"]
+  },
+  {
+    "slug": "man-cave",
+    "name": "Man Caves",
+    "image": "/images/applications/man-cave.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Man Caves</h2><p class='text-base xl:text-2xl'>Millennium’s metal garages can provide perfect space for your new Man Cave. Our fully-enclosed units will protect high-value items such as electronics, tools, and equipment from harsh weather, theft, and pests. They can also be customized with features to make for a comfortable space to relax and unwind.</p></div>",
+    "components": [
+      {
+        "type": "AboutUsVideo",
+        "background": "bg-[#FCF8F8]",
+        "padding": "pb-8 lg:pb-14",
+        "props": {
+          "title": " ",
+          "description": " ",
+          "item": {
+            "id": 1,
+            "name": "Man Caves",
+            "imgUrl": "/images/applications/man-cave.jpg",
+            "videoId": "m6QV661-qfY"
+          },
+          "hideTitleSection": true
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "Metal Man Cave Features",
+            "description": "Metal carports can provide convenience and security for your personal space. In addition to our “Made in the USA” material guarantee, we use only the highest quality components available for all of our structures. <br /> <br />Additional features can include: <br /> Our galvanized steel framing is the highest quality offered on the market, and it comes with a 20-year limited Rust-Through Warranty. The warranty can be used for the following:",
+            "bullets": [
+              "Detached for privacy and sound control",
+              "Windows to allow fresh air and natural lighting",
+              "Walk-in and/or garage doors",
+              "Lean-tos for added space",
+              "Side and end enclosures",
+              "Reinforcement options such as anchors, bows, and trusses",
+              "Roof and wall insulation"
+            ]
+          },
+          "right": {
+            "title": "Metal Man Cave Customizing Options",
+            "description": "Fully-enclosed, free-spanning metal units can be built at a variety of sizes ranging from 12′ to 60′ wide, up to 20′ tall, and as long as needed. <br /> <br /> Other design options include:",
+            "bullets": [
+              "Three different roof styles to choose from: regular, boxed eave, or vertical",
+              "Window sizes and locations",
+              "29-gauge or 26-gauge sheet metal",
+              "14-gauge or 12-gauge galvanized tubing",
+              "16 different available color choices",
+              "Certified and un-certified structures available",
+              "Certified, up to 180 MPH wind loads and 65 PSF snow loads*",
+              "Anchors to add structural integrity*",
+              "Bows and trusses to increase strength and stability*",
+              "*Recommended for extreme weather conditions."
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "UsesCard",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14",
+        "props": {
+          "title": "Prepare Before You Buy",
+          "highlight": "",
+          "description": "Ready to build the workshop of your dreams? Before you do, please check out the recommendations below to ensure your structure is built properly and safely:",
+          "cards": [
+            {
+              "id": 1,
+              "title": "Make sure your area is measured.",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Ensure your land is LEVEL and flat.",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Check your zoning and permissions.",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Florida customers must ensure they have permits.",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Check for overhead cables and underground lines.",
+              "description": ""
+            }
+          ]
+        }
+      },
+      {
+        "type": "GetAQuote",
+        "background": "bg-white"
+      }
+    ],
+    "skus": []
+  },
+  {
+    "slug": "parking",
+    "name": "Parking",
+    "image": "/images/applications/parking.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Parking</h2><p class='text-base xl:text-2xl'>Metal garages are ideal for protecting cars, trucks and other vehicles from boats to ATVs from theft or damage from harsh weather and pests. These fully-enclosed, free spanning metal buildings can range from 12′ to 60′ wide and up to 20′ tall with as much space length-wise as needed.</p><p class='text-base xl:text-2xl pt-4'>We use only the highest quality of “Made in the USA” materials for all of our structures. All of our carports come with a up to 1 year workmanship satisfaction based on your location. Find out more about our available Limited 10-25 year Warranty (Location Specific).</p></div>",
+    "components": [
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "<span class='text-accent'>Parking</span> Garage Customization",
+            "description": "When storing vehicles and other high-value items in your carport, you should consider insulation to protect these items from severe cold or extreme heat that can damage tires, batteries, fuel lines, and more. <br /> <br /> While our certified carports can withstand wind speeds up to 180 miles per hour, if you live in a location that is prone to high winds during hurricanes or tornadoes, you should also consider adding anchors to your parking structure to help keep it grounded during these events. <br /> <br /> Other customization options include:",
+            "bullets": [
+              "Length, width, and height variations",
+              "Roof styles, including: regular, boxed eave, and vertical",
+              "Roof and wall insulation",
+              "Certified and uncertified structures available",
+              "Concrete and mobile home anchor styles",
+              "Certified, up to 180 MPH wind loads and 65 PSF snow loads *Note (Location Specific)",
+              "29-gauge or 26-gauge sheet metal",
+              "14-gauge or 12-gauge galvanized tubing",
+              "Garage doors, with four different available color options",
+              "16 different available sheet metal color choices",
+              "Colored screws to match your sheet metal",
+              "Walk-in doors",
+              "Windows",
+              "45-degree angle frame-outs and garage door openings",
+              "Side entry",
+              "Lean-tos"
+            ]
+          },
+          "right": {
+            "title": "Common Uses for <span class='text-accent'>Parking Garages</span>",
+            "description": "Looking for enclosed or partially-enclosed parking space? <br /> <br /> Consider a metal garage for a variety of vehicles, including:",
+            "bullets": [
+              "Cars",
+              "Trucks",
+              "Boats",
+              "RVs",
+              "ATVs",
+              "Kayaks, Canoes, Paddleboards",
+              "Farm equipment",
+              "Lawn equipment"
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP900", "APP1010", "MBCC04"]
+  },
+  {
+    "slug": "parties",
+    "name": "Parties",
+    "image": "/images/applications/parties.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Parties</h2><p class='text-base xl:text-2xl'>Millennium’s metal structures can add shade and shelter for outdoor party spaces without the worry of weather interrupting the occasion. Whether it’s a pool, patio, or lawn, our metal carports are excellent options for protecting your guests from sun, rain, and other weather that could ruin an outdoor event.</p><p class='text-base xl:text-2xl pt-4'>Our metal canopies and pavilions are stable and long-lasting, constructed with premium, “Made in the USA” materials. We offer additional safety features for areas that receive harsh weather such as wind, rain, and snow, ensuring your metal structure is compliant with all local and country requirements.</p></div>",
+    "components": [
+      {
+        "type": "Advantages",
+        "props": {
+          "title": "Metal Party Shelter Design Customizations",
+          "content": "<h2 class='text-[32px] lg:text-6xl font-bold mb-8 text-center text-white'>Metal Party Shelter Design Customizations</h2><section><p class='text-base text-white mb-6'>Size and design customization options ensure your structure fits your space, needs, and budget. Our sales team and design experts are available to help answer any questions you might have regarding your carport project. Call 1-866-216-8499 to speak with someone today.</p></section><section><p class='text-base text-white mb-6'>Special features of our metal party shelters include:</p><ul class='list-disc pl-6 space-y-2 text-base text-white'><li>Open, partially-enclosed, or fully-enclosed walls</li><li>12-gauge and 14-gauge steel framing options</li><li>Up to 16 different color choices</li><li>A-frame roofing options including regular, boxed eave, or vertical styles</li><li>Sizes ranging from 18’ — 40’ wide and 60’ long</li><li>Walls to enclose or partially enclose the structure</li><li>Gables to add additional cover</li><li>Lean-tos for additional space or storage</li></ul></section><section><p class='text-base text-white my-6'>All of our structures include a up to 1 year workmanship satisfaction based on your location. Ask your sales specialist about our available Limited 10-25 year Warranty (Location Specific).</p><p class='text-base text-white mb-6'>We also offer several financing options, including rent-to-own. Find out more about getting approved for up to $25,000 for your building project.</p><p class='text-base text-white mb-6'>Our delivery times are the fastest in the industry, starting at just two weeks. Ask your sales specialist about our delivery options and how to get your structure delivered on your timetable.</p><p class='text-base text-white'>We are proud to be a veteran-owned company, and grateful to all of our hard-working service members, past and present. We would like to thank all veterans and active military with a <a href='/military-discount/' class='text-accent'>military discount</a>. Please call us at <a href='tel:18662168499' class='text-accent'>1-866-216-8499</a> for more information.</p></section>"
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP1012", "APP1008", "APP1032"]
+  },
+  {
+    "slug": "patio-canopy",
+    "name": "Patio Canopy",
+    "image": "/images/applications/patio-canopy.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Patio Canopy</h2><p class='text-base xl:text-2xl'>Traditional carports can do more than simply protect vehicles from the elements. They can be designed to structurally and aesthetically complement your home to add shade to outdoor areas like patios or pools.</p><p class='text-base xl:text-2xl pt-4'>Patio canopies designed with metal carport bases are stable and long-lasting yet built to be open to allow you to entertain in the outdoors without risking sunburns or canceling an event because of rain.</p></div>",
+    "components": [
+      {
+        "type": "Advantages",
+        "props": {
+          "title": "Metal Party Shelter Design Customizations",
+          "content": "<h2 class='text-[32px] lg:text-6xl font-bold mb-8 text-center text-white'>Metal Patio Canopy Design Customizations</h2><section><p class='text-base text-white mb-6'>We manufacture all of our metal carports with premium, American-made steel. Size and design customization options ensure your new carport fits your space and your needs, all while staying in your budget. Our sales team and design consultants are on-hand to help answer any questions you might have regarding your carport project.</p></section><section><p class='text-base text-white mb-6'>Special features of our metal patio canopies include:</p><ul class='list-disc pl-6 space-y-2 text-base text-white'><li>Open, partially-enclosed, or fully-enclosed walls</li><li>12-gauge and 14-gauge steel framing options</li><li>Up to 16 different color choices</li><li>A-frame roofing options including regular, boxed eave, or vertical styles</li><li>Sizes ranging from 12’ — 60’ wide and any length</li><li>Walls to enclose or partially enclose the structure</li><li>Gables to add additional cover</li><li>Lean-tos for additional space or storage</li></ul></section><section><p class='text-base text-white my-6'>All of our structures include a up to 1 year workmanship satisfaction based on your location. Ask your sales specialist about our available Limited 10-25 year Warranty (Location Specific).</p><p class='text-base text-white mb-6'>We also offer several financing options, including rent-to-own. Find out more about getting approved for up to $25,000 for your building project.</p><p class='text-base text-white mb-6'>Our dedicated customer service team can help you with any design, delivery, and installation concerns or questions along the way. We offer fast delivery options on your timetable, starting at just two weeks. Prior to manufacturing, we provide courtesy site inspections to ensure your metal structure follows all local requirements.</p><p class='text-base text-white'>We are a Veteran-owned company, and proud of all of our hard-working service members, past and present. We would like to thank all veterans and active military for your service and the sacrifice you have made with a token of appreciation. For more information on our <a href='/military-discount/' class='text-accent'>military discount</a>, please call us at <a href='tel:18662168499' class='text-accent'>1-866-216-8499</a>.</p></section>"
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP700", "APP1009", "APP1017"]
+  },
+  {
+    "slug": "pavilion",
+    "name": "Pavilion",
+    "image": "/images/applications/pavilion.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Pavilion</h2><p class='text-base xl:text-2xl'>Pavilions crafted from Millennium’s customized metal carports are cost-effective ways to add shelter or shade to any outdoor area. With their covered roofs and open sides, you can enjoy nature without being exposed to harsh elements.</p><p class='text-base xl:text-2xl pt-4'>Open metal pavilions can also protect your cars, trucks, or boats from sunlight and weather damage. They give you the covered space you need with the flexibility to fit just about any vehicle.</p><p class='text-base xl:text-2xl pt-4'>Metal pavilions built from the highest quality components and “Made in America” steel create stability and prevent weather damage to the structure. With metal, you won’t have to worry about warp, rust, rot, termites, or other pests.</p></div>",
+    "components": [
+      {
+        "type": "Advantages",
+        "props": {
+          "title": "Metal Party Shelter Design Customizations",
+          "content": "<h2 class='text-[32px] lg:text-6xl font-bold mb-8 text-center text-white'>Pavilion Design Customizations</h2><section><p class='text-base text-white mb-6'>Our sales team and design consultants are on-hand to answer any questions you have regarding your building project. Let them help you create your perfect metal pavilion, in your budget and designed to fit your needs.</p></section><section><p class='text-base text-white mb-6'>Special features of our metal pavilions include:</p><ul class='list-disc pl-6 space-y-2 text-base text-white'><li>Open, partially-enclosed, or fully-enclosed walls</li><li>12-gauge and 14-gauge steel framing options</li><li>Up to 16 different color choices</li><li>A-frame roofing options including regular, boxed eave, or vertical styles</li><li>Sizes ranging from 12’ — 60’ wide and any length</li><li>Walls to enclose or partially enclose the structure</li><li>Gables to add additional cover</li><li>Lean-tos for additional space or storage</li></ul></section><section><p class='text-base text-white my-6'>Before we begin manufacturing, we provide courtesy site inspections to ensure your metal structure follows all local requirements. All of our structures include a up to 1 year workmanship satisfaction based on your location. Find out more about our available Limited 10-25 year Warranty (Location Specific).</p><p class='text-base text-white mb-6'>We also offer several financing options, including rent-to-own. Learn more about getting approved for your carport project.</p><p class='text-base text-white mb-6'>Our delivery times start in just two weeks, which makes us the best delivery option in the business.</p><p class='text-base text-white'>We are proud to be a Veteran-owned company, and we would like to thank all veterans and active military for your service and the sacrifices you have made. As a token of our appreciation, we would like to offer you a discount. For more information on our <a href='/military-discount/' class='text-accent'>military discount</a>, please call us at <a href='tel:18662168499' class='text-accent'>1-866-216-8499</a>.</p></section>"
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP700", "APP1009", "APP1017"]
+  },
+  {
+    "slug": "picnic-area",
+    "name": "Picnic Area",
+    "image": "/images/applications/picnic-area.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Picnic Area</h2><p class='text-base xl:text-2xl'>Metal carports can provide much-needed shade and shelter for outdoor recreation areas. Picnic tables stay cool and ready for feasting even in the heat of the day. With covered carports, rainy days can’t stop outdoor fun, whether picnicking, bar-be-cueing, hot tubbing, or cozying up by a fire pit.</p></div>",
+    "components": [
+      {
+        "type": "Advantages",
+        "props": {
+          "title": "Metal Party Shelter Design Customizations",
+          "content": "<h2 class='text-[32px] lg:text-6xl font-bold mb-8 text-center text-white'>Metal Picnic Area Design Customizations</h2><section><p class='text-base text-white mb-6'>Millennium Building’s metal carports are manufactured with premium, American-made steel. With options ranging from open or partially open to fully enclosed, your carport can be designed to fit any space or budget. Our expert design consultants and sales specialists can answer any questions you might have regarding your building project. With several customizable options for your metal carport, our team will work to ensure your building fulfills your needs at a price you can afford.</p></section><section><p class='text-base text-white mb-6'>Other features of our metal picnic areas include:</p><ul class='list-disc pl-6 space-y-2 text-base text-white'><li>12-gauge and 14-gauge steel framing options</li><li>Up to 16 different color choices</li><li>A-frame roofing options including regular, boxed eave, or vertical styles</li><li>Sizes ranging from 12’ — 60’ wide and any length</li><li>Walls to enclose or partially enclose the structure</li><li>Gables to add additional cover</li><li>Lean-tos for additional space or storage</li></ul></section><section><p class='text-base text-white my-6'>Millennium’s buildings come with a up to 1 year workmanship satisfaction based on your location. Ask your sales specialist about our available Limited 10-25 year Warranty (Location Specific). We also offer several financing options, including rent-to-own.</p><p class='text-base text-white mb-6'>Our dedicated customer service team can help you with any design, delivery, and installation concerns or questions along the way. We offer fast delivery options on your timetable, starting at just two weeks. Prior to manufacturing, we provide courtesy site inspections to ensure your metal structure follows all local requirements.</p><p class='text-base text-white'>We are a Veteran-owned company, and proud of all of our hard-working service members, past and present. We would like to thank all veterans and active military for your service and the sacrifice you have made with a token of appreciation. For more information on our <a href='/military-discount/' class='text-accent'>military discount</a>, please call us at <a href='tel:18662168499' class='text-accent'>1-866-216-8499</a>.</p></section>"
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP700", "APP1009", "APP1017"]
+  },
+  {
+    "slug": "rvs",
+    "name": "RVS",
+    "image": "/images/applications/rvs.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>RVs</h2><p class='text-base xl:text-2xl'>If you are an RV owner, your rig is often your second home. You put a lot of care into maintaining it, and the same level of care should be put into protecting it.</p><p class='text-base xl:text-2xl pt-4'>Metal RV carport covers from Millennium Buildings are manufactured in America and made with the highest quality steel available on the market. Our RV covers are economical and low maintenance, leaving you with more time and money for the journey rather than the upkeep.</p><p class='text-base xl:text-2xl pt-4'>We provide a 10 year Rust through warranty for 14-gauge and a 20-year Rust through warranty for 12-gauge on our galvanized steel framing. The metal covers can be cleaned quickly with just mild soap and water and will remain free from rust, rot, mold, termites, and insects.</p></div>",
+    "components": [
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-white"
+      },
+      {
+        "type": "ProductStyle",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-white",
+        "props": {
+          "title": "RV Cover Roof Styles",
+          "highlight": "",
+          "description": "Our metal carports come in three different roof styles:",
+          "cards": [
+            {
+              "title": "Regular Roof",
+              "highlight": "RV Cover",
+              "description": "Our regular roof style is affordable, economical, and durable. This style roof has rounded corners and horizontal sheet metal. Regular roof styles are available from 12′ wide to 30′ wide and up to 36′ long and 20′ tall.",
+              "image": "/images/products/garages/custom-styles/custom-style-1.png"
+            },
+            {
+              "title": "Boxed-Eave Roof",
+              "highlight": "RV Cover",
+              "description": "The boxed eave style roof is affordable yet stylish. These units have an A-frame roofline with a horizontal sheet. They are available from 12′ wide to 30′ wide, up to 20′ tall, and up to 36′ long.",
+              "image": "/images/products/garages/custom-styles/custom-style-2.png"
+            },
+            {
+              "title": "Vertical Roof",
+              "highlight": "RV Cover",
+              "description": "Vertical roof styles come in an A-frame roofline and vertical sheet metal. They provide maximum protection and are the highest quality of RV covers available. They are available at any length, from 12′ wide to 60′ wide and up to 20′ tall.",
+              "image": "/images/products/garages/custom-styles/custom-style-3.png"
+            }
+          ]
+        }
+      },
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "Metal RV Cover Size Selection",
+            "description": "There are many different size options available for metal RV covers. Average measurements are shown below.",
+            "bullets": [
+              "For Class A Motorhomes: 36’-41’ length and 8’-10’ width",
+              "For Class B Motorhomes: 16’-23’ length and 6.5’-8’ width",
+              "For Class C Motorhomes: 20’-32’ length and 8’-10’ width",
+              "For Conventional Trailers: 14’-36’ length and 6’-8’ width",
+              "For Fifth Wheel Trailers: 21’-40’ length and 8’-10’ width",
+              "For Pop-up Tent Trailers: 15’-26’ length and 6’-8’ width",
+              "For Utility Trailers: 21’-23’ length and 8’-10’ width",
+              "For Truck Campers: 8’-18’ length and 6’-8’ width"
+            ]
+          },
+          "right": {
+            "title": "Metal RV Cover Customization",
+            "description": "We offer many different customization options for your RV cover. Design consultants are available via phone or email to answer any questions you might have while planning your carport structure.",
+            "bullets": [
+              "Length, width, and height variations",
+              "Roof styles, including: regular, boxed eave, and vertical",
+              "Certified and un-certified structures available",
+              "Certified, up to 170 MPH wind loads and 65 PSF snow loads",
+              "29-gauge or 26-gauge sheet metal",
+              "14-gauge or 12-gauge galvanized tubing",
+              "16 different available color choices",
+              "Panels or walls to enclose part or all of the carport",
+              "Walk-in or roll-up doors"
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP400", "APP1019", "APP1026"]
+  },
+  {
+    "slug": "she-sheds",
+    "name": "She Sheds",
+    "image": "/images/applications/she-sheds.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>She Sheds</h2><p class='text-base xl:text-2xl'>Millennium’s metal garages can be customized to create a quiet space for your new She Shed. Our fully-enclosed units protect high-value items such as electronics, furniture, and supplies from harsh weather, theft, and pests. With additional features such as insulation and electricity, windows, and doors, a detached metal carport can quickly become a comfortable sanctuary.</p></div>",
+    "components": [
+      {
+        "type": "AboutUsVideo",
+        "background": "bg-[#FCF8F8]",
+        "padding": "pb-8 lg:pb-14",
+        "props": {
+          "title": " ",
+          "description": " ",
+          "item": {
+            "id": 1,
+            "name": "She Sheds",
+            "imgUrl": "/images/applications/she-sheds.jpg",
+            "videoId": "Po58oIfrXzo"
+          },
+          "hideTitleSection": true
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "Metal She Shed Features",
+            "description": "Metal garage units provide convenience and security for your passion projects. Made only with materials manufactured in the United States, our units are built with the highest quality components available to ensure your structure’s safety and security. <br /> <br />Additional features:",
+            "bullets": [
+              "Detached for privacy and sound control",
+              "Windows to allow fresh air and natural lighting",
+              "Walk-in and/or garage doors",
+              "Lean-tos for added space",
+              "Side and end enclosures",
+              "Reinforcement options such as anchors, bows, and trusses",
+              "Roof and wall insulation"
+            ]
+          },
+          "right": {
+            "title": "Metal She Shed Customizing Options",
+            "description": "Fully-enclosed, free-spanning metal units can be built at a variety of sizes ranging from 12′ to 60′ wide, up to 20′ tall, and as long as needed. <br /> <br /> Other design options include:",
+            "bullets": [
+              "Three different roof styles to choose from: regular, boxed eave, or vertical",
+              "Window sizes and locations",
+              "29-gauge or 26-gauge sheet metal",
+              "14-gauge or 12-gauge galvanized tubing",
+              "16 different available color choices",
+              "Certified and un-certified structures available",
+              "Certified, up to 180 MPH wind loads and 65 PSF snow loads*",
+              "Anchors to add structural integrity*",
+              "Bows and trusses to increase strength and stability*",
+              "*Recommended for extreme weather conditions."
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "UsesCard",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14",
+        "props": {
+          "title": "Prepare Before You Buy",
+          "highlight": "",
+          "description": "Ready to build the workshop of your dreams? Before you do, please check out the recommendations below to ensure your structure is built properly and safely:",
+          "cards": [
+            {
+              "id": 1,
+              "title": "Make sure your area is measured.",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Ensure your land is level and flat.",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Check your zoning and permissions.",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Florida customers must ensure they have permits.",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Check for overhead cables and underground lines.",
+              "description": ""
+            }
+          ]
+        }
+      },
+      {
+        "type": "GetAQuote",
+        "background": "bg-white"
+      }
+    ],
+    "skus": []
+  },
+  {
+    "slug": "shelter",
+    "name": "Shelter",
+    "image": "/images/applications/shelter.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Shelter</h2><p class='text-base xl:text-2xl'>Millennium’s multi-purpose metal shelters are perfect for storing multiple vehicles, oversized farm equipment, RVs, ATVs, boats, and other assets. They can be converted into horse and livestock shelters or customized to fit just about any outdoor patio space for year-round recreational use.</p><p class='text-base xl:text-2xl pt-4'>Metal shelters can be crafted to remain open on all sides for shielding an area from direct sun and rain, allowing you to enjoy your outdoor space in any weather. They can also be designed with side panels and roll-up garage doors to keep your vehicles safe from the elements all year.</p><p class='text-base xl:text-2xl pt-4'>All of our structures are made with top-of-the-line, “Made in the USA” materials. All buildings come with up to a 1 year workmanship satisfaction based on your location. Our <strong>1 Year Workmanship Warranty</strong> begins from the date of installation. All warranties assume normal care and maintenance using mild soap and water — harsh chemicals are not recommended. Additionally, we offer a Limited 10-25 year Warranty (Location Specific). For areas prone to harsh weather, we can upgrade your metal shelter to 26-gauge sheet metal and 12-gauge galvanized tubing to provide certification for up to 180 MPH wind loads and 65 PSF snow loads.</p><p class='text-base xl:text-2xl pt-4'>Our Triple Wide units are ideal for sheltering larger areas and come standard with a welded truss system to ensure maximum durability.</p></div>",
+    "components": [
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "Uses for <span class='text-accent'>Metal Shelters</span>",
+            "description": "Metal garage units provide convenience and security for your passion projects. Made only with materials manufactured in the United States, our units are built with the highest quality components available to ensure your structure’s safety and security.",
+            "bullets": [
+              "Vehicle shelter",
+              "Horse or livestock shelter",
+              "Lawn or farm equipment shelter",
+              "Picnic area shelter",
+              "Patio shelter",
+              "Pool cabana",
+              "Recreational area cover",
+              "Outdoor sports viewing area cover",
+              "Bus stop cover"
+            ]
+          },
+          "right": {
+            "title": "<span class='text-accent'>Metal Shelters</span> Customizing Options",
+            "description": "Millennium’s design experts are on-hand to help plan your building project. We offer many types of customizations to our metal shelters, including:",
+            "bullets": [
+              "Three different roof styles to choose from: regular, boxed eave, or vertical",
+              "Side panels",
+              "Window sizes and locations",
+              "Roll-up garage doors or walk-in doors",
+              "29-gauge or 26-gauge sheet metal",
+              "14-gauge or 12-gauge galvanized tubing",
+              "16 different available color choices",
+              "Certified and un-certified structures are available",
+              "Certified, up to 180 MPH wind loads and 65 PSF snow loads",
+              "Anchors to add structural integrity",
+              "Bows and trusses to increase strength and stability"
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP1028", "APP1030", "APP1029"]
+  },
+  {
+    "slug": "storage",
+    "name": "Storage",
+    "image": "/images/applications/storage.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Storage</h2><p class='text-base xl:text-2xl'>Millennium’s metal storage sheds provide secure, versatile space for all your belongings, from tools and equipment to seasonal items. Crafted with premium, “Made in the USA” steel, these sheds are built to last while remaining cost-effective.</p><p class='text-base xl:text-2xl pt-4'>Our storage structures can be designed open, partially enclosed, or fully enclosed to meet your specific needs. Options like side panels, roll-up garage doors, and custom shelving ensure your items stay protected and organized.</p><p class='text-base xl:text-2xl pt-4'>All of our buildings come with up to a 1-year workmanship satisfaction guarantee based on your location. Additionally, we offer a Limited 10-25 year Warranty (Location Specific), with upgrades available for harsh weather areas using 26-gauge sheet metal and 12-gauge galvanized tubing, certified for up to 180 MPH wind loads and 65 PSF snow loads.</p><p class='text-base xl:text-2xl pt-4'>Triple Wide units are available for larger storage needs, featuring a welded truss system for maximum strength and durability.</p></div>",
+    "components": [
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "Uses for <span class='text-accent'>Metal Storage Sheds</span>",
+            "description": "Finding yourself with overflowing boxes or equipment? Consider a metal carport for your storage needs, such as:",
+            "bullets": [
+              "General storage",
+              "Furniture storage",
+              "Farm equipment storage",
+              "Lawn equipment storage",
+              "Bike or motorcycle storage",
+              "Canoe, kayak, paddleboard storage",
+              "Athletic or recreation equipment storage",
+              "Business/office supplies storage",
+              "Tool/construction equipment storage",
+              "Hobby supplies storage"
+            ]
+          },
+          "right": {
+            "title": "<span class='text-accent'>Metal Storage Sheds</span> Features",
+            "description": "Millennium’s metal carports can easily be constructed as storage sheds. These fully-enclosed units will protect high-value items such as tools and equipment from harsh weather, theft, and pests.",
+            "bullets": [
+              "Detached for privacy and sound control",
+              "Walk-in and/or garage doors",
+              "Lean-tos for added space",
+              "Side and end enclosures",
+              "Reinforcement options such as anchors, bows, and trusses",
+              "Roof and wall insulation"
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "Advantages",
+        "props": {
+          "title": "Metal Party Shelter Design Customizations",
+          "content": "<h2 class='text-[32px] lg:text-6xl font-bold mb-8 text-center text-white'>Storage Shed Customizing Options</h2><section><p class='text-base text-white mb-6'>Fully-enclosed, free-spanning metal garages can range from 12′ to 60′ wide and up to 20′ tall with as much length as needed. These flexible units can also be customized to convert standard storage space into workshops, hobbies, or crafting areas. Our expert design consultants and sales specialists are available to help you select the right options for your project.</p></section><section><p class='text-base text-white mb-6'>Other design options include:</p><ul class='list-disc pl-6 space-y-2 text-base text-white'><li>Three different roof styles: regular, boxed eave, or vertical</li><li>Window sizes and locations</li><li>29-gauge or 26-gauge sheet metal</li><li>14-gauge or 12-gauge galvanized tubing</li><li>16 different available color choices</li><li>Certified and un-certified structures available</li><li>Certified, up to 180 MPH wind loads and 65 PSF snow loads<sup>*</sup></li><li>Anchors to add structural integrity<sup>*</sup></li><li>Bows and trusses to increase strength and stability<sup>*</sup></li></ul><p class='text-base text-white mb-6'><sup>* Recommended for extreme weather conditions.</sup></p><p class='text-base text-white'>For help choosing the right building for your needs, speak to our design experts at <a href='tel:18662168499' class='text-accent'>1-866-216-8499</a>, or click on our chat-bot at the bottom right of the screen to chat with a representative now.</p></section>"
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      },
+      {
+        "type": "UsesCard",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14",
+        "props": {
+          "title": "Prepare Before You Buy",
+          "highlight": "",
+          "description": "Ready to build the workshop of your dreams? Before you do, please check out the recommendations below to ensure your structure is built properly and safely:",
+          "cards": [
+            {
+              "id": 1,
+              "title": "Make sure your area is measured.",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Ensure your land is LEVEL and flat.",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Check your zoning and permissions.",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Florida customers must ensure they have permits.",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Check for overhead cables and underground lines.",
+              "description": ""
+            }
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["APP500", "MBGR07", "MBGB09"]
+  },
+  {
+    "slug": "tractor-barn",
+    "name": "Tractor Barn",
+    "image": "/images/applications/tractor-barn.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Tractor Barn</h2><p class='text-base xl:text-2xl'>Safely store your tractors and farming equipment with Millennium’s premium steel, American-made tractor barns. These metal buildings are designed to be low-maintenance and versatile, allowing you to focus on running your farm without worrying about storage needs.</p><p class='text-base xl:text-2xl pt-4'>Our design experts are on-hand to help you create a metal building that meets your requirements, stays within your budget, complies with local building codes, addresses regional weather concerns, and provides flexibility for future expansion.</p></div>",
+    "components": [
+      {
+        "type": "Advantages",
+        "props": {
+          "title": "Metal Party Shelter Design Customizations",
+          "content": "<h2 class='text-[32px] lg:text-6xl font-bold mb-8 text-center text-white'>Metal Tractor Barn Design Customizations</h2><section><p class='text-base text-white mb-6'>Millennium’s metal tractor barns are built with premium, American-made steel. They can be designed to remain open for parking vehicles and storing equipment or fully enclosed to protect your belongings from animals, pests, and the elements. Our design experts help you create a barn that meets your needs, stays within your budget, and complies with local building codes.</p><p class='text-base text-white mb-6'>With customizable options like walk-in doors for quick access, roll-up doors for large equipment, windows for natural light, and lean-tos for additional space, we help you design the optimal tractor barn for your farm.</p></section><section><p class='text-base text-white mb-6'>Additional features of our metal tractor barns include:</p><ul class='list-disc pl-6 space-y-2 text-base text-white'><li>Size options ranging from 36’ — 48’ wide</li><li>Galvanized steel to protect against rust, rot, mold, termites, and other insects</li><li>Barn styles including Carolina, Seneca, or Horse Barns</li><li>Open or closed lean-to additions for extra space or shade</li><li>12-gauge or 14-gauge steel options</li><li>Up to 16 different color options for siding and screws</li><li>Courtesy site inspection prior to manufacturing</li><li>Dedicated customer service contact for design, delivery, and installation</li><li>Financing options, including rent-to-own</li><li>Free delivery on your schedule</li></ul></section><section><p class='pt-4 text-base text-white'>As a veteran-owned company, we offer all active duty military and veteran customers a <a href='/military-discount/' class='text-accent'>military discount</a>. For more information, please call <a href='tel:18662168499' class='text-accent'>1-866-216-8499</a>.</p></section>"
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["MBBC12", "APP1022", "MBBH10"]
+  },
+  {
+    "slug": "trucking",
+    "name": "Trucking",
+    "image": "/images/applications/trucking.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Trucking</h2><p class='text-base xl:text-2xl'>If you’ve invested in a truck for personal use or rely on one for work, don’t risk leaving it exposed to the elements, animals, or careless damage. Protect your investment with a durable, American-made steel carport from Millennium Buildings.</p><p class='text-base xl:text-2xl pt-4'>All of our truck carports are manufactured with premium U.S. steel and come with up to a 1-year workmanship satisfaction guarantee based on your location. Our <strong>1-Year Workmanship Warranty</strong> begins on the installation date and assumes proper care with mild soap and water. We also offer a Limited 10–25 Year Warranty (location specific) for added peace of mind.</p><p class='text-base xl:text-2xl pt-4'>Our sales specialists and design consultants are available to answer any questions you might have while planning your carport. Call today to discuss your options: <a href='tel:18662168499'>1-866-216-8499</a>.</p><p class='text-base xl:text-2xl pt-4'>We offer affordable prices, fast and free delivery, financing options, and even a no credit check rent-to-own option. Learn more about our <a href='/rent-to-own/' target='_BLANK'>financing</a> options.</p></div>",
+    "components": [
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "Metal Carports for <span class='text-accent'>Trucks</span>",
+            "description": "We offer different types of carports that can provide shelter and secure space for trucks of various sizes. <br> <br />Carport Types:",
+            "bullets": [
+              "Single carports: Most smaller trucks like minivans or SUVs can fit comfortably in our Single carport at 12’ wide.",
+              "Single Wide carports: Single Wide carports are similar in size to single carports but with greater side heights to accommodate taller vehicles up to 16’ high. These carports are smart investments if you need to park pickup trucks or utility vans.",
+              "Double Wide carports: These carports are useful if you need to park more than one truck or another large vehicle, or if you simply want some storage space alongside. Double Wide carports have double the space as their single car counterparts and range from 21’ — 60’ wide."
+            ]
+          },
+          "right": {
+            "title": "<span class='text-accent'>Trucks Carport</span> Customization",
+            "description": "Millennium offers many ways to customize your truck carport.<br /> <br />Customization options:",
+            "bullets": [
+              "Length, width, and height variations",
+              "Roof styles, including: regular, boxed eave, and vertical",
+              "Certified and un-certified structures available",
+              "Certified, up to 180 MPH wind loads and 65 PSF snow loads",
+              "29-gauge or 26-gauge sheet metal",
+              "14-gauge or 12-gauge galvanized tubing",
+              "16 different available color choices",
+              "Panels or walls to enclose part or all of the carport",
+              "Walk-in or roll-up doors"
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white",
+        "props": {
+          "variant": 2
+        }
+      }
+    ],
+    "skus": ["APP1021", "APP1007", "MBGV08"]
+  },
+  {
+    "slug": "warehouse",
+    "name": "Warehouse",
+    "image": "/images/applications/warehouse.png",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Warehouse</h2><p class='text-base xl:text-2xl'>Millennium’s metal buildings are ideal for warehouse space. With free-spanning, open interiors and high leg heights, you’ll have ample room to store large volumes and equipment ranging from man-lifts to cranes.</p><p class='text-base xl:text-2xl pt-4'>Metal warehouses are versatile solutions for commercial businesses, farming, residential storage, or even additional recreational and community space.</p><p class='text-base xl:text-2xl pt-4'>Built with solid steel framing, a welded truss system, and a welded ladder-style leg system, our warehouses deliver maximum durability. We offer structures at any vertical length, up to 20′ tall and 60′ wide. These frameworks are engineered to withstand wind loads up to 170 MPH and snow loads up to 65 PSF, ensuring reliability in harsh conditions.</p><p class='text-base xl:text-2xl pt-4'>Our sales specialists and design consultants are available to answer any questions you might have while planning your warehouse. Call today to discuss your options: <a href='tel:18662168499'>1-866-216-8499</a>.</p><p class='text-base xl:text-2xl pt-4'>We offer affordable prices, fast and free delivery, financing options, and even a no credit check rent-to-own option. Learn more about our <a href='/rent-to-own/' target='_BLANK'>financing</a> options.</p></div>",
+    "components": [
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "<span class='text-accent'>Metal Warehouse</span> Features",
+            "description": "Our metal warehouses include several key structural features to give you peace-of-mind. In addition to our “Made in the USA” material guarantee, we use only the highest quality materials available for all of our structures. Our metal commercial buildings come standard with top-of-the-line vertical paneling, ensuring structural stability and low maintenance.",
+            "bullets": [
+              "Welded truss system for maximum durability",
+              "Welded ladder style leg system",
+              "Standard vertical roof",
+              "Standard vertical sides and ends (lap siding coming soon!)",
+              "4′ center spacing",
+              "Wind loads up to 170MPH *Note (Specific Locations)",
+              "Snow loads up to 65PSF *Note (Specific Locations)",
+              "Courtesy site inspection prior to manufacturing",
+              "Dedicated customer service contact to help with design, delivery, and installation",
+              "Financing options, including rent-to-own",
+              "Free delivery to fit your schedule"
+            ]
+          },
+          "right": {
+            "title": "<span class='text-accent'>Warehouse</span> Customizing Options",
+            "description": "Our flexible designs offer opportunities for customization, including size, color, interior adjustments, and external additions for even more space.",
+            "bullets": [
+              "Doors, including standard walk-in and roll-up garage doors for loading/unloading",
+              "Windows",
+              "Lean-tos for additional storage space",
+              "Building types (open, partially open, or enclosed)"
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]"
+      },
+      {
+        "type": "Customization",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "title": "Metal Warehouse Uses",
+          "highlight": "",
+          "description": "Our metal commercial warehouses are excellent options if you are looking for space and stability in your building. We have designed metal warehouses for many different projects, including:",
+          "points": [
+            "Commercial storage",
+            "Chemical storage",
+            "Heavy machinery storage",
+            "Equipment storage",
+            "Raw material storage",
+            "Farming/agricultural storage",
+            "Workshops",
+            "Auto repair shops",
+            "Manufacturing facilities",
+            "Recreational facilities",
+            "Gymnasiums",
+            "Retail space",
+            "Office space",
+            "Distribution centers"
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      }
+    ],
+    "skus": ["MBCC05", "APP1027", "MBCC01"]
+  },
+  {
+    "slug": "workshops",
+    "name": "Workshops",
+    "image": "/images/applications/workshops.jpg",
+    "description": "<div class='prose max-w-none text-base text-muted-foreground'><h2 class='text-2xl xl:text-6xl font-bold text-foreground mb-4'>Workshops</h2><p class='text-base xl:text-2xl'>Millennium’s metal garages make the perfect foundation for workshops, offering secure, fully enclosed space to protect valuable tools, equipment, and projects from harsh weather, theft, and pests. Built with premium American steel, these units are both durable and cost-effective.</p><p class='text-base xl:text-2xl pt-4'>Each workshop can be customized to fit your needs—whether for woodworking, automotive work, hobbies, or crafting. Options include side panels, roll-up garage doors, windows, lean-tos, and more, allowing you to create a functional and efficient space.</p><p class='text-base xl:text-2xl pt-4'>Our workshops come standard with a <strong>1-Year Workmanship Warranty</strong> from the date of installation, with additional Limited 10–25 Year Warranties available depending on your location. Certified upgrades using 26-gauge sheet metal and 12-gauge galvanized tubing can ensure your building withstands up to 180 MPH winds and 65 PSF snow loads.</p><p class='text-base xl:text-2xl pt-4'>From hobbyists to professionals, Millennium’s workshops provide the reliable space you need to get the job done right.</p></div>",
+    "components": [
+      {
+        "type": "CommonUses",
+        "background": "bg-white",
+        "props": {
+          "left": {
+            "title": "<span class='text-accent'>Metal Workshop</span> Features",
+            "description": "Workshops built with our metal garages provide space and comfort for your passion projects. In addition to our “Made in the USA” material guarantee, we use only the highest quality materials available for all of our structures.",
+            "bullets": [
+              "Detached for privacy and sound control",
+              "Walk-in and/or garage doors",
+              "Lean-tos for added space",
+              "Side and end enclosures",
+              "Reinforcement options such as anchors, bows, and trusses",
+              "Roof and wall insulation"
+            ]
+          },
+          "right": {
+            "title": "<span class='text-accent'>Workshop</span> Customizing Options",
+            "description": "Fully-enclosed, free-spanning metal garages can range from 12′ to 60′ wide and up to 20′ tall with as much length as needed.",
+            "bullets": [
+              "Three different roof styles to choose from: regular, boxed eave, or vertical",
+              "Window sizes and locations",
+              "29-gauge or 26-gauge sheet metal",
+              "14-gauge or 12-gauge galvanized tubing",
+              "16 different available color choices",
+              "Certified and un-certified structures are available",
+              "Certified, up to 180 MPH wind loads and 65 PSF snow loads*",
+              "Anchors to add structural integrity*",
+              "Bows and trusses to increase strength and stability*",
+              "* Recommended for extreme weather conditions"
+            ]
+          }
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      },
+      {
+        "type": "UsesCard",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14",
+        "props": {
+          "title": "Prepare Before You Buy",
+          "highlight": "",
+          "description": "Ready to build the workshop of your dreams? Before you do, please check out the recommendations below to ensure your structure is built properly and safely:",
+          "cards": [
+            {
+              "id": 1,
+              "title": "Make sure your area is measured.",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Ensure your land is LEVEL and flat.",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Check your zoning and permissions.",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Florida customers must ensure they have permits.",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Check for overhead cables and underground lines.",
+              "description": ""
+            }
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-white"
+      }
+    ],
+    "skus": ["MBTV02", "MBTV03", "MBGB09"]
+  }
+]

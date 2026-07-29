@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow Facebook / WhatsApp crawler
+User-agent: facebookexternalhit
+Allow: /
+
+# Optional: also allow other scrapers
+User-agent: Facebot
+Allow: /

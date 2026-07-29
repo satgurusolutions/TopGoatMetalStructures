@@ -1,0 +1,632 @@
+[
+  {
+    "slug": "metal-buildings",
+    "name": "Metal Buildings",
+    "leadSourceName": "GoogleLP1-MetalBuildings",
+    "products": [
+      {
+        "name": "Metal Buildings",
+        "skus": [
+          "MB201",
+          "MB185",
+          "MBGV05",
+          "MBGV04",
+          "MBTV03",
+          "MBGV22",
+          "MB151",
+          "MB152",
+          "MBGB09",
+          "MB4",
+          "MB153",
+          "MB158",
+          "MB161",
+          "MB164",
+          "MB165",
+          "MB167",
+          "MB170",
+          "MB174",
+          "MB175",
+          "MB169",
+          "MB191",
+          "MBGR07",
+          "MB30",
+          "MB9",
+          "MB28",
+          "MB10",
+          "MB150",
+          "MB155",
+          "MB156",
+          "MB154",
+          "MB18",
+          "MB19",
+          "MB20",
+          "MB29",
+          "MB14",
+          "MB160",
+          "MB159",
+          "MB1",
+          "MB17",
+          "MB22",
+          "MB23",
+          "MB163",
+          "MB25",
+          "MB2",
+          "MB7",
+          "MB13",
+          "MB27",
+          "MB173",
+          "MB24",
+          "MB8",
+          "MB11",
+          "MB21",
+          "MB26",
+          "MB3",
+          "MB5",
+          "MB6",
+          "MB12",
+          "MBBC05",
+          "MBBC13",
+          "MBBC06",
+          "MBBC01",
+          "MBBH03",
+          "MB188",
+          "MB177",
+          "MB187",
+          "MB157",
+          "MBBC11",
+          "MBBC12",
+          "MBBC07",
+          "MBBC08",
+          "MBBH10",
+          "MBBR04"
+        ]
+      }
+    ],
+    "components": [
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]"
+      },
+      {
+        "type": "Customization",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "title": "Garage",
+          "highlight": "Customization",
+          "description": "These fully enclosed, free spanning metal buildings can range from 12' to 60' wide and up to 20' tall with as much space length-wise as needed.",
+          "points": [
+            "Length, width, and height variations",
+            "Certified, up to 170 MPH wind loads and 65 PSF snow loads",
+            "29-gauge or 26-gauge sheet metal",
+            "14-gauge or 12-gauge galvanized tubing",
+            "Garage doors, with four different available color options",
+            "16 different available color choices",
+            "Colored screws to match your sheet metal",
+            "Walk-in doors",
+            "Windows",
+            "45-degree angle frame-outs and garage door openings",
+            "Side entry",
+            "Lean-tos"
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      }
+    ]
+  },
+  {
+    "slug": "carports",
+    "name": "Carports",
+    "leadSourceName": "GoogleLP1-Carports",
+    "products": [
+      {
+        "name": "Vertical",
+        "skus": [
+          "MBTV09",
+          "APP1027",
+          "APP1022",
+          "APP500",
+          "MB180",
+          "MBCV01",
+          "MB166",
+          "MB200",
+          "MB183",
+          "MB168",
+          "MB171",
+          "MBCV03",
+          "MBCV18",
+          "MBVB05",
+          "MBCV04",
+          "MBCV02",
+          "MBCR07",
+          "MBCV08",
+          "MBCV12",
+          "MBCV16",
+          "MBCV17"
+        ]
+      },
+      {
+        "name": "Boxed Eave",
+        "skus": ["MBTB01", "MBCB10", "MBCB14"]
+      },
+      {
+        "name": "Regular",
+        "skus": ["MBRR03", "MBCR06", "MBCR09", "MBCR11", "MB201"]
+      }
+    ],
+    "components": [
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]"
+      },
+      {
+        "type": "FeatureTabsCarousel",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "title": "Carport Materials",
+          "description": "Our metal carports throughout the US offer different levels of protection against Mother Nature depending on what types of materials are used to construct them. At Millennium Buildings, we only manufacture carports made from the highest quality steel available. Why steel?",
+          "features": [
+            {
+              "id": "cost",
+              "title": "Cost Savings",
+              "description": "With computer software, we are able to reduce the time and cost of manufacturing metals. Each and every part is designed to fit perfectly on-site without any cutting or welding. Since less effort is required to install these structures, we’re able to charge less.",
+              "icon": "/images/products/barns/feature-tabs/cost-saving.svg"
+            },
+            {
+              "id": "low-maintenance",
+              "title": "Low Maintenance",
+              "description": "Metal, in general, requires very little maintenance, which is a huge incentive for steel structures. You will never need to worry about mold, mildew, pests, or other causes for a building to rot and collapse with steel. Metal roofs mean no leaky shingles during rainy or snowy months. If you live in an area where wildfires are a concern, unlike wood, a metal carport will remain structurally-stable in case of a fire.",
+              "icon": "/images/products/barns/feature-tabs/technology.svg"
+            },
+
+            {
+              "id": "added-property-value",
+              "title": "Added Property Value",
+              "description": "Like any external structure, a metal carport or garage can add appeal and property value to virtually any property.",
+              "icon": "/images/products/barns/feature-tabs/storage.svg"
+            },
+            {
+              "id": "low-cost-to-insure",
+              "title": "Low Cost to Insure",
+              "description": "Because steel has a reduced risk of damage from water leakage, rotting, and burning, it costs less to insure.",
+              "icon": "/images/products/barns/feature-tabs/customize.svg"
+            },
+            {
+              "id": "energy-efficient",
+              "title": "Energy Efficient",
+              "description": "Steel frame carports have deeper wall cavities, making insulating easy and the building overall more energy efficient. Energy-efficient buildings regulate temperature better, leading to money-savings down the road.",
+              "icon": "/images/products/barns/feature-tabs/customize.svg"
+            },
+            {
+              "id": "retains-value",
+              "title": "Retains Value",
+              "description": "<div class='space-y-4 text-start'> <p class='text-base text-gray-700'>Because steel buildings are so stable, they are able to retain their value longer than buildings crafted with other, less durable materials.</p><p class='text-base text-gray-700'>We offer a <span class='font-semibold text-accent'>20-year rust-through warranty</span> that covers:</p><ul class='list-disc pl-6 text-base text-gray-700 space-y-1'> <li>12 Gauge Framing</li> <li>Vertical Roof Style Up to Any Length</li> <li>Regular Style Up to 31' Long</li> <li>Boxed Eave Style Up to 31' Long</li> <li>Limited Lifetime Warranty on All Certified Units for Wind and Snow Loads</li> </ul><p class='text-base text-gray-700'>This means that an old steel building can look and function just as good as a new one for a second owner. Additionally, steel buildings past their prime can be sold for recycling.</p> </div>",
+              "icon": "/images/products/barns/feature-tabs/customize.svg"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "InfiniteTicker"
+      },
+      {
+        "type": "InfiniteTicker2"
+      },
+      {
+        "type": "Ruler"
+      },
+      { "type": "StatesWeService", "padding": "py-8 lg:py-14" }
+    ]
+  },
+  {
+    "slug": "garages",
+    "name": "Garages",
+    "leadSourceName": "GoogleLP1-Garages",
+    "products": [
+      {
+        "name": "Vertical",
+        "skus": [
+          "MB7",
+          "MB8",
+          "MB9",
+          "MB10",
+          "MB11",
+          "MB13",
+          "MB14",
+          "MBGV05",
+          "MBGV04",
+          "MB150",
+          "MB151",
+          "MB152",
+          "MB153",
+          "MB155",
+          "MB156",
+          "MB158",
+          "MB159",
+          "MB160",
+          "MB161",
+          "MB163",
+          "MB164",
+          "MB165",
+          "MB167",
+          "MB170",
+          "MB173",
+          "MB174",
+          "MB175"
+        ]
+      },
+      {
+        "name": "Boxed Eave",
+        "skus": ["MBGB09", "MB169", "MB191"]
+      },
+      {
+        "name": "Regular",
+        "skus": ["MBGR07"]
+      }
+    ],
+    "components": [
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]"
+      },
+      {
+        "type": "Customization",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "title": "Garage",
+          "highlight": "Customization",
+          "description": "These fully enclosed, free spanning metal buildings can range from 12' to 60' wide and up to 20' tall with as much space length-wise as needed.",
+          "points": [
+            "Length, width, and height variations",
+            "Certified, up to 170 MPH wind loads and 65 PSF snow loads",
+            "29-gauge or 26-gauge sheet metal",
+            "14-gauge or 12-gauge galvanized tubing",
+            "Garage doors, with four different available color options",
+            "16 different available color choices",
+            "Colored screws to match your sheet metal",
+            "Walk-in doors",
+            "Windows",
+            "45-degree angle frame-outs and garage door openings",
+            "Side entry",
+            "Lean-tos"
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      }
+    ]
+  },
+  {
+    "slug": "barns",
+    "name": "Barns",
+    "leadSourceName": "GoogleLP1-Barns",
+    "products": [
+      {
+        "name": "Vertical",
+        "skus": [
+          "MB1",
+          "MB2",
+          "MB3",
+          "MB4",
+          "MB5",
+          "MB6",
+          "MB12",
+          "MBBC05",
+          "MBBC13",
+          "MBBC06",
+          "MBBC01",
+          "MBBH03"
+        ]
+      },
+      {
+        "name": "Horse",
+        "skus": ["MB188", "MB177", "MB187", "MB157"]
+      },
+      {
+        "name": "Boxed Eave",
+        "skus": ["MBBC11", "MBBC12", "MBBC07", "MBBC08"]
+      },
+      {
+        "name": "Regular",
+        "skus": ["MBBH10", "MBBR04"]
+      }
+    ],
+    "components": [
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]"
+      },
+      {
+        "type": "Customization",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "title": "Garage",
+          "highlight": "Customization",
+          "description": "These fully enclosed, free spanning metal buildings can range from 12' to 60' wide and up to 20' tall with as much space length-wise as needed.",
+          "points": [
+            "Length, width, and height variations",
+            "Certified, up to 170 MPH wind loads and 65 PSF snow loads",
+            "29-gauge or 26-gauge sheet metal",
+            "14-gauge or 12-gauge galvanized tubing",
+            "Garage doors, with four different available color options",
+            "16 different available color choices",
+            "Colored screws to match your sheet metal",
+            "Walk-in doors",
+            "Windows",
+            "45-degree angle frame-outs and garage door openings",
+            "Side entry",
+            "Lean-tos"
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "BarnTypes",
+        "padding": "pt-8 lg:pt-14"
+      },
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]"
+      },
+      {
+        "type": "ProductApplications",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "title": "Barn",
+          "highlight": "Applications",
+          "cards": [
+            {
+              "title": "Agricultural",
+              "description": "Constructed to accommodate different levels of storage needs, metal agricultural barns can be designed as open or closed buildings.",
+              "image": "/images/products/barns/applications/agriculture-farming.jpg"
+            },
+            {
+              "title": "Animal Shelters",
+              "description": "Commonly crafted to be semi-enclosed, these metal shelters offer the option for pets and farm animals to wander in and out of the barn but remain close and covered in case of harsh weather.",
+              "image": "/images/products/barns/applications/animal-shelter.jpg"
+            },
+            {
+              "title": "Tractor Barns",
+              "description": "Designed to protect farm equipment and other valuables from theft and weather conditions that can cause rust, metal tractor barns can be crafted with any roofing style.",
+              "image": "/images/products/barns/applications/tractor-barn.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      }
+    ]
+  },
+  {
+    "slug": "customize",
+    "name": "Metal Buildings",
+    "leadSourceName": "GoogleLP1-Customize",
+    "products": [
+      {
+        "name": "Metal Buildings",
+        "skus": [
+          "MB156",
+          "MBTV08",
+          "MBTV03",
+          "MB151",
+          "MB152",
+          "MB153",
+          "MB158",
+          "MB161",
+          "MB164",
+          "MB165",
+          "MB167",
+          "MB170",
+          "MB175",
+          "MBGB09",
+          "MB169",
+          "MB191",
+          "MBGR07",
+          "MB9",
+          "MB28",
+          "MB150",
+          "MB155"
+        ]
+      }
+    ],
+    "components": [
+      { "type": "Designer" },
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]"
+      },
+      {
+        "type": "Customization",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "title": "Garage",
+          "highlight": "Customization",
+          "description": "These fully enclosed, free spanning metal buildings can range from 12' to 60' wide and up to 20' tall with as much space length-wise as needed.",
+          "points": [
+            "Length, width, and height variations",
+            "Certified, up to 170 MPH wind loads and 65 PSF snow loads",
+            "29-gauge or 26-gauge sheet metal",
+            "14-gauge or 12-gauge galvanized tubing",
+            "Garage doors, with four different available color options",
+            "16 different available color choices",
+            "Colored screws to match your sheet metal",
+            "Walk-in doors",
+            "Windows",
+            "45-degree angle frame-outs and garage door openings",
+            "Side entry",
+            "Lean-tos"
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14"
+      },
+      {
+        "type": "Review"
+      },
+      {
+        "type": "DesignBuilding"
+      }
+    ]
+  },
+  {
+    "slug": "customize2",
+    "name": "Metal Buildings",
+    "leadSourceName": "GoogleLP1-Customize2",
+    "products": [
+      {
+        "name": "Metal Buildings",
+        "skus": [
+          "MB156",
+          "MBTV08",
+          "MBTV03",
+          "MB151",
+          "MB152",
+          "MB153",
+          "MB158",
+          "MB161",
+          "MB164",
+          "MB165",
+          "MB167",
+          "MB170",
+          "MB175",
+          "MBGB09",
+          "MB169",
+          "MB191",
+          "MBGR07",
+          "MB9",
+          "MB28",
+          "MB150",
+          "MB155"
+        ]
+      }
+    ],
+    "components": [
+      { "type": "Designer" },
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]"
+      },
+      {
+        "type": "Customization",
+        "padding": "pb-8 lg:pb-14",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "title": "Building",
+          "highlight": "Customization",
+          "description": "These fully enclosed, free spanning metal buildings can range from 12' to 60' wide and up to 20' tall with as much space length-wise as needed.",
+          "points": [
+            "Length, width, and height variations",
+            "Certified, up to 170 MPH wind loads and 65 PSF snow loads",
+            "29-gauge or 26-gauge sheet metal",
+            "14-gauge or 12-gauge galvanized tubing",
+            "Garage doors, with four different available color options",
+            "16 different available color choices",
+            "Colored screws to match your sheet metal",
+            "Walk-in doors",
+            "Windows",
+            "45-degree angle frame-outs and garage door openings",
+            "Side entry",
+            "Lean-tos"
+          ]
+        }
+      },
+      {
+        "type": "Ruler",
+        "background": "bg-[#FCF8F8]",
+        "props": {
+          "variant": 2
+        }
+      },
+      {
+        "type": "MilitaryDiscountAvailable",
+        "background": "bg-white",
+        "padding": "py-8 lg:py-14"
+      },
+      {
+        "type": "Ruler",
+        "padding": "pb-8 lg:pb-14"
+      },
+      {
+        "type": "Review"
+      },
+      {
+        "type": "DesignBuilding"
+      }
+    ]
+  }
+]
