@@ -68,36 +68,36 @@ const schema = {
   '@graph': [
     {
       '@type': 'WebPage',
-      '@id': 'https://www.warriorbuildings.com/metal-buildings-offers/',
-      url: 'https://www.warriorbuildings.com/metal-buildings-offers/',
+      '@id': 'https://www.topgoatmetalstructures.com/metal-buildings-offers/',
+      url: 'https://www.topgoatmetalstructures.com/metal-buildings-offers/',
       name: 'Metal Buildings Offers - Top Goat Metal Structures',
       isPartOf: {
-        '@id': 'https://www.warriorbuildings.com/#website',
+        '@id': 'https://www.topgoatmetalstructures.com/#website',
       },
       datePublished: '2024-11-29T10:32:22+00:00',
       dateModified: '2025-01-28T13:26:56+00:00',
       description:
         'Check out the latest offers and discounts on metal buildings, garages, barns, and carports from Top Goat Metal Structures. Save big on top-quality steel structures today!',
       breadcrumb: {
-        '@id': 'https://www.warriorbuildings.com/metal-buildings-offers/#breadcrumb',
+        '@id': 'https://www.topgoatmetalstructures.com/metal-buildings-offers/#breadcrumb',
       },
       inLanguage: 'en-US',
       potentialAction: [
         {
           '@type': 'ReadAction',
-          target: ['https://www.warriorbuildings.com/metal-buildings-offers/'],
+          target: ['https://www.topgoatmetalstructures.com/metal-buildings-offers/'],
         },
       ],
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.warriorbuildings.com/metal-buildings-offers/#breadcrumb',
+      '@id': 'https://www.topgoatmetalstructures.com/metal-buildings-offers/#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.warriorbuildings.com/',
+          item: 'https://www.topgoatmetalstructures.com/',
         },
         {
           '@type': 'ListItem',
@@ -108,19 +108,19 @@ const schema = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://www.warriorbuildings.com/#website',
-      url: 'https://www.warriorbuildings.com/',
+      '@id': 'https://www.topgoatmetalstructures.com/#website',
+      url: 'https://www.topgoatmetalstructures.com/',
       name: 'Top Goat Metal Structures',
       description: 'The best in the industry',
       publisher: {
-        '@id': 'https://www.warriorbuildings.com/#organization',
+        '@id': 'https://www.topgoatmetalstructures.com/#organization',
       },
       potentialAction: [
         {
           '@type': 'SearchAction',
           target: {
             '@type': 'EntryPoint',
-            urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+            urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
           },
           'query-input': {
             '@type': 'PropertyValueSpecification',
@@ -133,21 +133,21 @@ const schema = {
     },
     {
       '@type': 'Organization',
-      '@id': 'https://www.warriorbuildings.com/#organization',
+      '@id': 'https://www.topgoatmetalstructures.com/#organization',
       name: 'Top Goat Metal Structures',
-      url: 'https://www.warriorbuildings.com/',
+      url: 'https://www.topgoatmetalstructures.com/',
       logo: {
         '@type': 'ImageObject',
         inLanguage: 'en-US',
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-        url: 'https://www.warriorbuildings.com/images/logo.png',
-        contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+        url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+        contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
         width: 198,
         height: 180,
         caption: 'Top Goat Metal Structures',
       },
       image: {
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
       },
       sameAs: ['https://www.facebook.com/warriorbuildings/'],
     },
@@ -182,7 +182,7 @@ export default async function ShopSearchPage({
 
       <div className="py-8 lg:py-14">
         <div className="pb-8 lg:pb-14">
-          <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+          <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
             <ProductListingViewMore
               viewMore
               products={products ?? []}

@@ -27,7 +27,7 @@ const SizeOptions = () => {
   ];
 
   return (
-    <section className="mx-auto space-y-12 px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+    <section className="mx-auto max-w-[1280px] space-y-12 px-4 xl:px-0 [@media(width=1280px)]:px-4">
       {/* === Intro === */}
       <div className="text-center md:text-left">
         <h2 className="text-3xl font-bold text-black xl:text-[56px]">Different Size Options</h2>

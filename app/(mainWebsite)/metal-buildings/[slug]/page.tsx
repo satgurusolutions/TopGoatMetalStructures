@@ -100,14 +100,14 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         <Header />
 
         <section className="relative overflow-hidden bg-[#F2FBFE] pt-[120px] pb-[100px] md:pt-[180px]">
-          <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+          <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
             <div className="flex flex-col items-center gap-5 md:flex-row">
               {/* image card */}
               <div className="md:basis-1/2">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl xl:hidden">
                   {category?.name ?? ''}
                 </h1>
-                <div className="mt-4 space-y-4 relative overflow-hidden rounded-2xl bg-white shadow-xl shadow-gray-900/10">
+                <div className="relative mt-4 space-y-4 overflow-hidden rounded-2xl bg-white shadow-xl shadow-gray-900/10">
                   <Image
                     alt={category?.name ?? ''}
                     src={category?.image?.src ?? ''}
@@ -121,8 +121,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
               {/* Left content */}
               <div className="md:basis-1/2">
-
-                <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl xl:block hidden">
+                <h1 className="hidden text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl xl:block">
                   {category?.name ?? ''}
                 </h1>
 
@@ -179,14 +178,13 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                   </a>
                 </div>
               </div>
-
             </div>
           </div>
         </section>
 
         <div className="py-8 lg:py-14">
           <div className="pb-8 lg:pb-14">
-            <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+            <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
               <ProductListingViewMore
                 viewMore
                 products={products ?? []}
@@ -202,7 +200,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
         {/* content */}
         <section className="bg-white">
-          <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+          <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
             <RichText html={category?.second_description ?? ''} />
           </div>
         </section>
@@ -266,7 +264,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
       </div>
 
       <Ruler />
-      <div className="mx-auto px-4 pt-8 lg:pt-14 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+      <div className="mx-auto max-w-[1280px] px-4 pt-8 lg:pt-14 xl:px-0 [@media(width=1280px)]:px-4">
         <RichText html={category?.description ?? ''} />
       </div>
       <div className="= pt-8 xl:pt-16">

@@ -68,34 +68,34 @@ const schema = {
   '@graph': [
     {
       '@type': 'WebPage',
-      '@id': 'https://www.warriorbuildings.com/buyers-guide/',
-      url: 'https://www.warriorbuildings.com/buyers-guide/',
+      '@id': 'https://www.topgoatmetalstructures.com/buyers-guide/',
+      url: 'https://www.topgoatmetalstructures.com/buyers-guide/',
       name: 'Buyers Guide - Top Goat Metal Structures',
       isPartOf: {
-        '@id': 'https://www.warriorbuildings.com/#website',
+        '@id': 'https://www.topgoatmetalstructures.com/#website',
       },
       datePublished: '2025-03-10T06:37:21+00:00',
       dateModified: '2025-03-10T06:38:56+00:00',
       breadcrumb: {
-        '@id': 'https://www.warriorbuildings.com/buyers-guide/#breadcrumb',
+        '@id': 'https://www.topgoatmetalstructures.com/buyers-guide/#breadcrumb',
       },
       inLanguage: 'en-US',
       potentialAction: [
         {
           '@type': 'ReadAction',
-          target: ['https://www.warriorbuildings.com/buyers-guide/'],
+          target: ['https://www.topgoatmetalstructures.com/buyers-guide/'],
         },
       ],
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.warriorbuildings.com/buyers-guide/#breadcrumb',
+      '@id': 'https://www.topgoatmetalstructures.com/buyers-guide/#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.warriorbuildings.com/',
+          item: 'https://www.topgoatmetalstructures.com/',
         },
         {
           '@type': 'ListItem',
@@ -106,19 +106,19 @@ const schema = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://www.warriorbuildings.com/#website',
-      url: 'https://www.warriorbuildings.com/',
+      '@id': 'https://www.topgoatmetalstructures.com/#website',
+      url: 'https://www.topgoatmetalstructures.com/',
       name: 'Top Goat Metal Structures',
       description: 'The best in the industry',
       publisher: {
-        '@id': 'https://www.warriorbuildings.com/#organization',
+        '@id': 'https://www.topgoatmetalstructures.com/#organization',
       },
       potentialAction: [
         {
           '@type': 'SearchAction',
           target: {
             '@type': 'EntryPoint',
-            urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+            urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
           },
           'query-input': {
             '@type': 'PropertyValueSpecification',
@@ -131,21 +131,21 @@ const schema = {
     },
     {
       '@type': 'Organization',
-      '@id': 'https://www.warriorbuildings.com/#organization',
+      '@id': 'https://www.topgoatmetalstructures.com/#organization',
       name: 'Top Goat Metal Structures',
-      url: 'https://www.warriorbuildings.com/',
+      url: 'https://www.topgoatmetalstructures.com/',
       logo: {
         '@type': 'ImageObject',
         inLanguage: 'en-US',
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-        url: 'https://www.warriorbuildings.com/wp-content/uploads/2024/11/logo.webp',
-        contentUrl: 'https://www.warriorbuildings.com/wp-content/uploads/2024/11/logo.webp',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+        url: 'https://www.topgoatmetalstructures.com/wp-content/uploads/2024/11/logo.webp',
+        contentUrl: 'https://www.topgoatmetalstructures.com/wp-content/uploads/2024/11/logo.webp',
         width: 198,
         height: 180,
         caption: 'Top Goat Metal Structures',
       },
       image: {
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
       },
       sameAs: ['https://www.facebook.com/warriorbuildings/'],
     },

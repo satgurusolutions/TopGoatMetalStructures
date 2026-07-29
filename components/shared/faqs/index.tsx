@@ -23,7 +23,7 @@ const Faqs: FC<{
   const [openItems, setOpenItems] = useState<string[]>(initialOpenIds ?? ['dimensions', 'colors']);
 
   return (
-    <div className="mx-auto flex w-full flex-col items-start justify-center gap-12 px-4 lg:flex-row xl:container xl:px-0 [@media(width=1280px)]:px-4">
+    <div className="mx-auto flex w-full max-w-[1280px] flex-col items-start justify-center gap-12 px-4 lg:flex-row xl:px-0 [@media(width=1280px)]:px-4">
       <div className="w-full">
         <div className="flex w-full items-center justify-between text-center">
           <div className="w-full pb-8">

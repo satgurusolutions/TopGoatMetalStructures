@@ -45,7 +45,7 @@ const benefits = [
 const RoofStyleContent = () => {
   return (
     <section className="bg-white">
-      <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+      <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
         {/* === Intro Section === */}
         <div className="mx-auto mb-16 max-w-5xl space-y-4 text-center">
           <p className="text-lg text-gray-700">
@@ -153,7 +153,7 @@ const RoofStyleContent = () => {
             </Link>{' '}
             to learn more about our lineup of{' '}
             <Link
-              href="https://www.warriorbuildings.com/metal-buildings/"
+              href="https://www.topgoatmetalstructures.com/metal-buildings/"
               className="text-primary font-semibold hover:underline"
             >
               metal buildings

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const BuyersGuideContent = () => {
   return (
-    <section className="mx-auto space-y-16 px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+    <section className="mx-auto max-w-[1280px] space-y-16 px-4 xl:px-0 [@media(width=1280px)]:px-4">
       {/* === Section 1: Intro === */}
       <div className="grid grid-cols-1 gap-8 md:grid-cols-1 md:items-start">
         <div>

@@ -63,36 +63,36 @@ const schema = {
   '@graph': [
     {
       '@type': 'WebPage',
-      '@id': 'https://www.warriorbuildings.com/metal-building-installation/',
-      url: 'https://www.warriorbuildings.com/metal-building-installation/',
+      '@id': 'https://www.topgoatmetalstructures.com/metal-building-installation/',
+      url: 'https://www.topgoatmetalstructures.com/metal-building-installation/',
       name: 'Metal Building Installation with Free Delivery',
       isPartOf: {
-        '@id': 'https://www.warriorbuildings.com/#website',
+        '@id': 'https://www.topgoatmetalstructures.com/#website',
       },
       datePublished: '2024-12-23T11:21:48+00:00',
       dateModified: '2024-12-26T07:50:57+00:00',
       description:
         'Top Goat Metal Structures offers free delivery and installation on every metal building purchase. To know more about the process, visit us!',
       breadcrumb: {
-        '@id': 'https://www.warriorbuildings.com/metal-building-installation/#breadcrumb',
+        '@id': 'https://www.topgoatmetalstructures.com/metal-building-installation/#breadcrumb',
       },
       inLanguage: 'en-US',
       potentialAction: [
         {
           '@type': 'ReadAction',
-          target: ['https://www.warriorbuildings.com/metal-building-installation/'],
+          target: ['https://www.topgoatmetalstructures.com/metal-building-installation/'],
         },
       ],
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.warriorbuildings.com/metal-building-installation/#breadcrumb',
+      '@id': 'https://www.topgoatmetalstructures.com/metal-building-installation/#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.warriorbuildings.com/',
+          item: 'https://www.topgoatmetalstructures.com/',
         },
         {
           '@type': 'ListItem',
@@ -103,19 +103,19 @@ const schema = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://www.warriorbuildings.com/#website',
-      url: 'https://www.warriorbuildings.com/',
+      '@id': 'https://www.topgoatmetalstructures.com/#website',
+      url: 'https://www.topgoatmetalstructures.com/',
       name: 'Top Goat Metal Structures',
       description: 'The best in the industry',
       publisher: {
-        '@id': 'https://www.warriorbuildings.com/#organization',
+        '@id': 'https://www.topgoatmetalstructures.com/#organization',
       },
       potentialAction: [
         {
           '@type': 'SearchAction',
           target: {
             '@type': 'EntryPoint',
-            urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+            urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
           },
           'query-input': {
             '@type': 'PropertyValueSpecification',
@@ -128,21 +128,21 @@ const schema = {
     },
     {
       '@type': 'Organization',
-      '@id': 'https://www.warriorbuildings.com/#organization',
+      '@id': 'https://www.topgoatmetalstructures.com/#organization',
       name: 'Top Goat Metal Structures',
-      url: 'https://www.warriorbuildings.com/',
+      url: 'https://www.topgoatmetalstructures.com/',
       logo: {
         '@type': 'ImageObject',
         inLanguage: 'en-US',
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-        url: 'https://www.warriorbuildings.com/images/logo.png',
-        contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+        url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+        contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
         width: 198,
         height: 180,
         caption: 'Top Goat Metal Structures',
       },
       image: {
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
       },
       sameAs: ['https://www.facebook.com/warriorbuildings/'],
     },
@@ -160,9 +160,9 @@ const InstallationPage = () => {
         <div className="pb-8 xl:pb-16">
           <Ruler />
         </div>
-        <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+        <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
           <RichText
-            html={`<section class="content_pages"> <div class="site_container"> <div class="editor_content"><p>At Top Goat Metal Structures, we include delivery and installation with every purchase. We take out much of the guesswork so you can be free to enjoy your new metal building. But before that happens, there are a few things you’ll want to know for a smooth experience.</p><p>Below, we’ll provide you with the inside info to help you get your <a href="https://www.warriorbuildings.com/metal-buildings/">metal building</a> project off on the right foot. From how to prep for the big day to handling permitting, we’ll show you what you need to know.</p><h2><strong>How to Prepare for Installation Day</strong></h2><p>You’ve chosen the perfect design and made your down payment — so what’s next? Preparing your site is one of the most important steps in ensuring a smooth and successful installation. Here’s what to take care of before the crew arrives:</p><ul><li><strong>Clear the Building Site</strong></li></ul><p>Remove any debris, vegetation, or obstacles from the installation area. A clean, open space ensures a stable foundation and allows the crew to work efficiently and safely.</p><ul><li><strong>Create a Level Foundation</strong></li></ul><p>Your building needs a solid, level foundation for long-term stability. Whether you opt for a concrete slab, gravel pad, or another foundation type, make sure it’s fully prepared and ready before installation day.</p><ul><li><strong>Check for Utility Lines</strong></li></ul><p>If you plan to run electricity, water, or other utilities to your metal building, mark all underground lines and ensure easy access for future hookups. Handling this early can prevent delays — and save you money.</p><ul><li><strong>Verify Your Building Plans</strong></li></ul><p>Double-check all building dimensions, custom options, and your site’s measurements. Catching any discrepancies now helps avoid unexpected issues during installation.</p><ul><li><strong>Prepare for Delivery</strong></li></ul><p>Ensure there is adequate space for the delivery truck and installation crew to access your property. Clear pathways make the entire process smoother and faster.</p><h2><strong>Building Permits</strong></h2><p>Before installation begins, it’s essential to check with your local authorities about building permit requirements and any zoning restrictions. Every county has its own rules for construction, and making sure you’re compliant from the start can save you from costly fines, penalties, or even the forced removal of your building.</p><p>Here’s what to do:</p><ul><li>Contact your local zoning or permitting office office to confirm what permits are required for your project.</li><li>Gather all necessary documents, including your building plans, site layout, and any other paperwork your county may request..</li><li>Submit your application early and allow plenty of time for review and approval before installation day.</li></ul><h2><strong>Warrior Building Includes Delivery and Installation with Every Structure</strong></h2><p>With years of industry experience and a genuine love of the craft, <a href="https://www.warriorbuildings.com/">Top Goat Metal Structures</a> is proud to be your premier choice for metal buildings, metal barns, metal garages, and storage sheds of all shapes and sizes. We put care, effort, and dedication into every structure we make and work to make the entire process easy and hassle-free for you.</p><p>We include delivery and installation with our structures, and back them with industry-leading warranties and craftsmanship guarantees, so you can rest easy knowing you made a wise investment.</p><p>Call Top Goat Metal Structures today at <a href="tel:888-576-0565">888-576-0565</a> to get started. We’ll help you customize a structure, provide a FREE quote and detailed plans, and take your dream building from a concept to a reality.</p></div> </div></section>`}
+            html={`<section class="content_pages"> <div class="site_container"> <div class="editor_content"><p>At Top Goat Metal Structures, we include delivery and installation with every purchase. We take out much of the guesswork so you can be free to enjoy your new metal building. But before that happens, there are a few things you’ll want to know for a smooth experience.</p><p>Below, we’ll provide you with the inside info to help you get your <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal building</a> project off on the right foot. From how to prep for the big day to handling permitting, we’ll show you what you need to know.</p><h2><strong>How to Prepare for Installation Day</strong></h2><p>You’ve chosen the perfect design and made your down payment — so what’s next? Preparing your site is one of the most important steps in ensuring a smooth and successful installation. Here’s what to take care of before the crew arrives:</p><ul><li><strong>Clear the Building Site</strong></li></ul><p>Remove any debris, vegetation, or obstacles from the installation area. A clean, open space ensures a stable foundation and allows the crew to work efficiently and safely.</p><ul><li><strong>Create a Level Foundation</strong></li></ul><p>Your building needs a solid, level foundation for long-term stability. Whether you opt for a concrete slab, gravel pad, or another foundation type, make sure it’s fully prepared and ready before installation day.</p><ul><li><strong>Check for Utility Lines</strong></li></ul><p>If you plan to run electricity, water, or other utilities to your metal building, mark all underground lines and ensure easy access for future hookups. Handling this early can prevent delays — and save you money.</p><ul><li><strong>Verify Your Building Plans</strong></li></ul><p>Double-check all building dimensions, custom options, and your site’s measurements. Catching any discrepancies now helps avoid unexpected issues during installation.</p><ul><li><strong>Prepare for Delivery</strong></li></ul><p>Ensure there is adequate space for the delivery truck and installation crew to access your property. Clear pathways make the entire process smoother and faster.</p><h2><strong>Building Permits</strong></h2><p>Before installation begins, it’s essential to check with your local authorities about building permit requirements and any zoning restrictions. Every county has its own rules for construction, and making sure you’re compliant from the start can save you from costly fines, penalties, or even the forced removal of your building.</p><p>Here’s what to do:</p><ul><li>Contact your local zoning or permitting office office to confirm what permits are required for your project.</li><li>Gather all necessary documents, including your building plans, site layout, and any other paperwork your county may request..</li><li>Submit your application early and allow plenty of time for review and approval before installation day.</li></ul><h2><strong>Warrior Building Includes Delivery and Installation with Every Structure</strong></h2><p>With years of industry experience and a genuine love of the craft, <a href="https://www.topgoatmetalstructures.com/">Top Goat Metal Structures</a> is proud to be your premier choice for metal buildings, metal barns, metal garages, and storage sheds of all shapes and sizes. We put care, effort, and dedication into every structure we make and work to make the entire process easy and hassle-free for you.</p><p>We include delivery and installation with our structures, and back them with industry-leading warranties and craftsmanship guarantees, so you can rest easy knowing you made a wise investment.</p><p>Call Top Goat Metal Structures today at <a href="tel:888-576-0565">888-576-0565</a> to get started. We’ll help you customize a structure, provide a FREE quote and detailed plans, and take your dream building from a concept to a reality.</p></div> </div></section>`}
           />
         </div>{' '}
       </div>

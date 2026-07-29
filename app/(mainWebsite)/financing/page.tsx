@@ -312,7 +312,7 @@ export default function FinancingPage() {
                 Financing Benefits
               </span>
 
-              <h2 className="font-anton mt-5 text-[clamp(3rem,6vw,5rem)] leading-[0.92] uppercase">
+              <h2 className="font-anton mt-5 text-[clamp(3rem,6vw,4rem)] leading-[0.92] uppercase">
                 Flexible Options
                 <span className="block text-[#e7b53c]">Built Around You</span>
               </h2>

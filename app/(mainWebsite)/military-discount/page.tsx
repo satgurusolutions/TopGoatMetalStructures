@@ -67,36 +67,36 @@ const schema = {
   '@graph': [
     {
       '@type': 'WebPage',
-      '@id': 'https://www.warriorbuildings.com/military-discount/',
-      url: 'https://www.warriorbuildings.com/military-discount/',
+      '@id': 'https://www.topgoatmetalstructures.com/military-discount/',
+      url: 'https://www.topgoatmetalstructures.com/military-discount/',
       name: 'Military Discount on All Metal Structures',
       isPartOf: {
-        '@id': 'https://www.warriorbuildings.com/#website',
+        '@id': 'https://www.topgoatmetalstructures.com/#website',
       },
       datePublished: '2024-10-04T08:05:28+00:00',
       dateModified: '2024-12-26T07:57:25+00:00',
       description:
         'Top Goat Metal Structures proudly supports our military & first responders by offering additional discounts on every metal structure. Check out more details here!',
       breadcrumb: {
-        '@id': 'https://www.warriorbuildings.com/military-discount/#breadcrumb',
+        '@id': 'https://www.topgoatmetalstructures.com/military-discount/#breadcrumb',
       },
       inLanguage: 'en-US',
       potentialAction: [
         {
           '@type': 'ReadAction',
-          target: ['https://www.warriorbuildings.com/military-discount/'],
+          target: ['https://www.topgoatmetalstructures.com/military-discount/'],
         },
       ],
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.warriorbuildings.com/military-discount/#breadcrumb',
+      '@id': 'https://www.topgoatmetalstructures.com/military-discount/#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.warriorbuildings.com/',
+          item: 'https://www.topgoatmetalstructures.com/',
         },
         {
           '@type': 'ListItem',
@@ -107,19 +107,19 @@ const schema = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://www.warriorbuildings.com/#website',
-      url: 'https://www.warriorbuildings.com/',
+      '@id': 'https://www.topgoatmetalstructures.com/#website',
+      url: 'https://www.topgoatmetalstructures.com/',
       name: 'Top Goat Metal Structures',
       description: 'The best in the industry',
       publisher: {
-        '@id': 'https://www.warriorbuildings.com/#organization',
+        '@id': 'https://www.topgoatmetalstructures.com/#organization',
       },
       potentialAction: [
         {
           '@type': 'SearchAction',
           target: {
             '@type': 'EntryPoint',
-            urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+            urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
           },
           'query-input': {
             '@type': 'PropertyValueSpecification',
@@ -132,21 +132,21 @@ const schema = {
     },
     {
       '@type': 'Organization',
-      '@id': 'https://www.warriorbuildings.com/#organization',
+      '@id': 'https://www.topgoatmetalstructures.com/#organization',
       name: 'Top Goat Metal Structures',
-      url: 'https://www.warriorbuildings.com/',
+      url: 'https://www.topgoatmetalstructures.com/',
       logo: {
         '@type': 'ImageObject',
         inLanguage: 'en-US',
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-        url: 'https://www.warriorbuildings.com/images/logo.png',
-        contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+        url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+        contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
         width: 198,
         height: 180,
         caption: 'Top Goat Metal Structures',
       },
       image: {
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
       },
       sameAs: ['https://www.facebook.com/warriorbuildings/'],
     },
@@ -181,7 +181,7 @@ const MilitaryPage = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto px-4 pb-8 xl:container xl:pb-16 [@media(width=1280px)]:px-0">
+      <div className="mx-auto max-w-[1280px] px-4 pb-8 xl:pb-16 [@media(width=1280px)]:px-0">
         <RichText html='<div class="main_content"> <h2>Top Goat Metal Structures is proud to support</h2><p>Our military &amp; first responders and encourage everyone to learn more about the benefits of joining and serving our great nation. Benefits include:</p><h2>Steady Jobs with good pay</h2><p>Businesses in high-growth fields such as aerospace, manufacturing, logistics, research and development, and technology are seeking to hire combat veterans and provide them with the training they need to build a long and fruitful career.</p><p>Through the Department of Defense’s Spouse Education Career Opportunities (SECO) program, spouses can use government-sponsored career and education resources, take advantage of networking opportunities, and work with employment counselors. SECO also partners with the Military Spouse Employment Partnership (MSEP) and My Career Advancement Account (MyCAA) scholarship program.</p><p>If entrepreneurship interests you, learn about everything from start-up costs to business, accounting, and financial assistance with three programs: SCORE, the Small Business Administration(SBA), and Entrepreneurship Boot Camp</p><h2>Medical coverage</h2><p>The Veterans Health Administration is America’s largest integrated health care system, providing care at 1,240 health care facilities, including 170 medical centers and 1,061 outpatient sites of care of varying complexity (VHA outpatient clinics), serving 9 million enrolled Combat Veterans each year.</p><p>Many Combat Veterans qualify for cost-free health care services based on a compensable service-connected condition or other qualifying factors. Visit the US Department of Veterans Affairs for more information.</p> </div>' />
       </div>
       <div className="pb-8 xl:pb-16">

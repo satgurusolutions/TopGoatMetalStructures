@@ -1,6 +1,6 @@
 const ServiceAreaDetails = () => {
   return (
-    <section className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+    <section className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-1 md:items-start">
         <div>
           <h2 className="text-center text-3xl font-bold text-black md:text-start xl:text-[56px]">

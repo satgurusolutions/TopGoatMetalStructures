@@ -80,7 +80,7 @@ const homePageSchema = {
         inLanguage: 'en-US',
         '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
         url: 'https://www.topgoatmetalstructures.com/images/logo.png',
-        contentUrl: 'https://www.topgoatmetalstructures.com//images/logo.png',
+        contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
         width: 198,
         height: 180,
         caption: 'Top Goat Metal Structures',
