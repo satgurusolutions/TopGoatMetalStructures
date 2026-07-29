@@ -568,7 +568,7 @@
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
-  transform: translateY(0);
+  transform: translateY(-12px);
 }
 
 /* Shadcn animation support */

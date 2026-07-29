@@ -4,12 +4,12 @@ export const TELEPHONE_NUMBER = {
 };
 
 export const EMAIL_ADDRESS = {
-  formatted: 'info@topgoatmetalstructures.com',
-  href: 'mailto:info@topgoatmetalstructures.com',
+  formatted: 'topgoatmetalstructures@gmail.com',
+  href: 'mailto:topgoatmetalstructures@gmail.com',
 };
 
 // export const ADDRESS = '317 W Atkins St. Dobson, NC 27017';
-export const ADDRESS = '447 N Andy Griffith Pkwy, Mt Airy, NC 27030, USA';
+export const ADDRESS = 'Mount Airy, North Carolina 27030';
 export const ADDRESS_HREF =
   'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(ADDRESS);
 
