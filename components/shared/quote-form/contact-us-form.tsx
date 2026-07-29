@@ -451,7 +451,7 @@ export default function ContactUsForm({
           </span>
         ) : (
           <>
-            <span className="pl-2 uppercase">{loading ? 'Submitting..' : 'Submit'}</span>
+            <span className="pl-2 uppercase">{loading ? 'Submitting...' : 'Submit'}</span>
             <LinkIconInactive className="h-[40px]! w-[40px]! lg:h-[50px]! lg:w-[50px]!" />
           </>
         )}
