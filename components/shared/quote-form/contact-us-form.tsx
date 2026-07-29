@@ -442,7 +442,7 @@ export default function ContactUsForm({
       <Button
         variant="metallic"
         type="submit"
-        className="flex h-[64px] w-fit items-center justify-between gap-2 rounded-full bg-[#d7a126]! px-6 py-6 text-xs font-medium hover:bg-[#d7a126] lg:text-base"
+        className="flex h-[64px] w-fit items-center justify-between gap-2 rounded-[10px] bg-[#d7a126]! px-6 py-6 text-xs font-medium hover:bg-[#d7a126] lg:text-base"
         disabled={loading}
       >
         {loading ? (
