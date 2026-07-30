@@ -1,6 +1,6 @@
 export const TELEPHONE_NUMBER = {
-  formatted: '(888) 466-2842',
-  href: 'tel:+18884662842',
+  formatted: '(336) 509-3443',
+  href: 'tel:+13365093443',
 };
 
 export const EMAIL_ADDRESS = {
@@ -88,9 +88,9 @@ export const NAV_ITEMS: NavItemType[] = [
             icon: 'carport',
           },
           {
-            label: 'RV Covers',
-            href: '/rv-covers',
-            description: 'Tall covers & enclosed RV garages',
+            label: 'RV Garages',
+            href: '/rv-garages',
+            description: 'Enclosed garages for RV protection',
             icon: 'rv',
           },
         ],
@@ -144,7 +144,7 @@ export const NAV_ITEMS: NavItemType[] = [
         links: [
           {
             label: 'Free Quote',
-            href: '/get-a-quote',
+            href: '/contact-us',
           },
           {
             label: 'Service Area',
@@ -156,7 +156,7 @@ export const NAV_ITEMS: NavItemType[] = [
           },
           {
             label: 'Building Components',
-            href: '/building-components',
+            href: '/components',
           },
           {
             label: "FAQ'S",
@@ -474,7 +474,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -646,7 +646,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -818,7 +818,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -990,7 +990,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1168,7 +1168,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1346,7 +1346,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1522,7 +1522,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1698,7 +1698,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1874,7 +1874,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -2049,7 +2049,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -2225,7 +2225,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -2402,7 +2402,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -2580,7 +2580,7 @@ export const stateDetails = [
           image: {
             '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },

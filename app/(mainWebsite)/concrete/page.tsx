@@ -188,7 +188,7 @@ export default function ConcretePage() {
           {JSON.stringify(schema)}
         </Script>
 
-        <HeroSection isBlur name="Concrete Foundations" bgImg="/images/concrete/2.jpeg" />
+        <HeroSection isBlur name="Concrete Foundations" bgImg="/images/concrete/banner.png" />
 
         <main className="overflow-hidden bg-white text-[#2C2B29]">
           <section className="bg-[#FCF8F8]">
@@ -222,7 +222,7 @@ export default function ConcretePage() {
                   </Link> */}
                   <ConcreteForm />
                   <a
-                    href="tel:+18884662842"
+                    href="tel:tel:+13365093443"
                     className="inline-flex min-h-12 items-center justify-center rounded-4xl border-2 border-[#2C2B29] px-7 py-3 font-bold text-[#2C2B29] transition hover:bg-[#2C2B29] hover:text-white"
                   >
                     Call Top Goat
@@ -503,7 +503,7 @@ export default function ConcretePage() {
                   Get Your Top Goat Building Quote
                 </Link>
                 <a
-                  href="tel:+18884662842"
+                  href="tel:tel:+13365093443"
                   className="inline-flex min-h-12 items-center justify-center rounded-4xl border-2 border-white px-7 py-3 font-bold text-white transition hover:bg-white hover:text-[#2C2B29]"
                 >
                   Call Top Goat

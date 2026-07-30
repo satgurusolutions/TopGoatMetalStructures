@@ -146,7 +146,7 @@ const serviceAreaSchema = {
       image: {
         '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
       },
-      sameAs: ['https://www.facebook.com/warriorbuildings/'],
+      sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
     },
   ],
 };
@@ -168,7 +168,7 @@ const ServiceAreaMapPage = () => {
       <div className="pb-8 lg:pb-16">
         <ServiceAreaDetails />
       </div>
-      <div className="pb-8 lg:pb-16">
+      <div>
         <ChooseArea />
       </div>
 

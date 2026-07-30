@@ -22,7 +22,7 @@ export default function NeedToTalk() {
             confirm in minutes.
           </p>
           <Link
-            href="#quote"
+            href="/service-area"
             className="font-oswald mt-8 inline-flex h-[50px] items-center rounded-[8px] bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] px-6 text-sm font-bold text-[#17130a] uppercase"
           >
             Check my area

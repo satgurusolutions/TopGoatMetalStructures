@@ -204,7 +204,7 @@ export default function AboutUsPage() {
         {JSON.stringify(schema)}
       </Script>
 
-      <HeroSection name="About Top Goat Metal Structures" bgImg="/images/contact-us-bg.webp" />
+      <HeroSection name="About Top Goat Metal Structures" bgImg="/images/about-us/banner.png" />
 
       <div className="pb-8 lg:pb-16">
         <Ruler />

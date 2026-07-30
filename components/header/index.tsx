@@ -101,7 +101,7 @@ export default function Header() {
                 className="h-[55px] w-[46px] object-contain"
               />
 
-              <span className="hidden flex-col leading-none sm:flex">
+              <span className="flex flex-col leading-none">
                 <span className="font-jost text-[20px] font-extrabold tracking-[0.055em] text-white uppercase">
                   Top Goat
                 </span>

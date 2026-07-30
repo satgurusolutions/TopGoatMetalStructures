@@ -7,8 +7,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Script from 'next/script';
 
-const PHONE_DISPLAY = '(888) 466-2842';
-const PHONE_HREF = 'tel:+18884662842';
+const PHONE_DISPLAY = '(336) 509-3443';
+const PHONE_HREF = 'tel:tel:+13365093443';
 const FACEBOOK_URL = 'https://www.facebook.com/topgoatmetalstructures';
 
 export const metadata: Metadata = {
@@ -223,7 +223,7 @@ export default function ContactUsPage() {
         {JSON.stringify(schema)}
       </Script>
 
-      <HeroSection isBlur name="Contact Top Goat" bgImg="/images/contact-us-bg.webp" />
+      <HeroSection name="Contact Top Goat" bgImg="/images/contact-us.png" />
 
       <main className="overflow-hidden">
         <section className="bg-[#F7F7F7]">

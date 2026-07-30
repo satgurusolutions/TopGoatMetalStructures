@@ -88,7 +88,7 @@ const homePageSchema = {
       image: {
         '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
       },
-      sameAs: ['https://www.facebook.com/warriorbuildings/'],
+      sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
     },
   ],
 };

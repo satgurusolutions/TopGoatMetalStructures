@@ -26,8 +26,8 @@ const resourceLinks = [
   { label: 'Get a Quote', href: '/#quote' },
 ];
 
-const phoneNumber = '(888) 466-2842';
-const phoneHref = 'tel:+18884662842';
+const phoneNumber = '(336) 509-3443';
+const phoneHref = 'tel:tel:+13365093443';
 
 export default function Footer() {
   return (
@@ -58,10 +58,10 @@ export default function Footer() {
 
           <div className="mt-9 flex w-full flex-col items-center justify-center gap-3 sm:w-auto sm:flex-row">
             <a
-              href="tel:+18884662842"
+              href="tel:tel:+13365093443"
               className="font-oswald inline-flex min-h-[62px] w-full items-center justify-center rounded-[10px] border border-[#d9a225] px-8 text-sm font-bold tracking-[0.04em] text-[#e7b53c] uppercase transition duration-300 hover:-translate-y-1 hover:bg-[#d9a225] hover:text-[#171109] sm:w-auto sm:min-w-[225px]"
             >
-              Call (888) 466-2842
+              Call (336) 509-3443
             </a>
 
             <a
@@ -96,7 +96,7 @@ export default function Footer() {
                   className="h-[55px] w-[46px] object-contain"
                 />
 
-                <span className="hidden flex-col leading-none sm:flex">
+                <span className="flex flex-col leading-none">
                   <span className="font-jost text-[20px] font-extrabold tracking-[0.055em] text-white uppercase">
                     Top Goat
                   </span>
@@ -209,10 +209,10 @@ export default function Footer() {
       </footer>
 
       {/* Space for fixed mobile bar */}
-      <div className="h-[58px] lg:hidden" />
+      {/* <div className="h-[58px] lg:hidden" /> */}
 
       {/* Mobile fixed bottom actions */}
-      <div className="fixed inset-x-0 bottom-0 z-[9999] border-t border-white/10 shadow-[0_-8px_30px_rgba(0,0,0,0.45)] lg:hidden">
+      {/* <div className="fixed inset-x-0 bottom-0 z-[9999] border-t border-white/10 shadow-[0_-8px_30px_rgba(0,0,0,0.45)] lg:hidden">
         <div className="grid h-[58px] grid-cols-2">
           <a
             href={phoneHref}
@@ -242,7 +242,7 @@ export default function Footer() {
             </span>
           </Link>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
