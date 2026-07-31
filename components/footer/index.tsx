@@ -8,7 +8,7 @@ const buildingLinks = [
   { label: 'Metal Garages', href: '/metal-garages' },
   { label: 'Metal Carports', href: '/metal-carports' },
   { label: 'Metal Barns', href: '/metal-barns' },
-  { label: 'RV Covers', href: '/rv-covers' },
+  { label: 'RV Garages', href: '/rv-garages' },
   { label: 'Commercial', href: '/commercial' },
 ];
 
@@ -20,10 +20,10 @@ const companyLinks = [
 ];
 
 const resourceLinks = [
-  { label: 'Financing', href: '/#financing' },
+  { label: 'Financing', href: '/financing' },
   { label: 'Metal vs Wood', href: '/blog/metal-vs-wood' },
   { label: 'Buyer Guides', href: '/#guides' },
-  { label: 'Get a Quote', href: '/#quote' },
+  { label: 'Get a Quote', href: '/contact-us' },
 ];
 
 const phoneNumber = '(336) 509-3443';
