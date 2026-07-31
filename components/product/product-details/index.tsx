@@ -29,7 +29,8 @@ export default function ProductDetail({
   products,
 }: Readonly<{ product: Product; products: Product[] }>) {
   const price = parseFloat(product.price) || 0;
-  if(product.sku == "WB203" || product.sku == "WB204") { //replace first image with 4th image
+  if (product.sku == 'WB203' || product.sku == 'WB204') {
+    //replace first image with 4th image
     product.images[0] = product.images?.[3] || product.images[0];
   }
   const image = product.images?.[0]?.src || '/images/products/placeholder.png';
@@ -180,7 +181,7 @@ export default function ProductDetail({
             <DialogTrigger asChild>
               <Button
                 variant="metallic"
-                className="flex h-14 w-full flex-1 items-center justify-between gap-2 rounded-full py-6 text-xs font-medium text-white uppercase shadow-md [background:linear-gradient(180deg,#ED2031_0%,#87121C_100%)] xl:h-[66px] xl:text-sm"
+                className="flex h-14 w-full flex-1 items-center justify-between gap-2 rounded-[15px] py-6 text-xs font-medium text-white uppercase shadow-md [background:linear-gradient(180deg,var(--accent)_0%,color-mix(in_srgb,var(--accent)_70%,black)_100%)] xl:h-[66px] xl:text-sm"
               >
                 Get Your Price{' '}
                 <span>
@@ -207,7 +208,7 @@ export default function ProductDetail({
           >
             <Button
               variant="metallic"
-              className="flex h-14 w-full items-center justify-between gap-2 rounded-full py-6 text-xs font-medium text-white uppercase shadow-md [background:linear-gradient(180deg,#ED2031_0%,#87121C_100%)] xl:h-[66px] xl:text-sm"
+              className="flex h-14 w-full items-center justify-between gap-2 rounded-[15px] py-6 text-xs font-medium text-white uppercase shadow-md [background:linear-gradient(180deg,var(--accent)_0%,color-mix(in_srgb,var(--accent)_70%,black)_100%)] xl:h-[66px] xl:text-sm"
             >
               CUSTOMIZE IN 3D ESTIMATOR{' '}
               <span className="h-[40px]! w-[40px]! xl:h-[50px]! xl:w-[50px]! [@media(width=1280px)]:h-[40px]! [@media(width=1280px)]:w-[40px]!">
@@ -298,7 +299,7 @@ export default function ProductDetail({
                         <button
                           name={`color-${name}`}
                           // onClick={() => onChangeColor(imposingImagePath)}
-                          className="h-8 w-8 cursor-pointer rounded-full border border-white bg-contain bg-center bg-no-repeat"
+                          className="h-8 w-8 cursor-pointer rounded-[15px] border border-white bg-contain bg-center bg-no-repeat"
                           style={{
                             backgroundColor: imgUrl ? 'transparent' : color,
                             backgroundImage: `url(${imgUrl ?? '/images/colorpalete.png'})`,
@@ -317,7 +318,7 @@ export default function ProductDetail({
                           <button
                             name={`color-${name}`}
                             // onClick={() => onChangeColor(imposingImagePath)}
-                            className="h-8 w-8 cursor-pointer rounded-full border border-white bg-contain bg-center bg-no-repeat"
+                            className="h-8 w-8 cursor-pointer rounded-[15px] border border-white bg-contain bg-center bg-no-repeat"
                             style={{
                               backgroundColor: imgUrl ? 'transparent' : color,
                               backgroundImage: `url(${imgUrl ?? '/images/colorpalete.png'})`,

@@ -133,7 +133,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                 <div className="mt-5 flex flex-wrap items-center gap-5">
                   <a
                     href="tel:888-576-0565"
-                    className="inline-flex items-center gap-3 rounded-xl bg-[#a70802] px-7 py-3 text-base font-semibold text-white shadow-lg shadow-red-600/25 transition hover:bg-red-700 focus:ring-4 focus:ring-red-600/20 focus:outline-none"
+                    className="inline-flex items-center gap-3 rounded-xl bg-[#d7aa22] px-7 py-3 text-base font-semibold text-white shadow-lg shadow-red-600/25 transition hover:bg-red-700 focus:ring-4 focus:ring-red-600/20 focus:outline-none"
                   >
                     <span className="text-lg tracking-wide">888 - 576 - 0565</span>
                     <span>

@@ -112,7 +112,7 @@ export const NAV_ITEMS: NavItemType[] = [
           },
           {
             label: 'Commercial',
-            href: '/commercial-buildings',
+            href: '/commercial',
             description: 'Workshops & clear-span steel',
             icon: 'commercial',
           },
@@ -1714,7 +1714,7 @@ export const stateDetails = [
           With frigid temperatures and heavy snow accumulation in the winters, it pays for Pennsylvania residents to invest in heavy duty infrastructure to protect their things. Whether you’re storing the family car or housing supplies and equipment, metal buildings from Warrior in Pennsylvania are a great solution to this need.
         </p>
         <p>
-          These structures are crafted with high-grade steel components, and engineered to handle any project you have in mind. Use them for residential projects, agriculture, or even commercial purposes. The only limits with a Warrior building are your budget and your imagination.
+          These structures are crafted with high-grade steel components, and engineered to handle any project you have in mind. Use them for residential projects, agriculture, or even commercial purposes. The only limits with a Top Goat Building are your budget and your imagination.
         </p>
       </div>
     `,
@@ -1890,7 +1890,7 @@ export const stateDetails = [
           Living in Tennessee comes with a wide range of advantages– close proximity to nature, wonderful views, and historical sites. But it’s also home to some pretty volatile weather. That’s why it pays to have the right infrastructure. For that, Top Goat Metal Structures has you covered.
         </p>
         <p>
-          Our metal buildings in Tennessee are built from heavy-duty steel components, customized to suit your needs, and delivered to your doorstep at no added cost to you. So, whether you’re housing the family car, protecting ATVs and recreational equipment, or creating an organized workspace, you’re in good hands with a Warrior building.
+          Our metal buildings in Tennessee are built from heavy-duty steel components, customized to suit your needs, and delivered to your doorstep at no added cost to you. So, whether you’re housing the family car, protecting ATVs and recreational equipment, or creating an organized workspace, you’re in good hands with a Top Goat Building.
         </p>
       </div>
     `,
@@ -6249,58 +6249,115 @@ export const stateDetails = [
   },
 ];
 
+// export const faqs = [
+//   {
+//     id: 'ground-type',
+//     question: 'What ground type can a metal structure be built on?',
+//     answer:
+//       'Dirt, gravel, asphalt, concrete. Keep in mind all certified structures must be installed on and anchored to concrete. Also, where you are going to have your structure built must be level.',
+//   },
+//   {
+//     id: 'clearance',
+//     question: 'How much clearance will I need?',
+//     answer:
+//       'There should be a minimum of 3′ of clearance around where the structure will be located, so the installers have room to perform the installation.',
+//   },
+//   {
+//     id: 'payment-options',
+//     question: 'Are there payment options?',
+//     answer:
+//       'If financing is needed, we have multiple options, depending upon your situation and credit. Once you’ve agreed upon a price, and signed the quote from a Top Goat Building specialist, a deposit is required. After that, you will pay the remaining balance to the installing manufacturer of the structure.',
+//   },
+//   {
+//     id: 'size-structure',
+//     question: 'How do I know what size structure I need?',
+//     answer:
+//       'This is extremely important! Many times, we see someone wanting to cover or enclose a boat or trailer, but forget to take into consideration the full length of the trailer and possible equipment in the back. For example, your boat may be 21′, but actually, there is another 2′ from the outboard engine, then another 3-4′ of tongue at the front of the trailer. So now you’re covering or enclosing a 26-27′ item at a minimum. Taking the time to fully consider your exact dimensions can save headaches in the end, and ensure your complete satisfaction with your next metal structure.',
+//   },
+//   {
+//     id: 'permits',
+//     question: 'Do I need any permits for my structure?',
+//     answer:
+//       'In most areas of the US, having a permit for construction of your structure is necessary from your local county/city or state government. Please consider calling or checking the web for your local municipalities permitting requirements for your next metal structure.',
+//   },
+//   {
+//     id: 'ground-preparations',
+//     question: 'Ground Preparation',
+//     answer: 'Your site must be level, for your structure to be installed.',
+//   },
+//   {
+//     id: 'warranties',
+//     question: 'Warranties',
+//     answer:
+//       '1 year workmanship (Location Dependent) up to 20 year on frame (tubing) rust through 20 year on sheet metal (vertical) rust through.',
+//   },
+//   {
+//     id: 'materials',
+//     question: 'Materials',
+//     answer:
+//       'Our buildings come with standard 29 gauge sheet metal (Except FL) and 14 gauge 2.5″ square tubing. You can upgrade to 26 gauge sheet metal and or 12 gauge 2.25″ square tubing.',
+//   },
+//   {
+//     id: 'payments',
+//     question: 'Payments',
+//     answer:
+//       'A down payment is required upon sale of a structure. If your sale exceeds $15,000, 1/2 the balance will be due upon scheduling installation of your structure.',
+//   },
+// ];
+
 export const faqs = [
   {
     id: 'ground-type',
-    question: 'What ground type can a metal structure be built on?',
+    question: 'What type of foundation can my metal building be installed on?',
     answer:
-      'Dirt, gravel, asphalt, concrete. Keep in mind all certified structures must be installed on and anchored to concrete. Also, where you are going to have your structure built must be level.',
+      'Top Goat Metal Structures can install buildings on level concrete, asphalt, gravel, or compacted ground. Certified buildings typically require a concrete foundation to meet local code requirements. Your installation site should be properly prepared and level before delivery.',
   },
   {
-    id: 'clearance',
-    question: 'How much clearance will I need?',
+    id: 'site-clearance',
+    question: 'How much space is needed for installation?',
     answer:
-      'There should be a minimum of 3′ of clearance around where the structure will be located, so the installers have room to perform the installation.',
+      'We recommend leaving at least 3 feet of clear working space around the installation area. This gives our professional installation crew enough room to safely assemble your building and complete the project efficiently.',
   },
   {
-    id: 'payment-options',
-    question: 'Are there payment options?',
+    id: 'financing',
+    question: 'Do you offer financing?',
     answer:
-      'If financing is needed, we have multiple options, depending upon your situation and credit. Once you’ve agreed upon a price, and signed the quote from a Warrior building specialist, a deposit is required. After that, you will pay the remaining balance to the installing manufacturer of the structure.',
+      'Yes. Top Goat Metal Structures offers flexible financing options through trusted lending partners. Available programs and terms depend on credit approval. Contact our team to learn which financing solution best fits your budget.',
   },
   {
-    id: 'size-structure',
-    question: 'How do I know what size structure I need?',
+    id: 'building-size',
+    question: 'How do I choose the right building size?',
     answer:
-      'This is extremely important! Many times, we see someone wanting to cover or enclose a boat or trailer, but forget to take into consideration the full length of the trailer and possible equipment in the back. For example, your boat may be 21′, but actually, there is another 2′ from the outboard engine, then another 3-4′ of tongue at the front of the trailer. So now you’re covering or enclosing a 26-27′ item at a minimum. Taking the time to fully consider your exact dimensions can save headaches in the end, and ensure your complete satisfaction with your next metal structure.',
+      'Measure the full dimensions of the vehicles, equipment, or storage items you plan to protect, including mirrors, trailers, attachments, and future storage needs. Choosing a slightly larger building often provides better long-term value and convenience.',
   },
   {
     id: 'permits',
-    question: 'Do I need any permits for my structure?',
+    question: 'Will I need a building permit?',
     answer:
-      'In most areas of the US, having a permit for construction of your structure is necessary from your local county/city or state government. Please consider calling or checking the web for your local municipalities permitting requirements for your next metal structure.',
+      'Permit requirements vary by city, county, and state. We recommend checking with your local building department before installation. Our team can provide certified engineering documents when required for qualifying structures.',
   },
   {
-    id: 'ground-preparations',
-    question: 'Ground Preparation',
-    answer: 'Your site must be level, for your structure to be installed.',
+    id: 'site-preparation',
+    question: 'How should I prepare my site?',
+    answer:
+      'Your installation site should be level, accessible, and free of debris before our crew arrives. Proper site preparation helps ensure a smooth installation and the best long-term performance of your building.',
   },
   {
-    id: 'warranties',
-    question: 'Warranties',
+    id: 'warranty',
+    question: 'What warranty comes with your buildings?',
     answer:
-      '1 year workmanship (Location Dependent) up to 20 year on frame (tubing) rust through 20 year on sheet metal (vertical) rust through.',
+      'Warranty coverage varies by manufacturer and building configuration. Many structures include a limited workmanship warranty along with up to a 20-year limited rust-through warranty on eligible framing and panel systems. Ask your sales representative for warranty details specific to your order.',
   },
   {
     id: 'materials',
-    question: 'Materials',
+    question: 'What materials are used in your buildings?',
     answer:
-      'Our buildings come with standard 29 gauge sheet metal (Except FL) and 14 gauge 2.5″ square tubing. You can upgrade to 26 gauge sheet metal and or 12 gauge 2.25″ square tubing.',
+      'Our standard buildings are constructed with heavy-duty galvanized steel framing and premium steel panels for long-lasting durability. Depending on your location and project requirements, you may also have options to upgrade panel thickness or frame gauge.',
   },
   {
     id: 'payments',
-    question: 'Payments',
+    question: 'How does the payment process work?',
     answer:
-      'A down payment is required upon sale of a structure. If your sale exceeds $15,000, 1/2 the balance will be due upon scheduling installation of your structure.',
+      'A deposit is required when your order is placed to begin production. The remaining balance is typically due before or at the time of installation, depending on the manufacturer and project size. Your sales specialist will explain the payment schedule before your order is finalized.',
   },
 ];

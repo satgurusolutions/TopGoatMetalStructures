@@ -94,13 +94,13 @@ export default async function ProductDetailsPage({
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <ProductListingDark
           products={relatedProducts}
           name={'Suggested For You'}
           disablePagination
         />
-      </div>
+      </div> */}
 
       <div className="py-8 lg:py-14">
         <Faqs />

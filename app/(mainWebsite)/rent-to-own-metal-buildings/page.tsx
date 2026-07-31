@@ -1,5 +1,6 @@
 import Footer from '@/components/footer';
-import { Finance, RentToOwnPayment, WorkTogether } from '@/components/home';
+// import { Finance, RentToOwnPayment, WorkTogether } from '@/components/home';
+import { Finance } from '@/components/home';
 import { HeroSection } from '@/components/product-category';
 import { RichText, Ruler } from '@/components/shared';
 import { baseUrl, ogImage } from '@/configs/meta-data';
@@ -177,12 +178,12 @@ const FinancingPage = () => {
       <div>
         <Finance />
       </div>
-      <div>
+      {/* <div>
         <RentToOwnPayment />
       </div>
       <div>
         <WorkTogether />
-      </div>
+      </div> */}
       <div className="py-8 xl:py-16">
         <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
           <RichText html='<div class="site_container"> <h2 class="heading">Our RTO Process</h2> <p>Top Goat Metal Structures makes buying a metal building easy, affordable, and hassle-free. Here’s how it works:</p> <div class="steps-section"> <div class="step"> <div class="step-inner"> <h3>Step 1</h3> <div class="info"><p>Choose Your Building</p></div> <div class="description"><p>Select the perfect structure for your needs — whether it’s a small shed, a metal barn, or a large custom building, we have the right option for every project.</p></div> </div> <div class="step-inner"> <h3>Step 2</h3> <div class="info"><p>Review Payment Terms</p></div> <div class="description"><p>After you’ve chosen and customized your building, we’ll walk you through the payment terms to ensure they match your budget and goals.</p></div> </div> <div class="step-inner"> <h3>Step 3</h3> <div class="info"><p>Complete the Application</p></div> <div class="description"><p>Fill out a short application to begin the approval process. Most approvals are completed in less than 24 hours.</p></div> </div> <div class="step-inner"> <h3>Step 4</h3> <div class="info"><p>Get Approved</p></div> <div class="description"><p>We take care of the paperwork and work quickly to secure approval for your Rent-to-Own plan.</p></div> </div> <div class="step-inner"> <h3>Step 5</h3> <div class="info"><p>Finalize Purchase and Make Your Down Payment</p></div> <div class="description"><p>Once approved, you can finalize your purchase. Make the agreed-upon down payment, prepare your building site, and leave the rest to us!</p></div> </div> </div> </div> </div>' />

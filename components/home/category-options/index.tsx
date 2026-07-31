@@ -40,7 +40,7 @@ const products = [
       'Clear-span workshops, warehouses, retail spaces, and commercial steel structures with engineer-stamped plans for permitting in all 40+ states we serve.',
     price: '$12,900',
     image: '/images/garage3.webp',
-    href: '/commercial-buildings',
+    href: '/commercial',
   },
 ];
 

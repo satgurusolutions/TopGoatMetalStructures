@@ -86,7 +86,7 @@ const MetalBuildingWarranties = () => {
               The Warranties We Offer
             </h2>
             <p className="mt-4 text-lg text-gray-700">
-              We deliver more than structures — we deliver peace of mind. Every Warrior building
+              We deliver more than structures — we deliver peace of mind. Every Top Goat Building
               comes backed by the following warranties:
             </p>
           </div>

@@ -19,7 +19,7 @@ const buttonVariants = cva(
           'hover:[background:linear-gradient(180deg,_#ED2031_0%,_#87121C_100%)] hover:text-accent-foreground dark:hover:bg-accent/50',
         link: 'text-primary underline-offset-4 hover:underline',
         metallic:
-          'rounded-full text-white shadow-md  cursor-pointer bg-[#A70802] hover:bg-[#A70802]/90  hover:brightness-105 transition-all duration-300 ease-in-out',
+          'rounded-full text-white shadow-md  cursor-pointer bg-[#d7aa22] hover:bg-[#d7aa22]/90  hover:brightness-105 transition-all duration-300 ease-in-out',
         metallicBlack:
           'rounded-full text-white shadow-md [background:linear-gradient(180deg,_#362C2D_0%,_#000000_100%)] cursor-pointer hover:opacity-80 hover:brightness-105 transition-all duration-300 ease-in-out',
       },

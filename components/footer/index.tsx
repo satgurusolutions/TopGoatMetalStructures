@@ -9,7 +9,7 @@ const buildingLinks = [
   { label: 'Metal Carports', href: '/metal-carports' },
   { label: 'Metal Barns', href: '/metal-barns' },
   { label: 'RV Covers', href: '/rv-covers' },
-  { label: 'Commercial', href: '/commercial-buildings' },
+  { label: 'Commercial', href: '/commercial' },
 ];
 
 const companyLinks = [

@@ -156,7 +156,7 @@ const ProductCard: FC<{
               <Button
                 onClick={() => setOpen(true)}
                 variant="metallic"
-                className="flex h-12 items-center gap-2 rounded-full px-6 py-4 text-sm font-normal"
+                className="flex h-12 items-center gap-2 rounded-[15px] px-6 py-4 text-sm font-normal"
               >
                 <span className="px-2 text-xs font-normal lg:text-base">Request Price</span>
                 <LinkIconInactive className="h-[30px]! w-[30px]!" />
@@ -184,7 +184,7 @@ const ProductCard: FC<{
             '/'
           }
         >
-          <Button className="[animation:gradient_6s_ease_infinite] cursor-pointer overflow-hidden rounded-full bg-gradient-to-r from-black via-red-600 to-black bg-[length:200%_200%] px-6 py-3 text-sm font-semibold text-white shadow-[0_4px_10px_rgba(0,0,0,0.7)] transition-all duration-300 ease-in-out active:scale-95 lg:text-lg">
+          <Button className="[animation:gradient_6s_ease_infinite] cursor-pointer overflow-hidden rounded-[15px] bg-gradient-to-r from-black via-red-600 to-black bg-[length:200%_200%] px-6 py-3 text-sm font-semibold text-white shadow-[0_4px_10px_rgba(0,0,0,0.7)] transition-all duration-300 ease-in-out active:scale-95 lg:text-lg">
             <span className="relative z-10 w-full">Design In 3D</span>
           </Button>
         </Link>
@@ -221,7 +221,7 @@ const ProductCard: FC<{
             >
               <Button
                 variant="metallic"
-                className="flex h-[48px] items-center gap-2 rounded-full px-6 py-4 text-sm font-normal lg:h-[56px]"
+                className="flex h-[48px] items-center gap-2 rounded-[15px] bg-[var(--accent)] px-6 py-4 text-sm font-normal hover:bg-[var(--accent-dark)] lg:h-[56px]"
               >
                 <span className="px-2 text-xs font-normal lg:text-xl">Build</span>
                 <LinkIconInactive className="h-[32px]! w-[32px]!" />
@@ -235,7 +235,7 @@ const ProductCard: FC<{
           //   >
           //     <Button
           //       variant="metallic"
-          //       className="flex h-10 w-full items-center justify-between gap-2 rounded-full px-6 py-6 text-center text-sm font-normal"
+          //       className="flex h-10 w-full items-center justify-between gap-2 rounded-[15px] px-6 py-6 text-center text-sm font-normal"
           //     >
           //       <span className="px-2 text-xs font-normal lg:text-base">Build</span>
           //       <BuildingIcon className="h-[40px]! w-[40px]!" />
@@ -249,7 +249,7 @@ const ProductCard: FC<{
               <DialogTrigger asChild>
                 <Button
                   variant="metallic"
-                  className="flex h-12 items-center gap-2 rounded-full px-6 py-4 text-sm font-normal"
+                  className="flex h-12 items-center gap-2 rounded-[15px] px-6 py-4 text-sm font-normal"
                 >
                   <span className="px-2 text-xs font-normal lg:text-base">Request Price</span>
                   <LinkIconInactive className="h-[40px]! w-[40px]!" />
@@ -269,7 +269,7 @@ const ProductCard: FC<{
             <Link href={TELEPHONE_NUMBER.href}>
               <Button
                 variant="metallicBlack"
-                className="flex h-12 items-center gap-2 rounded-full px-6 py-4 text-sm font-normal"
+                className="flex h-12 items-center gap-2 rounded-[15px] px-6 py-4 text-sm font-normal"
               >
                 <span className="px-2 text-xs font-normal lg:text-base">
                   +1 {TELEPHONE_NUMBER.formatted}

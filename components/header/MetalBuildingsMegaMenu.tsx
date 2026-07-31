@@ -46,7 +46,7 @@ const fallbackItems = [
   },
   {
     label: 'Commercial',
-    href: '/commercial-buildings',
+    href: '/commercial',
     description: 'Workshops & clear-span steel',
     icon: Factory,
   },
