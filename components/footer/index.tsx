@@ -128,8 +128,8 @@ export default function Footer() {
               </Link>
 
               <p className="mt-6 text-[15px] leading-6 text-[#b3aa9b]">
-                Custom American steel garages, carports, barns, RV covers and commercial buildings —
-                engineered, delivered and installed.
+                Custom American steel garages, carports, barns, RV Garages and commercial buildings
+                — engineered, delivered and installed.
               </p>
 
               <a
