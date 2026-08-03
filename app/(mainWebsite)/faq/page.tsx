@@ -251,7 +251,7 @@ export default function FAQPage() {
                 </a>
 
                 <a
-                  href="/get-a-quote/"
+                  href="/free-quote"
                   className="relative mt-3 inline-flex min-h-12 w-full items-center justify-center rounded-full border border-white/20 px-6 text-sm font-black text-white transition-all duration-300 hover:border-white hover:bg-white hover:text-black"
                 >
                   Request a Free Quote
@@ -293,7 +293,7 @@ export default function FAQPage() {
             </div>
 
             <a
-              href="/get-a-quote/"
+              href="/free-quote"
               className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#111111] px-8 text-sm font-black text-white transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:text-black"
             >
               Get Your Free Quote

@@ -193,7 +193,7 @@ export default function HeroSection() {
             {/* Buttons */}
             <div className="mb-12 flex flex-wrap gap-[14px]">
               <Link
-                href="#quote"
+                href="/free-quote"
                 className="font-oswald inline-flex min-h-[58px] items-center justify-center rounded-[10px] bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] px-[34px] text-base font-semibold tracking-[0.05em] text-[#1a1306] uppercase shadow-[0_20px_50px_-18px_rgba(231,181,60,0.35)] transition duration-300 hover:-translate-y-[3px] hover:shadow-[0_26px_60px_-16px_rgba(231,181,60,0.55)]"
               >
                 Get Free Quote

@@ -20,10 +20,30 @@ const companyLinks = [
 ];
 
 const resourceLinks = [
-  { label: 'Financing', href: '/financing' },
-  { label: 'Metal vs Wood', href: '/blog/metal-vs-wood' },
-  { label: 'Buyer Guides', href: '/#guides' },
-  { label: 'Get a Quote', href: '/contact-us' },
+  {
+    label: 'Free Quote',
+    href: '/free-quote',
+  },
+  {
+    label: 'Service Area',
+    href: '/service-area',
+  },
+  {
+    label: 'Color Planner',
+    href: '/color-planner',
+  },
+  {
+    label: 'Building Components',
+    href: '/components',
+  },
+  {
+    label: "FAQ'S",
+    href: '/faq',
+  },
+  {
+    label: 'Contact Us',
+    href: '/contact-us',
+  },
 ];
 
 const phoneNumber = '(336) 509-3443';
@@ -65,7 +85,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="mailto:quotes@topgoatmetal.com"
+              href="/free-quote"
               className="font-oswald inline-flex min-h-[62px] w-full items-center justify-center rounded-[10px] bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] px-8 text-sm font-bold tracking-[0.04em] text-[#171109] uppercase shadow-[0_20px_45px_-18px_rgba(231,181,60,0.65)] transition duration-300 hover:-translate-y-1 hover:brightness-105 sm:w-auto sm:min-w-[210px]"
             >
               Get My Free Quote

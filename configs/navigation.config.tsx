@@ -144,7 +144,7 @@ export const NAV_ITEMS: NavItemType[] = [
         links: [
           {
             label: 'Free Quote',
-            href: '/contact-us',
+            href: '/free-quote',
           },
           {
             label: 'Service Area',
