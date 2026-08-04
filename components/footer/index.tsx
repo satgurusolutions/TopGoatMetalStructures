@@ -1,6 +1,6 @@
 'use client';
 
-import { FileText, Phone } from 'lucide-react';
+// import { FileText, Phone } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -77,19 +77,19 @@ export default function Footer() {
           </p>
 
           <div className="mt-9 flex w-full flex-col items-center justify-center gap-3 sm:w-auto sm:flex-row">
-            <a
+            <Link
               href="tel:tel:+13365093443"
               className="font-oswald inline-flex min-h-[62px] w-full items-center justify-center rounded-[10px] border border-[#d9a225] px-8 text-sm font-bold tracking-[0.04em] text-[#e7b53c] uppercase transition duration-300 hover:-translate-y-1 hover:bg-[#d9a225] hover:text-[#171109] sm:w-auto sm:min-w-[225px]"
             >
               Call (336) 509-3443
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="/free-quote"
               className="font-oswald inline-flex min-h-[62px] w-full items-center justify-center rounded-[10px] bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] px-8 text-sm font-bold tracking-[0.04em] text-[#171109] uppercase shadow-[0_20px_45px_-18px_rgba(231,181,60,0.65)] transition duration-300 hover:-translate-y-1 hover:brightness-105 sm:w-auto sm:min-w-[210px]"
             >
               Get My Free Quote
-            </a>
+            </Link>
           </div>
 
           <p className="font-oswald mt-2 text-[13px] tracking-[0.08em] text-[#b9ac99] uppercase sm:text-[15px]">
@@ -132,12 +132,12 @@ export default function Footer() {
                 — engineered, delivered and installed.
               </p>
 
-              <a
+              <Link
                 href={phoneHref}
                 className="font-oswald mt-6 inline-flex text-[26px] font-bold text-[#e7b53c] transition hover:text-[#f6cf63]"
               >
                 {phoneNumber}
-              </a>
+              </Link>
             </div>
 
             {/* Buildings */}
@@ -234,7 +234,7 @@ export default function Footer() {
       {/* Mobile fixed bottom actions */}
       {/* <div className="fixed inset-x-0 bottom-0 z-[9999] border-t border-white/10 shadow-[0_-8px_30px_rgba(0,0,0,0.45)] lg:hidden">
         <div className="grid h-[58px] grid-cols-2">
-          <a
+          <Link
             href={phoneHref}
             className="flex items-center justify-center gap-2 bg-[#111113] px-3 text-white transition active:bg-[#080809]"
           >
@@ -249,7 +249,7 @@ export default function Footer() {
                 {phoneNumber}
               </span>
             </div>
-          </a>
+          </Link>
 
           <Link
             href="/#quote"

@@ -16,7 +16,7 @@ const ServiceAreaDetails = () => {
             buildings designed for strength, durability, and long-term value. From carports and
             garages to barns, RV covers, workshops, and commercial steel buildings, our experienced
             team provides dependable service, premium craftsmanship, and professional installation
-            across the 25 states we proudly serve. Wherever you are, we're committed to helping you
+            across the 25 states we proudly serve. Wherever you are, we are committed to helping you
             protect what matters most with a structure built to meet your needs.
           </p>
         </div>

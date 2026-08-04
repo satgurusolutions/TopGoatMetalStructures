@@ -45,12 +45,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
 };
 
-const financingBenefits = [
-  'Fast and simple approval process',
-  'Financing terms up to 84 months',
-  '$0 down options on qualifying buildings',
-  'Military and first-responder discount',
-];
+// const financingBenefits = [
+//   'Fast and simple approval process',
+//   'Financing terms up to 84 months',
+//   '$0 down options on qualifying buildings',
+//   'Military and first-responder discount',
+// ];
 
 const financeFeatures = [
   {

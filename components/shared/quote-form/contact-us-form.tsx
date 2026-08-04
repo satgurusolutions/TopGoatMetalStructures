@@ -13,7 +13,7 @@ import {
 } from '@/components/ui/select';
 import { Textarea } from '@/components/ui/textarea';
 import { states, statesWithShortNames } from '@/configs/navigation.config';
-import { HouseHeightIcon, HouseLengthIcon, HouseWidthIcon } from '@/icons';
+// import { HouseHeightIcon, HouseLengthIcon, HouseWidthIcon } from '@/icons';
 import LinkIconInactive from '@/icons/link-inactive';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Loader2 } from 'lucide-react';

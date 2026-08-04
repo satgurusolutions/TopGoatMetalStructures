@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import Image from 'next/image';
+// import Image from 'next/image';
 import AccordionIcons from './accordion-animated-icons';
 import { FC, useState } from 'react';
 import parse from 'html-react-parser';

@@ -2,6 +2,7 @@ import Footer from '@/components/footer';
 import { HeroSection } from '@/components/product-category';
 import { baseUrl, ogImage } from '@/configs/meta-data';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
@@ -243,19 +244,19 @@ export default function FAQPage() {
                   features. We&apos;ll help you plan the right structure for your property.
                 </p>
 
-                <a
+                <Link
                   href="/contact-us/"
                   className="relative mt-7 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-[#f4a000] px-6 text-sm font-black text-[#111111] transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
                 >
                   Talk to a Building Expert
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href="/free-quote"
                   className="relative mt-3 inline-flex min-h-12 w-full items-center justify-center rounded-full border border-white/20 px-6 text-sm font-black text-white transition-all duration-300 hover:border-white hover:bg-white hover:text-black"
                 >
                   Request a Free Quote
-                </a>
+                </Link>
               </div>
 
               <div className="mt-5 rounded-[24px] border border-black/10 bg-[#f7f7f5] p-7">
@@ -292,12 +293,12 @@ export default function FAQPage() {
               </p>
             </div>
 
-            <a
+            <Link
               href="/free-quote"
               className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#111111] px-8 text-sm font-black text-white transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:text-black"
             >
               Get Your Free Quote
-            </a>
+            </Link>
           </div>
         </section>
       </main>
