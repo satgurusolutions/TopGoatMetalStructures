@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import Image from 'next/image';
+// import Image from 'next/image';
 import AccordionIcons from './accordion-animated-icons';
 import { FC, useState } from 'react';
 import parse from 'html-react-parser';
@@ -23,7 +23,7 @@ const Faqs: FC<{
   const [openItems, setOpenItems] = useState<string[]>(initialOpenIds ?? ['dimensions', 'colors']);
 
   return (
-    <div className="mx-auto flex w-full flex-col items-start justify-center gap-12 px-4 lg:flex-row xl:container xl:px-0 [@media(width=1280px)]:px-4">
+    <div className="mx-auto flex w-full max-w-[1280px] flex-col items-start justify-center gap-12 px-4 lg:flex-row xl:px-0 [@media(width=1280px)]:px-4">
       <div className="w-full">
         <div className="flex w-full items-center justify-between text-center">
           <div className="w-full pb-8">
@@ -39,9 +39,9 @@ const Faqs: FC<{
             </p>
           </div>
         </div>
-        <div className="relative mt-6 p-4">
+        <div className="relative mt-6 rounded-[15px] bg-black p-4">
           {/* Backgrounds */}
-          <div className="pointer-events-none absolute inset-0 z-0">
+          {/* <div className="pointer-events-none absolute inset-0 z-0">
             <Image
               src="/images/designer/texture_optimized.webp"
               fill
@@ -57,7 +57,7 @@ const Faqs: FC<{
               priority
               className="absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2"
             />
-          </div>
+          </div> */}
 
           {/* Accordion */}
           {/* <Accordion
@@ -84,19 +84,19 @@ const Faqs: FC<{
             type="multiple"
             value={openItems}
             onValueChange={(val) => setOpenItems(val)}
-            className="relative rounded-2xl text-white shadow-xl"
+            className="relative rounded-[15px] text-white shadow-xl"
           >
             {(faqData || faqs).map((faq) => {
               const isOpen = openItems.includes(faq.id);
               return (
                 <AccordionItem key={faq.id} value={faq.id} className="my-4 border-none">
                   <AccordionTrigger
-                    className={`${isOpen ? 'bg-primary cursor-pointer transition-all duration-300 ease-in-out' : 'bg-white/20'} flex items-center rounded-[50px] px-4 py-2 text-base xl:text-2xl [&>svg]:hidden`}
+                    className={`${isOpen ? 'bg-primary cursor-pointer transition-all duration-300 ease-in-out' : 'bg-white/20'} flex items-center rounded-[15px] px-4 py-2 text-base xl:text-2xl [&>svg]:hidden`}
                   >
                     <span>{parse(faq.question || '')}</span>
                     <AccordionIcons isOpen={isOpen} />
                   </AccordionTrigger>
-                  <AccordionContent className="mt-2 rounded-4xl bg-white/20 px-4 py-6 text-sm xl:text-lg">
+                  <AccordionContent className="mt-2 rounded-[15px] bg-white/20 px-4 py-6 text-sm xl:text-lg">
                     <RichText html={faq.answer || ''} />
                   </AccordionContent>
                 </AccordionItem>

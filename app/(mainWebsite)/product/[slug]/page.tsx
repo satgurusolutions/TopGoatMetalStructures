@@ -1,9 +1,10 @@
 import Footer from '@/components/footer';
-import { ProductDetails, ProductListingDark } from '@/components/product';
+// , ProductListingDark
+import { ProductDetails } from '@/components/product';
 import { HeroSection } from '@/components/product-category';
 import { Faqs, Ruler } from '@/components/shared';
 import { buildMetadata } from '@/configs/meta-data';
-import { getProductsByRelatedIds } from '@/lib/products';
+// import { getProductsByRelatedIds } from '@/lib/products';
 import { Product } from '@/types';
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -65,7 +66,7 @@ export default async function ProductDetailsPage({
     return <div>Product not found</div>;
   }
 
-  const relatedProducts = await getProductsByRelatedIds(product.related_ids ?? []);
+  //const relatedProducts = await getProductsByRelatedIds(product.related_ids ?? []);
 
   const productSchema = product?.yoast_head_json?.schema;
   return (
@@ -94,13 +95,13 @@ export default async function ProductDetailsPage({
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <ProductListingDark
           products={relatedProducts}
           name={'Suggested For You'}
           disablePagination
         />
-      </div>
+      </div> */}
 
       <div className="py-8 lg:py-14">
         <Faqs />

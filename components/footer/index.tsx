@@ -1,6 +1,6 @@
 'use client';
 
-import { FileText, Phone } from 'lucide-react';
+// import { FileText, Phone } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -8,8 +8,8 @@ const buildingLinks = [
   { label: 'Metal Garages', href: '/metal-garages' },
   { label: 'Metal Carports', href: '/metal-carports' },
   { label: 'Metal Barns', href: '/metal-barns' },
-  { label: 'RV Covers', href: '/rv-covers' },
-  { label: 'Commercial', href: '/commercial-buildings' },
+  { label: 'RV Garages', href: '/rv-garages' },
+  { label: 'Commercial', href: '/commercial' },
 ];
 
 const companyLinks = [
@@ -20,14 +20,34 @@ const companyLinks = [
 ];
 
 const resourceLinks = [
-  { label: 'Financing', href: '/#financing' },
-  { label: 'Metal vs Wood', href: '/blog/metal-vs-wood' },
-  { label: 'Buyer Guides', href: '/#guides' },
-  { label: 'Get a Quote', href: '/#quote' },
+  {
+    label: 'Free Quote',
+    href: '/free-quote',
+  },
+  {
+    label: 'Service Area',
+    href: '/service-area',
+  },
+  {
+    label: 'Color Planner',
+    href: '/color-planner',
+  },
+  {
+    label: 'Building Components',
+    href: '/components',
+  },
+  {
+    label: "FAQ'S",
+    href: '/faq',
+  },
+  {
+    label: 'Contact Us',
+    href: '/contact-us',
+  },
 ];
 
-const phoneNumber = '(888) 466-2842';
-const phoneHref = 'tel:+18884662842';
+const phoneNumber = '(336) 509-3443';
+const phoneHref = 'tel:tel:+13365093443';
 
 export default function Footer() {
   return (
@@ -57,19 +77,19 @@ export default function Footer() {
           </p>
 
           <div className="mt-9 flex w-full flex-col items-center justify-center gap-3 sm:w-auto sm:flex-row">
-            <a
-              href="tel:+18884662842"
+            <Link
+              href="tel:tel:+13365093443"
               className="font-oswald inline-flex min-h-[62px] w-full items-center justify-center rounded-[10px] border border-[#d9a225] px-8 text-sm font-bold tracking-[0.04em] text-[#e7b53c] uppercase transition duration-300 hover:-translate-y-1 hover:bg-[#d9a225] hover:text-[#171109] sm:w-auto sm:min-w-[225px]"
             >
-              Call (888) 466-2842
-            </a>
+              Call (336) 509-3443
+            </Link>
 
-            <a
-              href="mailto:quotes@topgoatmetal.com"
+            <Link
+              href="/free-quote"
               className="font-oswald inline-flex min-h-[62px] w-full items-center justify-center rounded-[10px] bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] px-8 text-sm font-bold tracking-[0.04em] text-[#171109] uppercase shadow-[0_20px_45px_-18px_rgba(231,181,60,0.65)] transition duration-300 hover:-translate-y-1 hover:brightness-105 sm:w-auto sm:min-w-[210px]"
             >
               Get My Free Quote
-            </a>
+            </Link>
           </div>
 
           <p className="font-oswald mt-2 text-[13px] tracking-[0.08em] text-[#b9ac99] uppercase sm:text-[15px]">
@@ -96,7 +116,7 @@ export default function Footer() {
                   className="h-[55px] w-[46px] object-contain"
                 />
 
-                <span className="hidden flex-col leading-none sm:flex">
+                <span className="flex flex-col leading-none">
                   <span className="font-jost text-[20px] font-extrabold tracking-[0.055em] text-white uppercase">
                     Top Goat
                   </span>
@@ -108,16 +128,16 @@ export default function Footer() {
               </Link>
 
               <p className="mt-6 text-[15px] leading-6 text-[#b3aa9b]">
-                Custom American steel garages, carports, barns, RV covers and commercial buildings —
-                engineered, delivered and installed.
+                Custom American steel garages, carports, barns, RV Garages and commercial buildings
+                — engineered, delivered and installed.
               </p>
 
-              <a
+              <Link
                 href={phoneHref}
                 className="font-oswald mt-6 inline-flex text-[26px] font-bold text-[#e7b53c] transition hover:text-[#f6cf63]"
               >
                 {phoneNumber}
-              </a>
+              </Link>
             </div>
 
             {/* Buildings */}
@@ -209,12 +229,12 @@ export default function Footer() {
       </footer>
 
       {/* Space for fixed mobile bar */}
-      <div className="h-[58px] lg:hidden" />
+      {/* <div className="h-[58px] lg:hidden" /> */}
 
       {/* Mobile fixed bottom actions */}
-      <div className="fixed inset-x-0 bottom-0 z-[9999] border-t border-white/10 shadow-[0_-8px_30px_rgba(0,0,0,0.45)] lg:hidden">
+      {/* <div className="fixed inset-x-0 bottom-0 z-[9999] border-t border-white/10 shadow-[0_-8px_30px_rgba(0,0,0,0.45)] lg:hidden">
         <div className="grid h-[58px] grid-cols-2">
-          <a
+          <Link
             href={phoneHref}
             className="flex items-center justify-center gap-2 bg-[#111113] px-3 text-white transition active:bg-[#080809]"
           >
@@ -229,7 +249,7 @@ export default function Footer() {
                 {phoneNumber}
               </span>
             </div>
-          </a>
+          </Link>
 
           <Link
             href="/#quote"
@@ -242,7 +262,7 @@ export default function Footer() {
             </span>
           </Link>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

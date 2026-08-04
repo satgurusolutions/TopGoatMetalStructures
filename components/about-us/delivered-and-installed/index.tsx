@@ -5,7 +5,7 @@ import Image from 'next/image';
 const DeliveredAndInstalled = () => {
   return (
     <section>
-      <div className="mx-auto flex flex-col-reverse items-start gap-8 px-4 lg:flex-row xl:container xl:px-0 [@media(width=1280px)]:px-4">
+      <div className="mx-auto flex max-w-[1280px] flex-col-reverse items-start gap-8 px-4 lg:flex-row xl:px-0 [@media(width=1280px)]:px-4">
         {/* Left Column: Text */}
         <div className="flex-1">
           <h2 className="mb-4 text-xl font-bold sm:text-3xl">Delivery and Installation</h2>

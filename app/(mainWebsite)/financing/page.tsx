@@ -45,12 +45,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
 };
 
-const financingBenefits = [
-  'Fast and simple approval process',
-  'Financing terms up to 84 months',
-  '$0 down options on qualifying buildings',
-  'Military and first-responder discount',
-];
+// const financingBenefits = [
+//   'Fast and simple approval process',
+//   'Financing terms up to 84 months',
+//   '$0 down options on qualifying buildings',
+//   'Military and first-responder discount',
+// ];
 
 const financeFeatures = [
   {
@@ -109,15 +109,13 @@ const financingSteps = [
 const buildingTypes = [
   {
     title: 'Metal Garages',
-    image:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=85',
+    image: '/images/finance-page/2.png',
     description:
       'Finance a secure garage for vehicles, storage, equipment, or a personal workshop.',
   },
   {
     title: 'Metal Carports',
-    image:
-      'https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=1200&q=85',
+    image: '/images/finance-page/3.png',
     description:
       'Protect cars, trucks, boats, trailers, and outdoor equipment with a custom steel carport.',
   },
@@ -212,7 +210,10 @@ export default function FinancingPage() {
       </Script>
 
       {/* Hero */}
-      <HeroSection name="Financing Top Goat Metal Structures" bgImg="/images/contact-us-bg.webp" />
+      <HeroSection
+        name="Financing Top Goat Metal Structures"
+        bgImg="/images/finance-page/banner.png"
+      />
 
       <div className="pb-8 lg:pb-16">
         <Ruler />
@@ -224,7 +225,7 @@ export default function FinancingPage() {
           <div className="relative">
             <div className="relative min-h-[500px] overflow-hidden rounded-[24px] bg-[#111113] sm:min-h-[650px]">
               <Image
-                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=85"
+                src="/images/finance-page/1.png"
                 alt="Metal building construction project"
                 fill
                 sizes="(max-width: 1024px) 100vw, 45vw"
@@ -312,7 +313,7 @@ export default function FinancingPage() {
                 Financing Benefits
               </span>
 
-              <h2 className="font-anton mt-5 text-[clamp(3rem,6vw,5rem)] leading-[0.92] uppercase">
+              <h2 className="font-anton mt-5 text-[clamp(3rem,6vw,4rem)] leading-[0.92] uppercase">
                 Flexible Options
                 <span className="block text-[#e7b53c]">Built Around You</span>
               </h2>

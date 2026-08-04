@@ -56,7 +56,7 @@ export default function HeroSection({
         </div>
       </div> */}
       <div className="absolute inset-0 z-10 flex flex-col justify-center">
-        <div className="mx-auto w-full px-4 pt-12 sm:text-center lg:px-0 xl:max-w-7xl xl:text-start [@media(width=1280px)]:px-4">
+        <div className="mx-auto w-full max-w-[1240px] px-4 pt-12 sm:text-center xl:px-0 xl:text-start">
           {/* Top Rounded Badge */}
           <div>
             <h1 className="relative text-[24px] leading-tight font-bold text-white uppercase lg:text-[48px] xl:text-[48px]">

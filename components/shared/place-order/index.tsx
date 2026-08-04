@@ -30,7 +30,7 @@ const steps = [
 const PlacingYourOrder = () => {
   return (
     <section className="bg-white">
-      <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+      <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
         {/* Intro */}
         <div className="mb-16 text-center">
           <h2 className="text-4xl font-bold text-black xl:text-[56px]">

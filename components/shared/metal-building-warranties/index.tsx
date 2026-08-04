@@ -35,7 +35,7 @@ const limitations = [
 const MetalBuildingWarranties = () => {
   return (
     <section className="bg-white">
-      <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+      <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
         {/* === INTRODUCTION SECTION === */}
         <div className="border-b border-gray-200">
           <div className="flex flex-col items-center gap-12 lg:flex-row">
@@ -51,7 +51,7 @@ const MetalBuildingWarranties = () => {
               </p>
               <p className="text-lg text-gray-700">
                 <Link
-                  href="https://www.warriorbuildings.com/"
+                  href="https://www.topgoatmetalstructures.com/"
                   className="text-primary font-semibold hover:underline"
                 >
                   Top Goat Metal Structures
@@ -86,7 +86,7 @@ const MetalBuildingWarranties = () => {
               The Warranties We Offer
             </h2>
             <p className="mt-4 text-lg text-gray-700">
-              We deliver more than structures — we deliver peace of mind. Every Warrior building
+              We deliver more than structures — we deliver peace of mind. Every Top Goat Building
               comes backed by the following warranties:
             </p>
           </div>
@@ -174,7 +174,7 @@ const MetalBuildingWarranties = () => {
             </Link>{' '}
             to start designing your{' '}
             <Link
-              href="https://www.warriorbuildings.com/metal-buildings/"
+              href="https://www.topgoatmetalstructures.com/metal-buildings/"
               className="text-primary font-semibold hover:underline"
             >
               custom metal building

@@ -55,7 +55,7 @@ export default function Header() {
       >
         {/* Top bar */}
         <div className="hidden h-[45px] border-t-[3px] border-b border-t-[#d6a61b] border-b-white/10 bg-[#111112] text-[#aaa7a0] lg:block">
-          <div className="mx-auto flex h-full max-w-[1240px] items-center justify-between px-4 xl:px-7">
+          <div className="mx-auto flex h-full max-w-[1240px] items-center justify-between px-4 xl:px-0">
             <div className="flex items-center gap-4 text-[14px]">
               <span>★ 4.9/5 from 2,300+ owners</span>
               <span className="h-4 w-px bg-white/10" />
@@ -85,7 +85,7 @@ export default function Header() {
 
         {/* Main header */}
         <div className="h-[80px] border-b border-white/10 bg-[#090a0b]">
-          <div className="mx-auto flex h-full max-w-[1240px] items-center px-4 xl:px-7">
+          <div className="mx-auto flex h-full max-w-[1240px] items-center px-4 xl:px-0">
             {/* Logo */}
             <Link
               href="/"
@@ -101,7 +101,7 @@ export default function Header() {
                 className="h-[55px] w-[46px] object-contain"
               />
 
-              <span className="hidden flex-col leading-none sm:flex">
+              <span className="flex flex-col leading-none">
                 <span className="font-jost text-[20px] font-extrabold tracking-[0.055em] text-white uppercase">
                   Top Goat
                 </span>

@@ -120,7 +120,7 @@ const CustomizationOptionsDark = () => {
       </motion.div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto px-4 pb-[96px] xl:container xl:px-0 [@media(width=1280px)]:px-4">
+      <div className="relative z-10 mx-auto max-w-[1280px] px-4 pb-[96px] xl:px-0 [@media(width=1280px)]:px-4">
         <h2 className="pb-6 text-center leading-[120%] text-white xl:text-[56px]">
           Building <span className="text-primary">Customization</span> Options
         </h2>

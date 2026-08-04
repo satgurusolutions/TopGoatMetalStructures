@@ -53,6 +53,7 @@
   --secondary-foreground: #ffffff;
 
   --accent: #d7aa22;
+  --accent-dark: #b98f12;
   --accent-foreground: #111111;
 
   --muted: #f4f1e9;
@@ -568,7 +569,7 @@
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
-  transform: translateY(0);
+  transform: translateY(-12px);
 }
 
 /* Shadcn animation support */

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Concrete Foundation Guide for Metal Buildings | Top Goat Metal Structures',
     description:
-      'Plan a durable concrete foundation for your Warrior garage, barn, workshop, carport, or commercial steel structure.',
+      'Plan a durable concrete foundation for your Top Goat garage, barn, workshop, carport, RV cover, or commercial metal structure.',
     url: baseUrl + '/concrete/',
     siteName: 'Top Goat Metal Structures',
     locale: 'en_US',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: '/images/concrete/2.jpeg',
         width: 1200,
         height: 630,
-        alt: 'Prepared concrete foundation for a Warrior metal building',
+        alt: 'Prepared concrete foundation for a Top Goat metal building',
       },
     ],
   },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Concrete Foundation Guide for Metal Buildings | Top Goat Metal Structures',
     description:
-      'Discover the key steps for preparing a dependable concrete foundation for your Warrior metal building.',
+      'Discover the key steps for preparing a dependable concrete foundation for your Top Goat metal building.',
     images: [ogImage],
   },
   icons: {
@@ -68,7 +68,7 @@ const schema = {
       '@type': 'WebPage',
       '@id': `${baseUrl}/concrete/`,
       url: `${baseUrl}/concrete/`,
-      name: 'Concrete Foundation Planning for Warrior Metal Buildings',
+      name: 'Concrete Foundation Requirements for Top Goat Metal Buildings',
       isPartOf: {
         '@id': `${baseUrl}/#website`,
       },
@@ -116,7 +116,7 @@ const slabOptions = [
     thickness: 'Heavy-Duty 6-Inch Foundation',
     size: '6"',
     description:
-      'A 6-inch slab may be the better choice when a Warrior building will carry heavier vehicles, machinery, or demanding commercial loads.',
+      'A 6-inch slab may be the better choice when a Top Goat building will carry heavier vehicles, machinery, or demanding commercial loads.',
     uses: [
       'Work trucks and heavy vehicles',
       'Tractors and farm machinery',
@@ -145,7 +145,7 @@ const preparationItems = [
     number: '03',
     title: 'Direct Water Away from the Foundation',
     description:
-      'Shape the slab area and surrounding grade so rainwater moves away from the Warrior building instead of collecting near the foundation.',
+      'Shape the slab area and surrounding grade so rainwater moves away from the Top Goat building instead of collecting near the foundation.',
   },
   {
     number: '04',
@@ -164,7 +164,7 @@ const concreteDetails = [
   {
     title: 'Protect the Foundation from Water',
     description:
-      'Maintain positive drainage around the slab so water flows away from the Warrior building rather than pooling beside the base rails.',
+      'Maintain positive drainage around the slab so water flows away from the Top Goat building rather than pooling beside the base rails.',
   },
   {
     title: 'Plan for the Full Curing Period',
@@ -188,7 +188,7 @@ export default function ConcretePage() {
           {JSON.stringify(schema)}
         </Script>
 
-        <HeroSection isBlur name="Warrior Concrete Foundations" bgImg="/images/concrete/2.jpeg" />
+        <HeroSection isBlur name="Concrete Foundations" bgImg="/images/concrete/banner.png" />
 
         <main className="overflow-hidden bg-white text-[#2C2B29]">
           <section className="bg-[#FCF8F8]">
@@ -196,17 +196,17 @@ export default function ConcretePage() {
               <Ruler />
             </div>
 
-            <div className="mx-auto grid items-center gap-10 px-4 pb-10 lg:grid-cols-2 lg:gap-16 xl:container xl:px-0 xl:pb-20 [@media(width=1280px)]:px-4">
+            <div className="mx-auto grid max-w-[1240px] items-center gap-10 px-4 pb-10 lg:grid-cols-2 lg:gap-16 xl:px-0 xl:pb-20 [@media(width=1280px)]:px-4">
               <div>
                 <p className="text-accent mb-3 text-sm font-bold tracking-[0.18em] uppercase">
-                  Warrior Strength Starts at the Foundation
+                  Top Goat Strength Starts at the Foundation
                 </p>
-                <h1 className="text-accent text-3xl leading-tight font-bold sm:text-4xl xl:text-6xl">
-                  Warrior Build the Right Foundation for Your Warrior Building
+                <h1 className="text-accent text-3xl leading-tight font-bold sm:text-4xl xl:text-5xl">
+                  Build the Right Foundation for Your Top Goat Metal Building
                 </h1>
                 <p className="mt-6 text-base leading-8 xl:text-xl">
-                  A carefully planned concrete slab gives your Warrior building the solid, level,
-                  and dependable support it needs for years of service.
+                  A carefully planned concrete slab gives your Top Goat metal building the solid,
+                  level, and dependable support it needs for years of service.
                 </p>
                 <p className="mt-4 text-base leading-8 xl:text-xl">
                   Before concrete is placed, verify the approved footprint, required thickness,
@@ -218,14 +218,14 @@ export default function ConcretePage() {
                     href="/contact-us"
                     className="bg-accent inline-flex min-h-12 items-center justify-center rounded-4xl px-7 py-3 font-bold text-white transition hover:opacity-90"
                   >
-                    Get Your Warrior Building Quote
+                    Get Your Top Goat Building Quote
                   </Link> */}
                   <ConcreteForm />
                   <a
-                    href="tel:8885760565"
+                    href="tel:tel:+13365093443"
                     className="inline-flex min-h-12 items-center justify-center rounded-4xl border-2 border-[#2C2B29] px-7 py-3 font-bold text-[#2C2B29] transition hover:bg-[#2C2B29] hover:text-white"
                   >
-                    Speak With Top Goat Metal Structures
+                    Call Top Goat
                   </a>
                 </div>
               </div>
@@ -233,7 +233,7 @@ export default function ConcretePage() {
               <div className="relative min-h-[320px] overflow-hidden sm:min-h-[440px]">
                 <Image
                   src="/images/concrete/2.jpeg"
-                  alt="Fresh concrete slab prepared for a Warrior metal building"
+                  alt="Fresh concrete slab prepared for a Top Goat metal building"
                   fill
                   priority
                   className="rounded-4xl object-cover"
@@ -246,12 +246,12 @@ export default function ConcretePage() {
           </section>
 
           <section className="py-10 xl:py-20">
-            <div className="mx-auto grid items-start gap-10 px-4 lg:grid-cols-2 lg:gap-16 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+            <div className="mx-auto grid max-w-[1240px] items-start gap-10 px-4 lg:grid-cols-2 lg:gap-16 xl:px-0 [@media(width=1280px)]:px-4">
               <div className="grid gap-5">
                 <div className="relative min-h-[320px] overflow-hidden sm:min-h-[430px]">
                   <Image
                     src="/images/concrete/1.jpeg"
-                    alt="Warrior building base rail positioned on a concrete foundation"
+                    alt="Top Goat building base rail positioned on a concrete foundation"
                     fill
                     className="rounded-4xl object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -260,7 +260,7 @@ export default function ConcretePage() {
                 <div className="relative min-h-[320px] overflow-hidden sm:min-h-[430px]">
                   <Image
                     src="/images/concrete/4.jpeg"
-                    alt="Concrete foundation detail prepared for a Warrior building"
+                    alt="Concrete foundation detail prepared for a Top Goat building"
                     fill
                     className="rounded-4xl object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -270,23 +270,23 @@ export default function ConcretePage() {
 
               <div>
                 <p className="text-accent mb-3 text-sm font-bold tracking-[0.18em] uppercase">
-                  Warrior Foundation Planning
+                  Top Goat Foundation Planning
                 </p>
                 <h2 className="text-accent text-3xl leading-tight font-bold sm:text-4xl xl:text-5xl">
-                  Prepare the Foundation Before Your Warrior Building Arrives
+                  Prepare the Foundation Before Your Top Goat Building Arrives
                 </h2>
                 <p className="mt-6 text-base leading-8 xl:text-xl">
-                  The foundation is a critical part of every Warrior building project. It supports
+                  The foundation is a critical part of every Top Goat building project. It supports
                   the frame, provides a durable finished floor, and gives the anchors and base rails
                   a secure surface for installation.
                 </p>
                 <p className="mt-5 text-base leading-8 xl:text-xl">
                   Foundation specifications can change with building size, intended use, soil
-                  conditions, engineered requirements, and local codes. Confirm the final Warrior
-                  Buildings plans before any concrete is ordered or poured.
+                  conditions, engineered requirements, and local codes. Confirm the final Top Goat
+                  Metal Structures plans before any concrete is ordered or poured.
                 </p>
 
-                <div className="mt-8 rounded-4xl border-l-4 border-[#9A1B1F] bg-[#FCF8F8] p-6 xl:p-8">
+                <div className="mt-8 rounded-4xl border-l-4 border-[#d7aa22] bg-[#FCF8F8] p-6 xl:p-8">
                   <h3 className="text-accent text-2xl font-bold">Perimeter Notch Guidance</h3>
                   <p className="mt-3 leading-7">
                     Some enclosed Top Goat Metal Structures may use a perimeter notch along the slab
@@ -294,8 +294,8 @@ export default function ConcretePage() {
                     the concrete and creates a cleaner transition at the foundation.
                   </p>
                   <p className="mt-3 leading-7">
-                    Review the required notch width, depth, and placement with your Warrior
-                    Buildings representative before the concrete contractor begins the pour.
+                    Review the required notch width, depth, and placement with your Top Goat Metal
+                    Structures representative before the concrete contractor begins the pour.
                   </p>
                 </div>
 
@@ -311,7 +311,7 @@ export default function ConcretePage() {
                   </p>
                   <p className="mt-3 leading-7">
                     Z clips cannot repair a slab that is too small, out of level, or otherwise
-                    unsuitable. The concrete must still match the approved Warrior building
+                    unsuitable. The concrete must still match the approved Top Goat building
                     footprint and fully support all base rails.
                   </p>
                   <div className="mt-5 bg-[#FCF8F8] p-5">
@@ -328,13 +328,13 @@ export default function ConcretePage() {
           </section>
 
           <section className="bg-[#2C2B29] py-10 text-white xl:py-20">
-            <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+            <div className="mx-auto max-w-[1240px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
               <div className="mx-auto max-w-4xl text-center">
                 <p className="mb-3 text-sm font-bold tracking-[0.18em] text-[#E5B45B] uppercase">
                   Foundation Thickness Guidelines
                 </p>
                 <h2 className="text-3xl leading-tight font-bold sm:text-4xl xl:text-5xl">
-                  Match the Slab to the Way You Will Use Your Warrior Building
+                  Match the Slab to the Way You Will Use Your Top Goat Building
                 </h2>
                 <p className="mt-5 text-base leading-8 text-white/80 xl:text-xl">
                   Slab thickness should reflect the building&apos;s purpose, expected vehicle and
@@ -349,7 +349,7 @@ export default function ConcretePage() {
                     className="rounded-4xl border border-white/20 p-6 xl:p-9"
                   >
                     <div className="flex items-start gap-5">
-                      <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-[#9A1B1F] text-2xl font-bold">
+                      <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-[#d7aa22] text-2xl font-bold">
                         {option.size}
                       </div>
                       <div>
@@ -377,20 +377,20 @@ export default function ConcretePage() {
 
               <p className="mx-auto mt-7 max-w-4xl text-center leading-7 text-white/65">
                 These guidelines are provided for general planning only. Confirm the final slab
-                design, thickness, reinforcement, and footing requirements using the approved
-                Warrior building plans, site conditions, engineering, and local codes.
+                design, thickness, reinforcement, and footing requirements using the approved Top
+                Goat building plans, site conditions, engineering, and local codes.
               </p>
             </div>
           </section>
 
           <section className="bg-[#FCF8F8] py-10 xl:py-20">
-            <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+            <div className="mx-auto max-w-[1240px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
               <div className="mx-auto max-w-4xl text-center">
                 <p className="text-accent mb-3 text-sm font-bold tracking-[0.18em] uppercase">
                   Plan the Foundation First
                 </p>
                 <h2 className="text-accent text-3xl leading-tight font-bold sm:text-4xl xl:text-5xl">
-                  Important Warrior Foundation Planning Steps
+                  Important Top Goat Foundation Planning Steps
                 </h2>
                 <p className="mt-5 text-base leading-8 xl:text-xl">
                   Completing these checks before the pour can reduce installation delays, prevent
@@ -405,7 +405,7 @@ export default function ConcretePage() {
                     className="rounded-4xl border border-[#D9D1CB] bg-white p-6 xl:p-8"
                   >
                     <div className="flex items-start gap-5">
-                      <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#9A1B1F] font-bold text-white">
+                      <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#d7aa22] font-bold text-white">
                         {item.number}
                       </span>
                       <div>
@@ -421,7 +421,7 @@ export default function ConcretePage() {
                 {concreteDetails.map((detail) => (
                   <article
                     key={detail.title}
-                    className="rounded-4xl border-t-4 border-[#9A1B1F] bg-white p-6 xl:p-8"
+                    className="rounded-4xl border-t-4 border-[#d7aa22] bg-white p-6 xl:p-8"
                   >
                     <h3 className="text-accent text-xl font-bold xl:text-2xl">{detail.title}</h3>
                     <p className="mt-4 leading-7">{detail.description}</p>
@@ -432,16 +432,16 @@ export default function ConcretePage() {
           </section>
 
           <section className="py-10 xl:py-20">
-            <div className="mx-auto grid items-center gap-10 px-4 lg:grid-cols-2 lg:gap-16 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+            <div className="mx-auto grid max-w-[1240px] items-center gap-10 px-4 lg:grid-cols-2 lg:gap-16 xl:px-0 [@media(width=1280px)]:px-4">
               <div className="relative min-h-[340px] overflow-hidden sm:min-h-[480px]">
                 <Image
                   src="/images/concrete/3.jpeg"
-                  alt="Example of Warrior building base rails extending beyond an undersized slab"
+                  alt="Example of Top Goat building base rails extending beyond an undersized slab"
                   fill
                   className="rounded-4xl object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
-                <div className="absolute top-0 left-0 bg-[#9A1B1F] px-5 py-3 text-sm font-bold tracking-wide text-white uppercase">
+                <div className="absolute top-0 left-0 bg-[#d7aa22] px-5 py-3 text-sm font-bold tracking-wide text-white uppercase">
                   Avoid This Installation Problem
                 </div>
               </div>
@@ -451,7 +451,7 @@ export default function ConcretePage() {
                   An Undersized Slab Creates Major Problems
                 </p>
                 <h2 className="text-accent text-3xl leading-tight font-bold sm:text-4xl xl:text-5xl">
-                  The Entire Warrior Building Must Fit on the Foundation
+                  The Entire Top Goat Building Must Fit on the Foundation
                 </h2>
                 <p className="mt-6 text-base leading-8 xl:text-xl">
                   This example shows a concrete pad that does not match the building footprint.
@@ -465,11 +465,11 @@ export default function ConcretePage() {
                 </p>
 
                 <div className="mt-8 rounded-4xl bg-[#FCF8F8] p-6 xl:p-8">
-                  <h3 className="text-accent text-2xl font-bold">Warrior Foundation Checklist</h3>
+                  <h3 className="text-accent text-2xl font-bold">Top Goat Foundation Checklist</h3>
                   <ul className="mt-5 space-y-4">
                     {bestPractices.map((practice) => (
                       <li key={practice} className="flex gap-3 leading-7">
-                        <span className="mt-2.5 h-2 w-2 shrink-0 bg-[#9A1B1F]" />
+                        <span className="mt-2.5 h-2 w-2 shrink-0 bg-[#d7aa22]" />
                         {practice}
                       </li>
                     ))}
@@ -479,11 +479,11 @@ export default function ConcretePage() {
             </div>
           </section>
 
-          <section className="bg-[#9A1B1F] py-10 text-white xl:py-16">
-            <div className="mx-auto flex flex-col items-start justify-between gap-8 px-4 lg:flex-row lg:items-center xl:container xl:px-0 [@media(width=1280px)]:px-4">
+          <section className="bg-[#d7aa22] py-10 text-white xl:py-16">
+            <div className="mx-auto flex max-w-[1240px] flex-col items-start justify-between gap-8 px-4 lg:flex-row lg:items-center xl:px-0 [@media(width=1280px)]:px-4">
               <div>
                 <p className="text-sm font-bold tracking-[0.18em] text-white/70 uppercase">
-                  Plan Plan the Foundation First
+                  Plan the Foundation First
                 </p>
                 <h2 className="mt-3 text-3xl font-bold sm:text-4xl xl:text-5xl">
                   Review Your Foundation Details With Top Goat Metal Structures
@@ -500,13 +500,13 @@ export default function ConcretePage() {
                   href="/contact-us"
                   className="inline-flex min-h-12 items-center justify-center rounded-4xl bg-white px-7 py-3 font-bold text-[#2C2B29] transition hover:bg-[#2C2B29] hover:text-white"
                 >
-                  Get Your Warrior Building Quote
+                  Get Your Top Goat Building Quote
                 </Link>
                 <a
-                  href="tel:8885760565"
+                  href="tel:tel:+13365093443"
                   className="inline-flex min-h-12 items-center justify-center rounded-4xl border-2 border-white px-7 py-3 font-bold text-white transition hover:bg-white hover:text-[#2C2B29]"
                 >
-                  Speak With Top Goat Metal Structures
+                  Call Top Goat
                 </a>
               </div>
             </div>

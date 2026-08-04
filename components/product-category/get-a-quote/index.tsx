@@ -1,5 +1,6 @@
 'use client';
-import { QuoteForm, RichText } from '@/components/shared';
+// import { QuoteForm, RichText } from '@/components/shared';
+import { QuoteForm } from '@/components/shared';
 import { FC } from 'react';
 import parse from 'html-react-parser';
 import { cn } from '@/lib/utils';
@@ -9,7 +10,9 @@ const GetAQuote: FC<{
   description?: string;
   highlight?: string;
   isReversed?: boolean;
-}> = ({ title, description, highlight, isReversed = false }) => {
+}> = ({ title, highlight, isReversed = false }) => {
+  // description,
+  // description,
   return (
     <div className="mx-auto max-w-7xl px-4 xl:px-0 [@media(width=1280px)]:px-4">
       <h1 className="pb-4 text-center text-[32px] font-bold lg:text-6xl">
@@ -21,8 +24,8 @@ const GetAQuote: FC<{
           isReversed && 'flex-col-reverse',
         )}
       >
-        <div className="rounded-3xl border-[10px] border-[#E9E9EA99] shadow-[4px,4px,12px,0px,#0000001A]">
-          <div className="rounded-3xl bg-white p-4">
+        {/* <div className="rounded-[15px] border-[10px] border-[#E9E9EA99] shadow-[4px,4px,12px,0px,#0000001A]">
+          <div className="rounded-[15px] bg-white p-4">
             <div className="flex h-[242px] items-center justify-center rounded-[40px] bg-[#FCF8F8] lg:h-[329px]">
               <video
                 autoPlay
@@ -40,10 +43,10 @@ const GetAQuote: FC<{
               <RichText html={description || ''} />
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="rounded-3xl border-[10px] border-[#E9E9EA99] shadow-[4px,4px,12px,0px,#0000001A]">
-          <div className="rounded-3xl bg-white p-4 py-6">
+        <div className="rounded-[15px] border-[3px] border-[var(--accent)]">
+          <div className="rounded-[15px] bg-white p-4 py-6">
             <h1 className="pb-4 text-center text-[32px] font-bold text-black uppercase">
               Get a Quote
             </h1>

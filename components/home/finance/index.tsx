@@ -62,10 +62,10 @@ export default function Finance() {
             </Link>
 
             <a
-              href="tel:+18884662842"
+              href="tel:tel:+13365093443"
               className="font-oswald inline-flex min-h-[58px] items-center justify-center rounded-[10px] border border-[#d9a225] px-8 text-sm font-bold tracking-[0.04em] text-[#e5b43f] uppercase transition duration-300 hover:-translate-y-1 hover:bg-[#d9a225] hover:text-[#171109]"
             >
-              Call (888) 466-2842
+              Call (336) 509-3443
             </a>
           </div>
         </div>

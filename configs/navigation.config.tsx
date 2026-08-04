@@ -1,15 +1,15 @@
 export const TELEPHONE_NUMBER = {
-  formatted: '(888) 466-2842',
-  href: 'tel:+18884662842',
+  formatted: '(336) 509-3443',
+  href: 'tel:+13365093443',
 };
 
 export const EMAIL_ADDRESS = {
-  formatted: 'info@warriorbuildings.com',
-  href: 'mailto:info@warriorbuildings.com',
+  formatted: 'topgoatmetalstructures@gmail.com',
+  href: 'mailto:topgoatmetalstructures@gmail.com',
 };
 
 // export const ADDRESS = '317 W Atkins St. Dobson, NC 27017';
-export const ADDRESS = '447 N Andy Griffith Pkwy, Mt Airy, NC 27030, USA';
+export const ADDRESS = 'Mount Airy, North Carolina 27030';
 export const ADDRESS_HREF =
   'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(ADDRESS);
 
@@ -88,9 +88,9 @@ export const NAV_ITEMS: NavItemType[] = [
             icon: 'carport',
           },
           {
-            label: 'RV Covers',
-            href: '/rv-covers',
-            description: 'Tall covers & enclosed RV garages',
+            label: 'RV Garages',
+            href: '/rv-garages',
+            description: 'Enclosed garages for RV protection',
             icon: 'rv',
           },
         ],
@@ -112,7 +112,7 @@ export const NAV_ITEMS: NavItemType[] = [
           },
           {
             label: 'Commercial',
-            href: '/commercial-buildings',
+            href: '/commercial',
             description: 'Workshops & clear-span steel',
             icon: 'commercial',
           },
@@ -144,7 +144,7 @@ export const NAV_ITEMS: NavItemType[] = [
         links: [
           {
             label: 'Free Quote',
-            href: '/get-a-quote',
+            href: '/free-quote',
           },
           {
             label: 'Service Area',
@@ -156,7 +156,7 @@ export const NAV_ITEMS: NavItemType[] = [
           },
           {
             label: 'Building Components',
-            href: '/building-components',
+            href: '/components',
           },
           {
             label: "FAQ'S",
@@ -177,7 +177,7 @@ export const DISABLE_ANIMATIONS = false;
 export const MAIN_CATEGORY_SLUGS = ['garages', 'barns', 'rvs', 'commercials', 'carports'];
 
 export const METAL_3D_LINK =
-  'https://design.warriorbuildings.com/?_gl=1*1bjcq1n*_gcl_au*MjExNjc5MzcyMS4xNzYzNTc2MjQ2';
+  'https://design.topgoatmetalstructures.com/?_gl=1*1bjcq1n*_gcl_au*MjExNjc5MzcyMS4xNzYzNTc2MjQ2';
 
 export const TOP_MENUS: NavItemType[] = [
   {
@@ -190,17 +190,17 @@ export const TOP_MENUS: NavItemType[] = [
   },
 ];
 
-export const FACEBOOK_LINK = 'https://www.facebook.com/warriorbuildings/';
+export const FACEBOOK_LINK = 'https://www.facebook.com/profile.php?id=61572160021161';
 
-export const INSTAGRAM_LINK = 'https://www.instagram.com/warriorbuildings';
+// export const INSTAGRAM_LINK = 'https://www.instagram.com/warriorbuildings';
 
-export const YOUTUBE_LINK = 'https://www.youtube.com/channel/UCVpBQgVFRu-lJME9TVP9x2g';
+// export const YOUTUBE_LINK = 'https://www.youtube.com/channel/UCVpBQgVFRu-lJME9TVP9x2g';
 
-export const TIKTOK_LINK = 'https://www.tiktok.com/@warriorbuildings.nc';
+// export const TIKTOK_LINK = 'https://www.tiktok.com/@warriorbuildings.nc';
 
-export const LINKEDIN_LINK = 'https://www.linkedin.com/company/warrior-buildings';
+// export const LINKEDIN_LINK = 'https://www.linkedin.com/company/warrior-buildings';
 
-export const TWITTER_LINK = 'https://x.com';
+// export const TWITTER_LINK = 'https://x.com';
 
 export const states = [
   // 'Arizona',
@@ -346,7 +346,7 @@ export const stateDetails = [
           id: '3',
           header: 'Do You Charge Extra for Delivery and Installation?',
           content:
-            "<div class='et_pb_toggle_content clearfix'><p>No, the cost of delivery and installation is included in the price of our <a href='https://www.warriorbuildings.com/metal-buildings/'>certified metal buildings</a>. We ensure hassle-free setup without hidden fees.</p></div>",
+            "<div class='et_pb_toggle_content clearfix'><p>No, the cost of delivery and installation is included in the price of our <a href='https://www.topgoatmetalstructures.com/metal-buildings/'>certified metal buildings</a>. We ensure hassle-free setup without hidden fees.</p></div>",
         },
         {
           id: '4',
@@ -387,42 +387,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/arkansas/',
-          url: 'https://www.warriorbuildings.com/service-area/arkansas/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/arkansas/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/arkansas/',
           name: 'Metal Buildings Arkansas - Certified Garages, Barns and Carports',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:53+00:00',
           dateModified: '2024-12-26T09:46:33+00:00',
           description:
             'Get right metal building installation in Arkansas for your needs. Our range of carports, garages, barns, rv carports and commercial steel structure can helpful for all weather condition of AR.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/arkansas/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/arkansas/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/arkansas/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/arkansas/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/arkansas/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/arkansas/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -433,19 +433,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -458,23 +458,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -524,13 +524,13 @@ export const stateDetails = [
           id: '4',
           header: 'Do I need to pay extra for Installation?',
           content:
-            'No way! Installation is included in the price of your <a href="https://www.warriorbuildings.com/metal-buildings/">certified metal building</a>. We believe in offering a seamless, all-in-one experience for our customers from start to finish.',
+            'No way! Installation is included in the price of your <a href="https://www.topgoatmetalstructures.com/metal-buildings/">certified metal building</a>. We believe in offering a seamless, all-in-one experience for our customers from start to finish.',
         },
         {
           id: '5',
           header: 'What Warranties Do You Provide for Metal Buildings?',
           content:
-            'We stand behind the quality of our products and back them with industry-leading <a href="https://www.warriorbuildings.com/warranties/">warranties and craftsmanship guarantees</a>. These warranties cover the framing, paneling, and installation, so you can rest easy knowing you made a wise investment.',
+            'We stand behind the quality of our products and back them with industry-leading <a href="https://www.topgoatmetalstructures.com/warranties/">warranties and craftsmanship guarantees</a>. These warranties cover the framing, paneling, and installation, so you can rest easy knowing you made a wise investment.',
         },
       ],
     },
@@ -559,42 +559,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/california/',
-          url: 'https://www.warriorbuildings.com/service-area/california/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/california/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/california/',
           name: "Metal Buildings California - Built for CA's Tough Weather",
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:53+00:00',
           dateModified: '2025-03-20T09:29:14+00:00',
           description:
             'Top Goat Metal Structures offers high-quality metal buildings in California, CA. Our steel structure kits hold up against rain, winds, snow, and other seismic activity.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/california/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/california/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/california/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/california/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/california/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/california/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -605,19 +605,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -630,23 +630,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -696,7 +696,7 @@ export const stateDetails = [
           id: '4',
           header: 'Do You Provide RTO and Financing Services in Florida?',
           content:
-            'We offer <a href="https://www.warriorbuildings.com/rent-to-own-metal-buildings/">rent-to-own</a> (RTO) for select structures and <a href="https://www.warriorbuildings.com/metal-building-financing/">financing</a> options for metal buildings in Florida. These flexible payment plans make it easier to own the metal building you need without impacting your wallet.',
+            'We offer <a href="https://www.topgoatmetalstructures.com/rent-to-own-metal-buildings/">rent-to-own</a> (RTO) for select structures and <a href="https://www.topgoatmetalstructures.com/metal-building-financing/">financing</a> options for metal buildings in Florida. These flexible payment plans make it easier to own the metal building you need without impacting your wallet.',
         },
         {
           id: '5',
@@ -731,42 +731,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/florida/',
-          url: 'https://www.warriorbuildings.com/service-area/florida/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/florida/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/florida/',
           name: 'Metal Buildings Florida - Certified Steel Structure Kits in FL',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:53+00:00',
           dateModified: '2024-12-26T09:49:59+00:00',
           description:
             'Made with premium steel components, our metal buildings offer the highest strength to hold up against the harsh weather of Florida, FL. Check out our kits!',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/florida/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/florida/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/florida/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/florida/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/florida/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/florida/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -777,19 +777,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -802,23 +802,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -856,13 +856,13 @@ export const stateDetails = [
           id: '2',
           header: 'How Much Does a Metal Building Cost in Georgia?',
           content:
-            '<a href="https://www.warriorbuildings.com/metal-buildings/">Metal building prices</a> in Georgia vary based on size, customizations, and certifications, but typically start around $15-$30 per square foot.',
+            '<a href="https://www.topgoatmetalstructures.com/metal-buildings/">Metal building prices</a> in Georgia vary based on size, customizations, and certifications, but typically start around $15-$30 per square foot.',
         },
         {
           id: '3',
           header: 'What Are the Most Popular Sizes of Steel Buildings in Georgia?',
           content:
-            'Common sizes include 24×30 for <a href="https://www.warriorbuildings.com/metal-garages/two-car-garage/">two-car garages</a>, 30×50 for <a href="https://www.warriorbuildings.com/metal-buildings/workshop/">workshops</a>, and larger options like 40×60 <a href="https://www.warriorbuildings.com/metal-barns/">metal barns</a> for agricultural or commercial use. We can customize any size to fit your needs.',
+            'Common sizes include 24×30 for <a href="https://www.topgoatmetalstructures.com/metal-garages/two-car-garage/">two-car garages</a>, 30×50 for <a href="https://www.topgoatmetalstructures.com/metal-buildings/workshop/">workshops</a>, and larger options like 40×60 <a href="https://www.topgoatmetalstructures.com/metal-barns/">metal barns</a> for agricultural or commercial use. We can customize any size to fit your needs.',
         },
         {
           id: '4',
@@ -903,42 +903,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/georgia/',
-          url: 'https://www.warriorbuildings.com/service-area/georgia/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/georgia/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/georgia/',
           name: 'Metal Buildings Georgia - Carports, Garages & Barns for GA',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:53+00:00',
           dateModified: '2025-03-20T09:33:47+00:00',
           description:
             "Safeguard your vehicles, households, equipment with our metal buildings in Georgia. Our carports, garages, sheds and barns are built for GA's volatile climate.",
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/georgia/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/georgia/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/georgia/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/georgia/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/georgia/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/georgia/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -949,19 +949,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -974,23 +974,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1034,7 +1034,7 @@ export const stateDetails = [
           id: '3',
           header: 'What are the best types of metal buildings for extreme climates?',
           content:
-            '<a href="https://www.warriorbuildings.com/metal-buildings/">Steel buildings</a> with proper insulation, reinforced frameworks, and weather-resistant finishes are the ideal choice for extreme climates.',
+            '<a href="https://www.topgoatmetalstructures.com/metal-buildings/">Steel buildings</a> with proper insulation, reinforced frameworks, and weather-resistant finishes are the ideal choice for extreme climates.',
         },
         {
           id: '4',
@@ -1081,42 +1081,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/south-carolina/',
-          url: 'https://www.warriorbuildings.com/service-area/south-carolina/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/south-carolina/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/south-carolina/',
           name: 'Metal Buildings South Carolina, SC - Toughest Steel Structures',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:54+00:00',
           dateModified: '2025-03-20T10:17:43+00:00',
           description:
             "Rest easy with our metal buildings in South Carolina. Our steel structure kits are built for SC's nasty weather that can safeguard your cars and valuables.",
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/south-carolina/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/south-carolina/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/south-carolina/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/south-carolina/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/south-carolina/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/south-carolina/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -1127,19 +1127,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -1152,23 +1152,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1212,7 +1212,7 @@ export const stateDetails = [
           id: '3',
           header: 'What’s the Difference Between Certified and Non-Certified Metal Buildings?',
           content:
-            '<a href="https://www.warriorbuildings.com/metal-buildings/">Certified metal buildings</a> are designed to meet your local building codes and can withstand specific wind and snow loads. Non-certified buildings, on the other hand, are not engineered to meet code requirements and are typically used for temporary or less critical purposes.',
+            '<a href="https://www.topgoatmetalstructures.com/metal-buildings/">Certified metal buildings</a> are designed to meet your local building codes and can withstand specific wind and snow loads. Non-certified buildings, on the other hand, are not engineered to meet code requirements and are typically used for temporary or less critical purposes.',
         },
         {
           id: '4',
@@ -1259,42 +1259,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/louisiana/',
-          url: 'https://www.warriorbuildings.com/service-area/louisiana/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/louisiana/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/louisiana/',
           name: 'Metal Buildings Louisiana - Certified Structures for Bayou State',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:53+00:00',
           dateModified: '2024-12-26T10:03:50+00:00',
           description:
             'Buy certified metal buildings in Louisiana to keep your valuables and vehicles safe during adverse weather condition. Explore our garages, carports and barns.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/louisiana/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/louisiana/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/louisiana/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/louisiana/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/louisiana/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/louisiana/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -1305,19 +1305,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -1330,23 +1330,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1384,7 +1384,7 @@ export const stateDetails = [
           id: '2',
           header: 'Do You Install Metal Buildings Near Me in NC?',
           content:
-            'Absolutely! Top Goat Metal Structures installs <a href="https://www.warriorbuildings.com/metal-buildings/">steel buildings</a> all across North Carolina. No matter where in the Tarheel State you call home, we’ve got you covered.',
+            'Absolutely! Top Goat Metal Structures installs <a href="https://www.topgoatmetalstructures.com/metal-buildings/">steel buildings</a> all across North Carolina. No matter where in the Tarheel State you call home, we’ve got you covered.',
         },
         {
           id: '3',
@@ -1396,7 +1396,7 @@ export const stateDetails = [
           id: '4',
           header: 'Do You Provide RTO and Financing Services in North Carolina?',
           content:
-            'Yes, we offer flexible <a href="https://www.warriorbuildings.com/metal-building-financing/">financing options</a> and <a href="https://www.warriorbuildings.com/rent-to-own-metal-buildings/">Rent-to-Own</a> (RTO) plans to make your metal building investment more affordable. Our team can walk you through the available programs and help you find the best solution for your budget.',
+            'Yes, we offer flexible <a href="https://www.topgoatmetalstructures.com/metal-building-financing/">financing options</a> and <a href="https://www.topgoatmetalstructures.com/rent-to-own-metal-buildings/">Rent-to-Own</a> (RTO) plans to make your metal building investment more affordable. Our team can walk you through the available programs and help you find the best solution for your budget.',
         },
         {
           id: '5',
@@ -1435,42 +1435,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/north-carolina/',
-          url: 'https://www.warriorbuildings.com/service-area/north-carolina/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/north-carolina/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/north-carolina/',
           name: 'Metal Buildings North Carolina, NC - Quality Steel Structure Kits',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:54+00:00',
           dateModified: '2025-03-20T09:59:24+00:00',
           description:
             'Buy top notch quality steel built metal buildings in North Carolina, NC from Top Goat Metal Structures. Explore the carports, garages, barns and sheds range!',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/north-carolina/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/north-carolina/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/north-carolina/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/north-carolina/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/north-carolina/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/north-carolina/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -1481,19 +1481,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -1506,23 +1506,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1560,7 +1560,7 @@ export const stateDetails = [
           id: '2',
           header: 'What Are the Most Popular Building Sizes in Ohio?',
           content:
-            'In Ohio, popular metal building sizes include 30×40 for personal <a href="https://www.warriorbuildings.com/metal-garages/">garages</a>, 40×60 for <a href="https://www.warriorbuildings.com/metal-buildings/farm/">agricultural</a> use, and larger options like 50×100 for <a href="https://www.warriorbuildings.com/metal-buildings/commercial/">commercial</a> applications. Your choice will depend on your storage or operational needs.',
+            'In Ohio, popular metal building sizes include 30×40 for personal <a href="https://www.topgoatmetalstructures.com/metal-garages/">garages</a>, 40×60 for <a href="https://www.topgoatmetalstructures.com/metal-buildings/farm/">agricultural</a> use, and larger options like 50×100 for <a href="https://www.topgoatmetalstructures.com/metal-buildings/commercial/">commercial</a> applications. Your choice will depend on your storage or operational needs.',
         },
         {
           id: '3',
@@ -1572,7 +1572,7 @@ export const stateDetails = [
           id: '4',
           header: 'Do You Provide Metal Building Kits?',
           content:
-            'Yes! We offer <a href="https://www.warriorbuildings.com/metal-buildings/">metal building kits</a> that come with all the components needed for assembly. However, we also provide free delivery and installation with every purchase, so you don’t have to worry about hiring third-party contractors.',
+            'Yes! We offer <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal building kits</a> that come with all the components needed for assembly. However, we also provide free delivery and installation with every purchase, so you don’t have to worry about hiring third-party contractors.',
         },
         {
           id: '5',
@@ -1611,42 +1611,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/ohio/',
-          url: 'https://www.warriorbuildings.com/service-area/ohio/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/ohio/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/ohio/',
           name: 'Metal Buildings Ohio, OH - Engineered for Adverse Weather',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:54+00:00',
           dateModified: '2024-12-26T10:14:37+00:00',
           description:
             'Buy strong and pre engineered metal buildings in Ohio for all purpose. Get exclusive deals on carports, garages, barns and sheds in OH.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/ohio/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/ohio/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/ohio/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/ohio/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/ohio/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/ohio/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -1657,19 +1657,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -1682,23 +1682,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1714,7 +1714,7 @@ export const stateDetails = [
           With frigid temperatures and heavy snow accumulation in the winters, it pays for Pennsylvania residents to invest in heavy duty infrastructure to protect their things. Whether you’re storing the family car or housing supplies and equipment, metal buildings from Warrior in Pennsylvania are a great solution to this need.
         </p>
         <p>
-          These structures are crafted with high-grade steel components, and engineered to handle any project you have in mind. Use them for residential projects, agriculture, or even commercial purposes. The only limits with a Warrior building are your budget and your imagination.
+          These structures are crafted with high-grade steel components, and engineered to handle any project you have in mind. Use them for residential projects, agriculture, or even commercial purposes. The only limits with a Top Goat Building are your budget and your imagination.
         </p>
       </div>
     `,
@@ -1754,7 +1754,7 @@ export const stateDetails = [
           id: '5',
           header: 'How Long Does a Metal Building Last Compared to a Wood Structure?',
           content:
-            '<a href="https://www.warriorbuildings.com/metal-buildings/">Metal buildings</a> are durable, and with proper maintenance, they can last 50 years or more. Wooden structures, however, will need repeated maintenance and will offer a shorter lifespan.',
+            '<a href="https://www.topgoatmetalstructures.com/metal-buildings/">Metal buildings</a> are durable, and with proper maintenance, they can last 50 years or more. Wooden structures, however, will need repeated maintenance and will offer a shorter lifespan.',
         },
       ],
     },
@@ -1787,42 +1787,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/pennsylvania/',
-          url: 'https://www.warriorbuildings.com/service-area/pennsylvania/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/pennsylvania/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/pennsylvania/',
           name: 'Metal Buildings Pennsylvania - Budget Friendly Steel Structure Kits',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:54+00:00',
           dateModified: '2024-12-26T10:19:33+00:00',
           description:
             'Choose Top Goat Metal Structures to secure your valuables in Pennsylvania. Our metal buildings are budget friendly and built with top quality steel. Get a quote today!',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/pennsylvania/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/pennsylvania/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/pennsylvania/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/pennsylvania/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/pennsylvania/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/pennsylvania/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -1833,19 +1833,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -1858,23 +1858,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -1890,7 +1890,7 @@ export const stateDetails = [
           Living in Tennessee comes with a wide range of advantages– close proximity to nature, wonderful views, and historical sites. But it’s also home to some pretty volatile weather. That’s why it pays to have the right infrastructure. For that, Top Goat Metal Structures has you covered.
         </p>
         <p>
-          Our metal buildings in Tennessee are built from heavy-duty steel components, customized to suit your needs, and delivered to your doorstep at no added cost to you. So, whether you’re housing the family car, protecting ATVs and recreational equipment, or creating an organized workspace, you’re in good hands with a Warrior building.
+          Our metal buildings in Tennessee are built from heavy-duty steel components, customized to suit your needs, and delivered to your doorstep at no added cost to you. So, whether you’re housing the family car, protecting ATVs and recreational equipment, or creating an organized workspace, you’re in good hands with a Top Goat Building.
         </p>
       </div>
     `,
@@ -1923,7 +1923,7 @@ export const stateDetails = [
           id: '4',
           header: 'Do I need to get a permit for metal building installation?',
           content:
-            'Yes, most places require a permit for <a href="https://www.warriorbuildings.com/metal-building-installation/">installing a metal building</a>. But don’t stress—your local building office can guide you on what’s needed, and our experts are there with you from beginning to end, so you don’t have to tackle it alone.',
+            'Yes, most places require a permit for <a href="https://www.topgoatmetalstructures.com/metal-building-installation/">installing a metal building</a>. But don’t stress—your local building office can guide you on what’s needed, and our experts are there with you from beginning to end, so you don’t have to tackle it alone.',
         },
         {
           id: '5',
@@ -1962,42 +1962,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/tennessee/',
-          url: 'https://www.warriorbuildings.com/service-area/tennessee/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/tennessee/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/tennessee/',
           name: 'Metal Buildings Tennessee - Built for Volatile Weather',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:21:42+00:00',
           description:
             'Top Goat Metal Structures offers metal buildings in Tennessee to combat against their Volatile weather. Get a free delivery and installation today at your doorstep.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/tennessee/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/tennessee/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/tennessee/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/tennessee/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/tennessee/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/tennessee/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -2008,19 +2008,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -2033,23 +2033,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -2081,7 +2081,7 @@ export const stateDetails = [
           id: '1',
           header: 'What are certified buildings?',
           content:
-            '<a href="https://www.warriorbuildings.com/metal-buildings/">Certified buildings</a> are all about giving you peace of mind. They’re engineered to meet your local building codes for wind, snow, and seismic activity. So, no matter how you use them in the Lonestar State, they’re up for the job.',
+            '<a href="https://www.topgoatmetalstructures.com/metal-buildings/">Certified buildings</a> are all about giving you peace of mind. They’re engineered to meet your local building codes for wind, snow, and seismic activity. So, no matter how you use them in the Lonestar State, they’re up for the job.',
         },
         {
           id: '2',
@@ -2138,42 +2138,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/texas/',
-          url: 'https://www.warriorbuildings.com/service-area/texas/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/texas/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/texas/',
           name: 'Metal Buildings Texas, TX - Engineered to Stand for Decades',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:22:42+00:00',
           description:
             'Our metal buildings in Texas are built and engineered to stand for years against bad weather of TX. Explore carports, garages, barns and sheds options.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/texas/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/texas/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/texas/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/texas/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/texas/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/texas/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -2184,19 +2184,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -2209,23 +2209,23 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.www.warriorbuildings.com/images/logo.png',
-            contentUrl: 'https://www.www.warriorbuildings.com/images/logo.png',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.www.topgoatmetalstructures.com/images/logo.png',
+            contentUrl: 'https://www.www.topgoatmetalstructures.com/images/logo.png',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -2275,7 +2275,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and tornado conditions?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are tested and certified to hold up to the average wind, snow, and seismic forces in a given region. So, while no building is safe for tornado-scale winds, our structures are your best choice for the job.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are tested and certified to hold up to the average wind, snow, and seismic forces in a given region. So, while no building is safe for tornado-scale winds, our structures are your best choice for the job.',
         },
         {
           id: '5',
@@ -2314,42 +2314,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/virginia/',
-          url: 'https://www.warriorbuildings.com/service-area/virginia/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/virginia/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/virginia/',
           name: 'Metal Buildings Virginia - Customizable and Built Tough for VA',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             "Top Goat Metal Structures is here for you to provide top class metal buildings in Virginia. Our steel structure kits are customizable and built tough for VA's residents.",
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/virginia/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/virginia/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/virginia/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/virginia/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/virginia/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/virginia/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -2360,19 +2360,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -2385,23 +2385,24 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.www.warriorbuildings.com/wp-content/uploads/2024/11/logo.webp',
-            contentUrl: 'https://www.www.warriorbuildings.com/wp-content/uploads/2024/11/logo.webp',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.www.topgoatmetalstructures.com/wp-content/uploads/2024/11/logo.webp',
+            contentUrl:
+              'https://www.www.topgoatmetalstructures.com/wp-content/uploads/2024/11/logo.webp',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -2452,7 +2453,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and tornado conditions?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are tested and certified to hold up to the average wind, snow, and seismic forces in a given region. So, while no building is safe for tornado-scale winds, our structures are your best choice for the job.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are tested and certified to hold up to the average wind, snow, and seismic forces in a given region. So, while no building is safe for tornado-scale winds, our structures are your best choice for the job.',
         },
         {
           id: '5',
@@ -2491,42 +2492,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/virginia/',
-          url: 'https://www.warriorbuildings.com/service-area/virginia/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/virginia/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/virginia/',
           name: 'Metal Buildings Virginia - Customizable and Built Tough for VA',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             "Top Goat Metal Structures is here for you to provide top class metal buildings in Virginia. Our steel structure kits are customizable and built tough for VA's residents.",
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/arizona/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/arizona/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/arizona/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/arizona/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/arizona/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/arizona/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -2537,19 +2538,19 @@ export const stateDetails = [
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://www.warriorbuildings.com/#website',
-          url: 'https://www.warriorbuildings.com/',
+          '@id': 'https://www.topgoatmetalstructures.com/#website',
+          url: 'https://www.topgoatmetalstructures.com/',
           name: 'Top Goat Metal Structures',
           description: 'The best in the industry',
           publisher: {
-            '@id': 'https://www.warriorbuildings.com/#organization',
+            '@id': 'https://www.topgoatmetalstructures.com/#organization',
           },
           potentialAction: [
             {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+                urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
               },
               'query-input': {
                 '@type': 'PropertyValueSpecification',
@@ -2562,23 +2563,24 @@ export const stateDetails = [
         },
         {
           '@type': 'Organization',
-          '@id': 'https://www.warriorbuildings.com/#organization',
+          '@id': 'https://www.topgoatmetalstructures.com/#organization',
           name: 'Top Goat Metal Structures',
-          url: 'https://www.warriorbuildings.com/',
+          url: 'https://www.topgoatmetalstructures.com/',
           logo: {
             '@type': 'ImageObject',
             inLanguage: 'en-US',
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-            url: 'https://www.www.warriorbuildings.com/wp-content/uploads/2024/11/logo.webp',
-            contentUrl: 'https://www.www.warriorbuildings.com/wp-content/uploads/2024/11/logo.webp',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+            url: 'https://www.www.topgoatmetalstructures.com/wp-content/uploads/2024/11/logo.webp',
+            contentUrl:
+              'https://www.www.topgoatmetalstructures.com/wp-content/uploads/2024/11/logo.webp',
             width: 198,
             height: 180,
             caption: 'Top Goat Metal Structures',
           },
           image: {
-            '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+            '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
           },
-          sameAs: ['https://www.facebook.com/warriorbuildings/'],
+          sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
         },
       ],
     },
@@ -2628,7 +2630,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Illinois codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Illinois codes.',
         },
         {
           id: '5',
@@ -2667,42 +2669,42 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/illinois/',
-          url: 'https://www.warriorbuildings.com/service-area/illinois/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/illinois/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/illinois/',
           name: 'Metal Buildings Illinois - Customizable and Built Tough for IL',
           isPartOf: {
-            '@id': 'https://www.warriorbuildings.com/#website',
+            '@id': 'https://www.topgoatmetalstructures.com/#website',
           },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Illinois. Our steel structure kits are customizable and engineered tough for IL residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/illinois/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/illinois/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/illinois/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/illinois/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/illinois/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/illinois/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -2759,7 +2761,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Indiana codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Indiana codes.',
         },
         {
           id: '5',
@@ -2798,40 +2800,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/indiana/',
-          url: 'https://www.warriorbuildings.com/service-area/indiana/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/indiana/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/indiana/',
           name: 'Metal Buildings Indiana - Customizable and Built Tough for IN',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Indiana. Our steel structure kits are customizable and engineered tough for IN residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/indiana/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/indiana/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/indiana/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/indiana/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/indiana/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/indiana/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Indiana' },
           ],
@@ -2885,7 +2887,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Kansas codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Kansas codes.',
         },
         {
           id: '5',
@@ -2924,38 +2926,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/kansas/',
-          url: 'https://www.warriorbuildings.com/service-area/kansas/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/kansas/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/kansas/',
           name: 'Metal Buildings Kansas - Customizable and Built Tough for KS',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Kansas. Our steel structure kits are customizable and engineered tough for KS residents.',
-          breadcrumb: { '@id': 'https://www.warriorbuildings.com/service-area/kansas/#breadcrumb' },
+          breadcrumb: {
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/kansas/#breadcrumb',
+          },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/kansas/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/kansas/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/kansas/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/kansas/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Kansas' },
           ],
@@ -3009,7 +3013,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Kentucky codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Kentucky codes.',
         },
         {
           id: '5',
@@ -3048,40 +3052,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/kentucky/',
-          url: 'https://www.warriorbuildings.com/service-area/kentucky/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/kentucky/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/kentucky/',
           name: 'Metal Buildings Kentucky - Customizable and Built Tough for KY',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Kentucky. Our steel structure kits are customizable and engineered tough for KY residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/kentucky/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/kentucky/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/kentucky/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/kentucky/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/kentucky/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/kentucky/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Kentucky' },
           ],
@@ -3135,7 +3139,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Maryland codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Maryland codes.',
         },
         {
           id: '5',
@@ -3174,40 +3178,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/maryland/',
-          url: 'https://www.warriorbuildings.com/service-area/maryland/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/maryland/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/maryland/',
           name: 'Metal Buildings Maryland - Customizable and Built Tough for MD',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Maryland. Our steel structure kits are customizable and engineered tough for MD residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/maryland/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/maryland/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/maryland/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/maryland/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/maryland/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/maryland/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Maryland' },
           ],
@@ -3261,7 +3265,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Michigan codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Michigan codes.',
         },
         {
           id: '5',
@@ -3300,40 +3304,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/michigan/',
-          url: 'https://www.warriorbuildings.com/service-area/michigan/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/michigan/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/michigan/',
           name: 'Metal Buildings Michigan - Customizable and Built Tough for MI',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Michigan. Our steel structure kits are customizable and engineered tough for MI residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/michigan/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/michigan/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/michigan/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/michigan/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/michigan/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/michigan/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Michigan' },
           ],
@@ -3387,7 +3391,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Mississippi codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Mississippi codes.',
         },
         {
           id: '5',
@@ -3426,40 +3430,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/mississippi/',
-          url: 'https://www.warriorbuildings.com/service-area/mississippi/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/mississippi/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/mississippi/',
           name: 'Metal Buildings Mississippi - Customizable and Built Tough for MS',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Mississippi. Our steel structure kits are customizable and engineered tough for MS residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/mississippi/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/mississippi/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/mississippi/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/mississippi/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/mississippi/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/mississippi/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Mississippi' },
           ],
@@ -3513,7 +3517,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed New Mexico codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed New Mexico codes.',
         },
         {
           id: '5',
@@ -3552,40 +3556,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/new-mexico/',
-          url: 'https://www.warriorbuildings.com/service-area/new-mexico/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/new-mexico/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/new-mexico/',
           name: 'Metal Buildings New Mexico - Customizable and Built Tough for NM',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in New Mexico. Our steel structure kits are customizable and engineered tough for NM residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/new-mexico/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/new-mexico/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/new-mexico/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/new-mexico/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/new-mexico/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/new-mexico/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'New Mexico' },
           ],
@@ -3639,7 +3643,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed New York codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed New York codes.',
         },
         {
           id: '5',
@@ -3678,40 +3682,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/new-york/',
-          url: 'https://www.warriorbuildings.com/service-area/new-york/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/new-york/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/new-york/',
           name: 'Metal Buildings New York - Customizable and Built Tough for NY',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in New York. Our steel structure kits are customizable and engineered tough for NY residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/new-york/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/new-york/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/new-york/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/new-york/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/new-york/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/new-york/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'New York' },
           ],
@@ -3765,7 +3769,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Oregon codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Oregon codes.',
         },
         {
           id: '5',
@@ -3804,38 +3808,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/oregon/',
-          url: 'https://www.warriorbuildings.com/service-area/oregon/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/oregon/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/oregon/',
           name: 'Metal Buildings Oregon - Customizable and Built Tough for OR',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Oregon. Our steel structure kits are customizable and engineered tough for OR residents.',
-          breadcrumb: { '@id': 'https://www.warriorbuildings.com/service-area/oregon/#breadcrumb' },
+          breadcrumb: {
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/oregon/#breadcrumb',
+          },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/oregon/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/oregon/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/oregon/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/oregon/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Oregon' },
           ],
@@ -3889,7 +3895,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Washington codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Washington codes.',
         },
         {
           id: '5',
@@ -3928,40 +3934,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/washington/',
-          url: 'https://www.warriorbuildings.com/service-area/washington/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/washington/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/washington/',
           name: 'Metal Buildings Washington - Customizable and Built Tough for WA',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Washington. Our steel structure kits are customizable and engineered tough for WA residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/washington/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/washington/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/washington/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/washington/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/washington/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/washington/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Washington' },
           ],
@@ -4015,7 +4021,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed West Virginia codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed West Virginia codes.',
         },
         {
           id: '5',
@@ -4054,40 +4060,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/west-virginia/',
-          url: 'https://www.warriorbuildings.com/service-area/west-virginia/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/west-virginia/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/west-virginia/',
           name: 'Metal Buildings West Virginia - Customizable and Built Tough for WV',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in West Virginia. Our steel structure kits are customizable and engineered tough for WV residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/west-virginia/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/west-virginia/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/west-virginia/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/west-virginia/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/west-virginia/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/west-virginia/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'West Virginia' },
           ],
@@ -4141,7 +4147,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Alabama codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Alabama codes.',
         },
         {
           id: '5',
@@ -4180,40 +4186,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/alabama/',
-          url: 'https://www.warriorbuildings.com/service-area/alabama/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/alabama/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/alabama/',
           name: 'Metal Buildings Alabama - Customizable and Built Tough for AL',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Alabama. Our steel structure kits are customizable and engineered tough for AL residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/alabama/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/alabama/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/alabama/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/alabama/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/alabama/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/alabama/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Alabama' },
           ],
@@ -4267,7 +4273,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Alaska codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Alaska codes.',
         },
         {
           id: '5',
@@ -4306,40 +4312,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/alaska/',
-          url: 'https://www.warriorbuildings.com/service-area/alaska/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/alaska/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/alaska/',
           name: 'Metal Buildings Alaska - Customizable and Built Tough for AK',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Alaska. Our steel structure kits are customizable and engineered tough for AK residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/alaska/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/alaska/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/alaska/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/alaska/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/alaska/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/alaska/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Alaska' },
           ],
@@ -4393,7 +4399,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Colorado codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Colorado codes.',
         },
         {
           id: '5',
@@ -4432,40 +4438,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/colorado/',
-          url: 'https://www.warriorbuildings.com/service-area/colorado/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/colorado/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/colorado/',
           name: 'Metal Buildings Colorado - Customizable and Built Tough for CO',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Colorado. Our steel structure kits are customizable and engineered tough for CO residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/colorado/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/colorado/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/colorado/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/colorado/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/colorado/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/colorado/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Colorado' },
           ],
@@ -4519,7 +4525,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Connecticut codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Connecticut codes.',
         },
         {
           id: '5',
@@ -4558,40 +4564,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/connecticut/',
-          url: 'https://www.warriorbuildings.com/service-area/connecticut/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/connecticut/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/connecticut/',
           name: 'Metal Buildings Connecticut - Customizable and Built Tough for CT',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Connecticut. Our steel structure kits are customizable and engineered tough for CT residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/connecticut/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/connecticut/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/connecticut/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/connecticut/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/connecticut/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/connecticut/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Connecticut' },
           ],
@@ -4645,7 +4651,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Delaware codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Delaware codes.',
         },
         {
           id: '5',
@@ -4684,40 +4690,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/delaware/',
-          url: 'https://www.warriorbuildings.com/service-area/delaware/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/delaware/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/delaware/',
           name: 'Metal Buildings Delaware - Customizable and Built Tough for DE',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Delaware. Our steel structure kits are customizable and engineered tough for DE residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/delaware/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/delaware/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/delaware/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/delaware/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/delaware/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/delaware/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Delaware' },
           ],
@@ -4771,7 +4777,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Hawaii codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Hawaii codes.',
         },
         {
           id: '5',
@@ -4810,40 +4816,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/hawaii/',
-          url: 'https://www.warriorbuildings.com/service-area/hawaii/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/hawaii/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/hawaii/',
           name: 'Metal Buildings Hawaii - Customizable and Built Tough for HI',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Hawaii. Our steel structure kits are customizable and engineered tough for HI residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/hawaii/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/hawaii/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/hawaii/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/hawaii/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/hawaii/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/hawaii/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Hawaii' },
           ],
@@ -4897,7 +4903,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Iowa codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Iowa codes.',
         },
         {
           id: '5',
@@ -4936,38 +4942,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/iowa/',
-          url: 'https://www.warriorbuildings.com/service-area/iowa/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/iowa/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/iowa/',
           name: 'Metal Buildings Iowa - Customizable and Built Tough for IA',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Iowa. Our steel structure kits are customizable and engineered tough for IA residents.',
-          breadcrumb: { '@id': 'https://www.warriorbuildings.com/service-area/iowa/#breadcrumb' },
+          breadcrumb: {
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/iowa/#breadcrumb',
+          },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/iowa/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/iowa/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/iowa/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/iowa/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Iowa' },
           ],
@@ -5021,7 +5029,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Maine codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Maine codes.',
         },
         {
           id: '5',
@@ -5060,38 +5068,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/maine/',
-          url: 'https://www.warriorbuildings.com/service-area/maine/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/maine/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/maine/',
           name: 'Metal Buildings Maine - Customizable and Built Tough for ME',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Maine. Our steel structure kits are customizable and engineered tough for ME residents.',
-          breadcrumb: { '@id': 'https://www.warriorbuildings.com/service-area/maine/#breadcrumb' },
+          breadcrumb: {
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/maine/#breadcrumb',
+          },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/maine/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/maine/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/maine/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/maine/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Maine' },
           ],
@@ -5145,7 +5155,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Massachusetts codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Massachusetts codes.',
         },
         {
           id: '5',
@@ -5184,40 +5194,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/massachusetts/',
-          url: 'https://www.warriorbuildings.com/service-area/massachusetts/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/massachusetts/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/massachusetts/',
           name: 'Metal Buildings Massachusetts - Customizable and Built Tough for MA',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Massachusetts. Our steel structure kits are customizable and engineered tough for MA residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/massachusetts/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/massachusetts/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/massachusetts/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/massachusetts/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/massachusetts/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/massachusetts/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Massachusetts' },
           ],
@@ -5271,7 +5281,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Missouri codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Missouri codes.',
         },
         {
           id: '5',
@@ -5310,40 +5320,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/missouri/',
-          url: 'https://www.warriorbuildings.com/service-area/missouri/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/missouri/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/missouri/',
           name: 'Metal Buildings Missouri - Customizable and Built Tough for MO',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Missouri. Our steel structure kits are customizable and engineered tough for MO residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/missouri/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/missouri/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/missouri/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/missouri/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/missouri/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/missouri/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Missouri' },
           ],
@@ -5397,7 +5407,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed New Hampshire codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed New Hampshire codes.',
         },
         {
           id: '5',
@@ -5436,40 +5446,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/new-hampshire/',
-          url: 'https://www.warriorbuildings.com/service-area/new-hampshire/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/new-hampshire/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/new-hampshire/',
           name: 'Metal Buildings New Hampshire - Customizable and Built Tough for NH',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in New Hampshire. Our steel structure kits are customizable and engineered tough for NH residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/new-hampshire/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/new-hampshire/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/new-hampshire/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/new-hampshire/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/new-hampshire/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/new-hampshire/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'New Hampshire' },
           ],
@@ -5523,7 +5533,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed New Jersey codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed New Jersey codes.',
         },
         {
           id: '5',
@@ -5562,40 +5572,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/new-jersey/',
-          url: 'https://www.warriorbuildings.com/service-area/new-jersey/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/new-jersey/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/new-jersey/',
           name: 'Metal Buildings New Jersey - Customizable and Built Tough for NJ',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in New Jersey. Our steel structure kits are customizable and engineered tough for NJ residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/new-jersey/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/new-jersey/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/new-jersey/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/new-jersey/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/new-jersey/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/new-jersey/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             {
               '@type': 'ListItem',
@@ -5653,7 +5663,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Oklahoma codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Oklahoma codes.',
         },
         {
           id: '5',
@@ -5692,40 +5702,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/oklahoma/',
-          url: 'https://www.warriorbuildings.com/service-area/oklahoma/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/oklahoma/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/oklahoma/',
           name: 'Metal Buildings Oklahoma - Customizable and Built Tough for OK',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Oklahoma. Our steel structure kits are customizable and engineered tough for OK residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/oklahoma/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/oklahoma/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/oklahoma/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/oklahoma/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/oklahoma/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/oklahoma/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Oklahoma' },
           ],
@@ -5779,7 +5789,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Rhode Island codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Rhode Island codes.',
         },
         {
           id: '5',
@@ -5818,40 +5828,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/rhode-island/',
-          url: 'https://www.warriorbuildings.com/service-area/rhode-island/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/rhode-island/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/rhode-island/',
           name: 'Metal Buildings Rhode Island - Customizable and Built Tough for RI',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Rhode Island. Our steel structure kits are customizable and engineered tough for RI residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/rhode-island/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/rhode-island/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/rhode-island/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/rhode-island/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/rhode-island/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/rhode-island/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Rhode Island' },
           ],
@@ -5905,7 +5915,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Utah codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Utah codes.',
         },
         {
           id: '5',
@@ -5944,40 +5954,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/utah/',
-          url: 'https://www.warriorbuildings.com/service-area/utah/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/utah/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/utah/',
           name: 'Metal Buildings Utah - Customizable and Built Tough for UT',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Utah. Our steel structure kits are customizable and engineered tough for UT residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/utah/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/utah/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/utah/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/utah/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/utah/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/utah/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Utah' },
           ],
@@ -6031,7 +6041,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Vermont codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Vermont codes.',
         },
         {
           id: '5',
@@ -6070,40 +6080,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/vermont/',
-          url: 'https://www.warriorbuildings.com/service-area/vermont/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/vermont/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/vermont/',
           name: 'Metal Buildings Vermont - Customizable and Built Tough for VT',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Vermont. Our steel structure kits are customizable and engineered tough for VT residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/vermont/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/vermont/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/vermont/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/vermont/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/vermont/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/vermont/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Vermont' },
           ],
@@ -6157,7 +6167,7 @@ export const stateDetails = [
           id: '4',
           header: 'How do metal buildings stand up to wind and snow loads?',
           content:
-            'Our <a href="https://www.warriorbuildings.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Wisconsin codes.',
+            'Our <a href="https://www.topgoatmetalstructures.com/metal-buildings/">metal buildings</a> are engineered and certified to handle regional wind, snow, and seismic requirements. While no building is immune to extreme disasters, our structures are built to meet or exceed Wisconsin codes.',
         },
         {
           id: '5',
@@ -6196,40 +6206,40 @@ export const stateDetails = [
       '@graph': [
         {
           '@type': 'WebPage',
-          '@id': 'https://www.warriorbuildings.com/service-area/wisconsin/',
-          url: 'https://www.warriorbuildings.com/service-area/wisconsin/',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/wisconsin/',
+          url: 'https://www.topgoatmetalstructures.com/service-area/wisconsin/',
           name: 'Metal Buildings Wisconsin - Customizable and Built Tough for WI',
-          isPartOf: { '@id': 'https://www.warriorbuildings.com/#website' },
+          isPartOf: { '@id': 'https://www.topgoatmetalstructures.com/#website' },
           datePublished: '2024-11-18T08:08:55+00:00',
           dateModified: '2024-12-26T10:23:53+00:00',
           description:
             'Top Goat Metal Structures delivers top-quality metal buildings in Wisconsin. Our steel structure kits are customizable and engineered tough for WI residents.',
           breadcrumb: {
-            '@id': 'https://www.warriorbuildings.com/service-area/wisconsin/#breadcrumb',
+            '@id': 'https://www.topgoatmetalstructures.com/service-area/wisconsin/#breadcrumb',
           },
           inLanguage: 'en-US',
           potentialAction: [
             {
               '@type': 'ReadAction',
-              target: ['https://www.warriorbuildings.com/service-area/wisconsin/'],
+              target: ['https://www.topgoatmetalstructures.com/service-area/wisconsin/'],
             },
           ],
         },
         {
           '@type': 'BreadcrumbList',
-          '@id': 'https://www.warriorbuildings.com/service-area/wisconsin/#breadcrumb',
+          '@id': 'https://www.topgoatmetalstructures.com/service-area/wisconsin/#breadcrumb',
           itemListElement: [
             {
               '@type': 'ListItem',
               position: 1,
               name: 'Home',
-              item: 'https://www.warriorbuildings.com/',
+              item: 'https://www.topgoatmetalstructures.com/',
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: 'Service Area',
-              item: 'https://www.warriorbuildings.com/service-area/',
+              item: 'https://www.topgoatmetalstructures.com/service-area/',
             },
             { '@type': 'ListItem', position: 3, name: 'Wisconsin' },
           ],
@@ -6239,58 +6249,115 @@ export const stateDetails = [
   },
 ];
 
+// export const faqs = [
+//   {
+//     id: 'ground-type',
+//     question: 'What ground type can a metal structure be built on?',
+//     answer:
+//       'Dirt, gravel, asphalt, concrete. Keep in mind all certified structures must be installed on and anchored to concrete. Also, where you are going to have your structure built must be level.',
+//   },
+//   {
+//     id: 'clearance',
+//     question: 'How much clearance will I need?',
+//     answer:
+//       'There should be a minimum of 3′ of clearance around where the structure will be located, so the installers have room to perform the installation.',
+//   },
+//   {
+//     id: 'payment-options',
+//     question: 'Are there payment options?',
+//     answer:
+//       'If financing is needed, we have multiple options, depending upon your situation and credit. Once you’ve agreed upon a price, and signed the quote from a Top Goat Building specialist, a deposit is required. After that, you will pay the remaining balance to the installing manufacturer of the structure.',
+//   },
+//   {
+//     id: 'size-structure',
+//     question: 'How do I know what size structure I need?',
+//     answer:
+//       'This is extremely important! Many times, we see someone wanting to cover or enclose a boat or trailer, but forget to take into consideration the full length of the trailer and possible equipment in the back. For example, your boat may be 21′, but actually, there is another 2′ from the outboard engine, then another 3-4′ of tongue at the front of the trailer. So now you’re covering or enclosing a 26-27′ item at a minimum. Taking the time to fully consider your exact dimensions can save headaches in the end, and ensure your complete satisfaction with your next metal structure.',
+//   },
+//   {
+//     id: 'permits',
+//     question: 'Do I need any permits for my structure?',
+//     answer:
+//       'In most areas of the US, having a permit for construction of your structure is necessary from your local county/city or state government. Please consider calling or checking the web for your local municipalities permitting requirements for your next metal structure.',
+//   },
+//   {
+//     id: 'ground-preparations',
+//     question: 'Ground Preparation',
+//     answer: 'Your site must be level, for your structure to be installed.',
+//   },
+//   {
+//     id: 'warranties',
+//     question: 'Warranties',
+//     answer:
+//       '1 year workmanship (Location Dependent) up to 20 year on frame (tubing) rust through 20 year on sheet metal (vertical) rust through.',
+//   },
+//   {
+//     id: 'materials',
+//     question: 'Materials',
+//     answer:
+//       'Our buildings come with standard 29 gauge sheet metal (Except FL) and 14 gauge 2.5″ square tubing. You can upgrade to 26 gauge sheet metal and or 12 gauge 2.25″ square tubing.',
+//   },
+//   {
+//     id: 'payments',
+//     question: 'Payments',
+//     answer:
+//       'A down payment is required upon sale of a structure. If your sale exceeds $15,000, 1/2 the balance will be due upon scheduling installation of your structure.',
+//   },
+// ];
+
 export const faqs = [
   {
     id: 'ground-type',
-    question: 'What ground type can a metal structure be built on?',
+    question: 'What type of foundation can my metal building be installed on?',
     answer:
-      'Dirt, gravel, asphalt, concrete. Keep in mind all certified structures must be installed on and anchored to concrete. Also, where you are going to have your structure built must be level.',
+      'Top Goat Metal Structures can install buildings on level concrete, asphalt, gravel, or compacted ground. Certified buildings typically require a concrete foundation to meet local code requirements. Your installation site should be properly prepared and level before delivery.',
   },
   {
-    id: 'clearance',
-    question: 'How much clearance will I need?',
+    id: 'site-clearance',
+    question: 'How much space is needed for installation?',
     answer:
-      'There should be a minimum of 3′ of clearance around where the structure will be located, so the installers have room to perform the installation.',
+      'We recommend leaving at least 3 feet of clear working space around the installation area. This gives our professional installation crew enough room to safely assemble your building and complete the project efficiently.',
   },
   {
-    id: 'payment-options',
-    question: 'Are there payment options?',
+    id: 'financing',
+    question: 'Do you offer financing?',
     answer:
-      'If financing is needed, we have multiple options, depending upon your situation and credit. Once you’ve agreed upon a price, and signed the quote from a Warrior building specialist, a deposit is required. After that, you will pay the remaining balance to the installing manufacturer of the structure.',
+      'Yes. Top Goat Metal Structures offers flexible financing options through trusted lending partners. Available programs and terms depend on credit approval. Contact our team to learn which financing solution best fits your budget.',
   },
   {
-    id: 'size-structure',
-    question: 'How do I know what size structure I need?',
+    id: 'building-size',
+    question: 'How do I choose the right building size?',
     answer:
-      'This is extremely important! Many times, we see someone wanting to cover or enclose a boat or trailer, but forget to take into consideration the full length of the trailer and possible equipment in the back. For example, your boat may be 21′, but actually, there is another 2′ from the outboard engine, then another 3-4′ of tongue at the front of the trailer. So now you’re covering or enclosing a 26-27′ item at a minimum. Taking the time to fully consider your exact dimensions can save headaches in the end, and ensure your complete satisfaction with your next metal structure.',
+      'Measure the full dimensions of the vehicles, equipment, or storage items you plan to protect, including mirrors, trailers, attachments, and future storage needs. Choosing a slightly larger building often provides better long-term value and convenience.',
   },
   {
     id: 'permits',
-    question: 'Do I need any permits for my structure?',
+    question: 'Will I need a building permit?',
     answer:
-      'In most areas of the US, having a permit for construction of your structure is necessary from your local county/city or state government. Please consider calling or checking the web for your local municipalities permitting requirements for your next metal structure.',
+      'Permit requirements vary by city, county, and state. We recommend checking with your local building department before installation. Our team can provide certified engineering documents when required for qualifying structures.',
   },
   {
-    id: 'ground-preparations',
-    question: 'Ground Preparation',
-    answer: 'Your site must be level, for your structure to be installed.',
+    id: 'site-preparation',
+    question: 'How should I prepare my site?',
+    answer:
+      'Your installation site should be level, accessible, and free of debris before our crew arrives. Proper site preparation helps ensure a smooth installation and the best long-term performance of your building.',
   },
   {
-    id: 'warranties',
-    question: 'Warranties',
+    id: 'warranty',
+    question: 'What warranty comes with your buildings?',
     answer:
-      '1 year workmanship (Location Dependent) up to 20 year on frame (tubing) rust through 20 year on sheet metal (vertical) rust through.',
+      'Warranty coverage varies by manufacturer and building configuration. Many structures include a limited workmanship warranty along with up to a 20-year limited rust-through warranty on eligible framing and panel systems. Ask your sales representative for warranty details specific to your order.',
   },
   {
     id: 'materials',
-    question: 'Materials',
+    question: 'What materials are used in your buildings?',
     answer:
-      'Our buildings come with standard 29 gauge sheet metal (Except FL) and 14 gauge 2.5″ square tubing. You can upgrade to 26 gauge sheet metal and or 12 gauge 2.25″ square tubing.',
+      'Our standard buildings are constructed with heavy-duty galvanized steel framing and premium steel panels for long-lasting durability. Depending on your location and project requirements, you may also have options to upgrade panel thickness or frame gauge.',
   },
   {
     id: 'payments',
-    question: 'Payments',
+    question: 'How does the payment process work?',
     answer:
-      'A down payment is required upon sale of a structure. If your sale exceeds $15,000, 1/2 the balance will be due upon scheduling installation of your structure.',
+      'A deposit is required when your order is placed to begin production. The remaining balance is typically due before or at the time of installation, depending on the manufacturer and project size. Your sales specialist will explain the payment schedule before your order is finalized.',
   },
 ];

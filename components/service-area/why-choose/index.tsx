@@ -27,11 +27,11 @@ const WhyChoose: FC<{
       </div>
 
       {/* --- Content --- */}
-      <div className="mx-auto flex flex-col items-start justify-between gap-10 px-4 text-white lg:flex-row xl:container xl:px-0 [@media(width=1280px)]:px-4">
+      <div className="mx-auto flex max-w-[1280px] flex-col items-start justify-between gap-10 px-4 text-white lg:flex-row xl:px-0 [@media(width=1280px)]:px-4">
         {/* LEFT COLUMN - Title */}
         <div className="w-full lg:w-1/2">
           <h2 className="text-center text-[32px] leading-tight font-bold text-white lg:text-[56px] xl:text-start">
-            Why <span className="text-primary">Warrior</span>
+            Why <span className="text-primary">Top Goat</span>
             <br />
             Buildings?
           </h2>
@@ -66,7 +66,7 @@ const WhyChoose: FC<{
                 variant="metallic"
                 className="flex h-[64px] w-full items-center justify-between gap-2 rounded-full px-6 py-6 text-sm font-normal uppercase xl:w-fit"
               >
-                <span className="px-2 text-xs font-bold lg:text-sm">More About Warrior</span>
+                <span className="px-2 text-xs font-bold lg:text-sm">More About Top Goat</span>
                 <LinkIconInactive className="h-[50px]! w-[50px]!" />
               </Button>
             </Link>

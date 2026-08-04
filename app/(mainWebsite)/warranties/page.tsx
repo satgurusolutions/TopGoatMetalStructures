@@ -70,36 +70,36 @@ const schema = {
   '@graph': [
     {
       '@type': 'WebPage',
-      '@id': 'https://www.warriorbuildings.com/warranties/',
-      url: 'https://www.warriorbuildings.com/warranties/',
+      '@id': 'https://www.topgoatmetalstructures.com/warranties/',
+      url: 'https://www.topgoatmetalstructures.com/warranties/',
       name: 'Metal Buildings Warranties - 20 Years on Framing and Paneling',
       isPartOf: {
-        '@id': 'https://www.warriorbuildings.com/#website',
+        '@id': 'https://www.topgoatmetalstructures.com/#website',
       },
       datePublished: '2024-12-17T04:53:18+00:00',
       dateModified: '2024-12-30T07:03:14+00:00',
       description:
         'Top Goat Metal Structures offers 20 years warranty on 12 Gauge framing and 26 Gauge paneling. We also provide a variable craftsmanship guarantee. Explore now!',
       breadcrumb: {
-        '@id': 'https://www.warriorbuildings.com/warranties/#breadcrumb',
+        '@id': 'https://www.topgoatmetalstructures.com/warranties/#breadcrumb',
       },
       inLanguage: 'en-US',
       potentialAction: [
         {
           '@type': 'ReadAction',
-          target: ['https://www.warriorbuildings.com/warranties/'],
+          target: ['https://www.topgoatmetalstructures.com/warranties/'],
         },
       ],
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://www.warriorbuildings.com/warranties/#breadcrumb',
+      '@id': 'https://www.topgoatmetalstructures.com/warranties/#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.warriorbuildings.com/',
+          item: 'https://www.topgoatmetalstructures.com/',
         },
         {
           '@type': 'ListItem',
@@ -110,19 +110,19 @@ const schema = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://www.warriorbuildings.com/#website',
-      url: 'https://www.warriorbuildings.com/',
+      '@id': 'https://www.topgoatmetalstructures.com/#website',
+      url: 'https://www.topgoatmetalstructures.com/',
       name: 'Top Goat Metal Structures',
       description: 'The best in the industry',
       publisher: {
-        '@id': 'https://www.warriorbuildings.com/#organization',
+        '@id': 'https://www.topgoatmetalstructures.com/#organization',
       },
       potentialAction: [
         {
           '@type': 'SearchAction',
           target: {
             '@type': 'EntryPoint',
-            urlTemplate: 'https://www.warriorbuildings.com/?s={search_term_string}',
+            urlTemplate: 'https://www.topgoatmetalstructures.com/?s={search_term_string}',
           },
           'query-input': {
             '@type': 'PropertyValueSpecification',
@@ -135,23 +135,23 @@ const schema = {
     },
     {
       '@type': 'Organization',
-      '@id': 'https://www.warriorbuildings.com/#organization',
+      '@id': 'https://www.topgoatmetalstructures.com/#organization',
       name: 'Top Goat Metal Structures',
-      url: 'https://www.warriorbuildings.com/',
+      url: 'https://www.topgoatmetalstructures.com/',
       logo: {
         '@type': 'ImageObject',
         inLanguage: 'en-US',
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
-        url: 'https://www.warriorbuildings.com/images/logo.png',
-        contentUrl: 'https://www.warriorbuildings.com/images/logo.png',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
+        url: 'https://www.topgoatmetalstructures.com/images/logo.png',
+        contentUrl: 'https://www.topgoatmetalstructures.com/images/logo.png',
         width: 198,
         height: 180,
         caption: 'Top Goat Metal Structures',
       },
       image: {
-        '@id': 'https://www.warriorbuildings.com/#/schema/logo/image/',
+        '@id': 'https://www.topgoatmetalstructures.com/#/schema/logo/image/',
       },
-      sameAs: ['https://www.facebook.com/warriorbuildings/'],
+      sameAs: ['https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//'],
     },
   ],
 };
@@ -167,7 +167,7 @@ const FinancingPage = () => {
         <div className="pb-8 xl:pb-16">
           <Ruler />
         </div>
-        <div className="mx-auto px-4 xl:container xl:px-0 [@media(width=1280px)]:px-4">
+        <div className="mx-auto max-w-[1280px] px-4 xl:px-0 [@media(width=1280px)]:px-4">
           <MetalBuildingWarranties />
         </div>{' '}
         <div className="pt-8 xl:pt-16">
