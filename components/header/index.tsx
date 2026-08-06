@@ -187,7 +187,7 @@ export default function Header() {
               <button
                 type="button"
                 onClick={() => setIsMobileOpen((current) => !current)}
-                className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/15 text-white transition hover:border-[#d6a61b]/50 hover:text-[#e5b423]"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-[#D4AF37]/40 text-[#e5b423] transition hover:border-[#d6a61b]/50 hover:text-[#e5b423]"
                 aria-label={isMobileOpen ? 'Close navigation' : 'Open navigation'}
                 aria-expanded={isMobileOpen}
               >
