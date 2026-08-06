@@ -6,66 +6,66 @@ import { useState } from 'react';
 const buildingComponents = [
   {
     title: 'Walk-In Door',
-    image: '/images/garage.webp',
+    image: '/images/components/5eef9e_74495a30311947a78a682b12710b8874~mv2.webp',
     description:
       'A durable 36 × 80-inch walk-in door gives your garage, workshop or storage building secure and convenient everyday access.',
   },
   {
     title: 'Windows',
-    image: '/images/garage.webp',
+    image: '/images/components/5eef9e_cfbe7a04ef8841f9a2b307e952acdb18~mv2.webp',
     description:
       'Natural light and ventilation options sized to suit your metal building configuration.',
   },
   {
     title: 'Anchors',
-    image: '/images/carport.webp',
+    image: '/images/components/5eef9e_fcaff1b4c57341c6ac63f826b98b4f04~mv2.webp',
     description: 'Anchoring options selected for concrete, asphalt, gravel or ground installation.',
   },
   {
     title: 'Garage Doors',
-    image: '/images/garage.webp',
+    image: '/images/components/5eef9e_fe4404814bb64cd6b14b16e01cab5c60~mv2.webp',
     description:
       'Roll-up and sectional garage door options sized for vehicles, equipment and storage.',
   },
   {
     title: 'Chain Hoist',
-    image: '/images/garage.webp',
+    image: '/images/components/5eef9e_457b61e14ad44192bc0a501b33e102e6~mv2.webp',
     description: 'Manual chain-hoist options for larger commercial roll-up door configurations.',
   },
   {
     title: 'Gauge Metal Sheets',
-    image: '/images/6.webp',
+    image: '/images/components/5eef9e_4cea9a25d4d848a9b23012f3d41f393e~mv2.webp',
     description: 'Durable metal panels available in multiple gauges, profiles and colours.',
   },
   {
     title: 'Flood Vents',
-    image: '/images/barn.webp',
+    image: '/images/components/5eef9e_4865d582e7024fd7a33984cd0b8c405e~mv2.webp',
     description: 'Vent options designed to support airflow and applicable local requirements.',
   },
   {
     title: 'Color-Matched Screws',
-    image: '/images/carport3.webp',
+    image: '/images/components/5eef9e_d33e6de533ef40dfa99a38ece0fdf35f~mv2.webp',
     description: 'Fasteners selected to coordinate with your panel and trim colours.',
   },
   {
     title: 'Trims',
-    image: '/images/garage3.webp',
+    image: '/images/components/5eef9e_87700ea117d74bceba80e6b2cba1f9d3~mv2.webp',
     description:
       'Finished trim packages protect exposed edges and complete the building appearance.',
   },
   {
     title: 'Lap Siding',
-    image: '/images/barn.webp',
+    image: '/images/components/5eef9e_bfbc7436e03d4aa795af78898b8b5714~mv2.webp',
     description: 'Alternative siding profiles available for a more residential appearance.',
   },
   {
     title: 'Headers',
-    image: '/images/6.webp',
+    image: '/images/components/5eef9e_9b52bf37eded4d3c8fdd3490ecbd393e~mv2.webp',
     description: 'Reinforced framing above larger openings provides additional structural support.',
   },
   {
     title: 'Dutch Corners',
-    image: '/images/barn.webp',
+    image: '/images/components/5eef9e_9734039cf4d748b19f2da60b6d271f11~mv2.webp',
     description: 'Detailed corner treatments available for select barn and agricultural designs.',
   },
 ];
@@ -150,7 +150,7 @@ export default function ConcreteSection() {
                 alt={activeComponent.title}
                 fill
                 sizes="440px"
-                className="object-cover transition duration-500"
+                className="object-contain transition duration-500"
               />
 
               <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/35 to-transparent" />

@@ -50,7 +50,7 @@ export const metaData: Metadata = {
       { url: '/meta-data/web-app-manifest-192x192.png', sizes: '192x192' },
     ],
     apple: '/meta-data/apple-touch-icon.png',
-    shortcut: '/favicon.ico',
+    shortcut: '/favi.ico',
   },
   manifest: baseUrl + '/meta-data/site.webmanifest',
   metadataBase: new URL(baseUrl),
