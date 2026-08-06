@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { ChevronDown, Menu, Phone, X } from 'lucide-react';
+import { ChevronDown, Menu, Phone, X, Facebook } from 'lucide-react';
 
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { METAL_3D_LINK, NAV_ITEMS, TELEPHONE_NUMBER } from '@/configs/navigation.config';
@@ -73,12 +73,21 @@ export default function Header() {
                 Get Free Quote
               </button>
 
-              <a
+              {/* <a
                 href={TELEPHONE_NUMBER.href}
                 className="font-jost text-[15px] font-extrabold text-white uppercase transition-colors hover:text-[#efbd2d]"
               >
                 Call {TELEPHONE_NUMBER.formatted}
-              </a>
+              </a> */}
+              <Link
+                href="https://www.facebook.com/profile.php?id=61572160021161"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="group flex h-8 w-8 items-center justify-center rounded-full border border-[#D4AF37]/40 bg-white/5 text-[#D4AF37] transition-all duration-300 hover:border-[#D4AF37] hover:bg-[#D4AF37] hover:text-black"
+              >
+                <Facebook className="h-4 w-4 fill-current" />
+              </Link>
             </div>
           </div>
         </div>
@@ -158,6 +167,15 @@ export default function Header() {
 
             {/* Mobile controls */}
             <div className="ml-auto flex items-center gap-2 xl:hidden">
+              <Link
+                href="https://www.facebook.com/profile.php?id=61572160021161"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="group flex h-10 w-10 items-center justify-center rounded-full border border-[#D4AF37]/40 bg-white/5 text-[#D4AF37] transition-all duration-300 hover:border-[#D4AF37] hover:bg-[#D4AF37] hover:text-black"
+              >
+                <Facebook className="h-4 w-4 fill-current" />
+              </Link>
               <a
                 href={TELEPHONE_NUMBER.href}
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-[#d6a61b]/40 text-[#e5b423]"
