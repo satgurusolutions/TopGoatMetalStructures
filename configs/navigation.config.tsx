@@ -183,18 +183,18 @@ export const states = [
 ];
 
 export const statesWithShortNames = [
-  { label: 'SC', value: 'South Carolina' },
-  { label: 'NC', value: 'North Carolina' },
-  { label: 'AL', value: 'Alabama' },
-  { label: 'GA', value: 'Georgia' },
-  { label: 'KY', value: 'Kentucky' },
-  { label: 'MD', value: 'Maryland' },
-  { label: 'VA', value: 'Virginia' },
-  { label: 'TN', value: 'Tennessee' },
-  { label: 'Western TN', value: 'Western Tennessee' },
-  { label: 'WV', value: 'West Virginia' },
-  { label: 'OH', value: 'Ohio' },
-  { label: 'PA', value: 'Pennsylvania' },
+  { stateShortName: 'SC', stateName: 'South Carolina' },
+  { stateShortName: 'NC', stateName: 'North Carolina' },
+  { stateShortName: 'AL', stateName: 'Alabama' },
+  { stateShortName: 'GA', stateName: 'Georgia' },
+  { stateShortName: 'KY', stateName: 'Kentucky' },
+  { stateShortName: 'MD', stateName: 'Maryland' },
+  { stateShortName: 'VA', stateName: 'Virginia' },
+  { stateShortName: 'TN', stateName: 'Tennessee' },
+  { stateShortName: 'Western TN', stateName: 'Western Tennessee' },
+  { stateShortName: 'WV', stateName: 'West Virginia' },
+  { stateShortName: 'OH', stateName: 'Ohio' },
+  { stateShortName: 'PA', stateName: 'Pennsylvania' },
 ];
 
 export const stateDetails = [
