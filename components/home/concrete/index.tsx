@@ -37,11 +37,11 @@ const buildingComponents = [
     image: '/images/components/5eef9e_4cea9a25d4d848a9b23012f3d41f393e~mv2.webp',
     description: 'Durable metal panels available in multiple gauges, profiles and colours.',
   },
-  {
-    title: 'Flood Vents',
-    image: '/images/components/5eef9e_4865d582e7024fd7a33984cd0b8c405e~mv2.webp',
-    description: 'Vent options designed to support airflow and applicable local requirements.',
-  },
+  // {
+  //   title: 'Flood Vents',
+  //   image: '/images/components/5eef9e_4865d582e7024fd7a33984cd0b8c405e~mv2.webp',
+  //   description: 'Vent options designed to support airflow and applicable local requirements.',
+  // },
   {
     title: 'Color-Matched Screws',
     image: '/images/components/5eef9e_d33e6de533ef40dfa99a38ece0fdf35f~mv2.webp',
@@ -53,11 +53,11 @@ const buildingComponents = [
     description:
       'Finished trim packages protect exposed edges and complete the building appearance.',
   },
-  {
-    title: 'Lap Siding',
-    image: '/images/components/5eef9e_bfbc7436e03d4aa795af78898b8b5714~mv2.webp',
-    description: 'Alternative siding profiles available for a more residential appearance.',
-  },
+  // {
+  //   title: 'Lap Siding',
+  //   image: '/images/components/5eef9e_bfbc7436e03d4aa795af78898b8b5714~mv2.webp',
+  //   description: 'Alternative siding profiles available for a more residential appearance.',
+  // },
   {
     title: 'Headers',
     image: '/images/components/5eef9e_9b52bf37eded4d3c8fdd3490ecbd393e~mv2.webp',
