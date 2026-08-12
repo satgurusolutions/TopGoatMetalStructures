@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
-const pills = ['Garages', 'Carports', 'Barns', 'RV Covers', 'Commercial'];
+// const pills = ['Garages', 'Carports', 'Barns', 'RV Covers', 'Commercial'];
 
 const trustBadges = [
   {
@@ -102,7 +102,7 @@ function AnimatedCounter({ end, suffix = '', duration = 2000 }: AnimatedCounterP
 }
 
 export default function HeroSection() {
-  const [activePill, setActivePill] = useState(0);
+  // const [activePill, setActivePill] = useState(0);
 
   return (
     <section
