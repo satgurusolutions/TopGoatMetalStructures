@@ -128,26 +128,26 @@ const components: ComponentItem[] = [
       },
     ],
   },
-  {
-    title: 'Lap Siding',
-    desc: 'Overlapping horizontal metal panels that provide attractive styling and dependable weather protection.',
-    img: '/images/components/5eef9e_bfbc7436e03d4aa795af78898b8b5714~mv2.webp',
-    details: [
-      {
-        text: 'Lap siding uses horizontal metal panels with overlapping edges to create a clean, modern appearance. The overlapping design improves water resistance while durable protective coatings help provide long-lasting performance with minimal maintenance.',
-      },
-    ],
-  },
-  {
-    title: 'Flood Vents',
-    desc: 'Protective vents designed to allow floodwater through the building and reduce damaging pressure buildup.',
-    img: '/images/components/5eef9e_4865d582e7024fd7a33984cd0b8c405e~mv2.webp',
-    details: [
-      {
-        text: 'Flood vents are designed for buildings located in flood-prone areas. They allow water to move through the structure, reducing pressure buildup and helping minimize structural damage. Installed near the base of walls, they can also support drainage and help reduce moisture-related problems.',
-      },
-    ],
-  },
+  // {
+  //   title: 'Lap Siding',
+  //   desc: 'Overlapping horizontal metal panels that provide attractive styling and dependable weather protection.',
+  //   img: '/images/components/5eef9e_bfbc7436e03d4aa795af78898b8b5714~mv2.webp',
+  //   details: [
+  //     {
+  //       text: 'Lap siding uses horizontal metal panels with overlapping edges to create a clean, modern appearance. The overlapping design improves water resistance while durable protective coatings help provide long-lasting performance with minimal maintenance.',
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: 'Flood Vents',
+  //   desc: 'Protective vents designed to allow floodwater through the building and reduce damaging pressure buildup.',
+  //   img: '/images/components/5eef9e_4865d582e7024fd7a33984cd0b8c405e~mv2.webp',
+  //   details: [
+  //     {
+  //       text: 'Flood vents are designed for buildings located in flood-prone areas. They allow water to move through the structure, reducing pressure buildup and helping minimize structural damage. Installed near the base of walls, they can also support drainage and help reduce moisture-related problems.',
+  //     },
+  //   ],
+  // },
   {
     title: 'Garage Doors',
     desc: 'Durable galvanized steel garage doors designed for dependable operation, security, and weather resistance.',
