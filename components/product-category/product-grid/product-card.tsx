@@ -179,8 +179,7 @@ const ProductCard: FC<{
           className="absolute top-4 right-4 z-10"
           target="_blank"
           href={
-            product.new3DLink ??
-            product.meta_data.find((item) => item.key === '3d_link')?.value ??
+            
             '/'
           }
         >
@@ -213,11 +212,9 @@ const ProductCard: FC<{
           variant === 1 ? (
             <Link
               target="_blank"
-              href={
-                product.new3DLink ??
-                product.meta_data.find((item) => item.key === '3d_link')?.value ??
+              href=
                 '/'
-              }
+              
             >
               <Button
                 variant="metallic"
