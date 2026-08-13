@@ -5,7 +5,7 @@ import {
   Designer,
   Finance,
   HeroSection,
-  InfiniteTicker,
+  // InfiniteTicker,
   NeedToTalk,
   Process,
   Projects,
@@ -18,7 +18,7 @@ export default function HomePage() {
     <main className="overflow-hidden bg-[#0a0a0b] text-white">
       <HeroSection />
 
-      <InfiniteTicker />
+      {/*<InfiniteTicker />*/}
 
       <section className="py-20 lg:py-28">
         <CategoryOptions />

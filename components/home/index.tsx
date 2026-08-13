@@ -1,7 +1,7 @@
 export { default as Home } from './home';
 
 export { default as HeroSection } from './hero-section';
-export { default as InfiniteTicker } from './infinite-ticker';
+// export { default as InfiniteTicker } from './infinite-ticker';
 export { default as CategoryOptions } from './category-options';
 export { default as Designer } from './designer';
 export { default as Projects } from './projects';

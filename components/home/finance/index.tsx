@@ -5,7 +5,7 @@ const benefits = [
   'Fast and simple approval process',
   'Financing terms up to 84 months',
   '$0 down options on qualifying buildings',
-  'Military and first-responder discount',
+  // 'Military and first-responder discount',
 ];
 
 export default function Finance() {
@@ -34,8 +34,7 @@ export default function Finance() {
 
           <p className="mt-5 max-w-[590px] text-[16px] leading-[1.55] text-[#aaa397]">
             Flexible financing helps you get your building installed sooner with affordable monthly
-            payments and fast approvals. Active military members and first responders receive an
-            additional discount on every order.
+            payments and fast approvals.
           </p>
 
           <ul className="mt-7 space-y-4">
