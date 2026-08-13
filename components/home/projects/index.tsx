@@ -69,12 +69,9 @@ export default function Projects() {
           </span>
 
           <h2 className="font-anton mt-5 text-[clamp(2.8rem,5vw,4.9rem)] leading-[0.9] font-normal tracking-[-0.02em] uppercase">
-            Straight off the{' '}
+            Straight from{' '}
             <span className="bg-gradient-to-r from-[#d7a62f] via-[#bd8419] to-[#96640d] bg-clip-text text-transparent">
-              install
-            </span>
-            <span className="block bg-gradient-to-r from-[#d7a62f] via-[#bd8419] to-[#96640d] bg-clip-text text-transparent">
-              crew
+               The Crew
             </span>
           </h2>
 
