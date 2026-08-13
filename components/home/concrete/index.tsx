@@ -37,11 +37,11 @@ const buildingComponents = [
     image: '/images/components/5eef9e_4cea9a25d4d848a9b23012f3d41f393e~mv2.webp',
     description: 'Durable metal panels available in multiple gauges, profiles and colours.',
   },
-  {
-    title: 'Flood Vents',
-    image: '/images/components/5eef9e_4865d582e7024fd7a33984cd0b8c405e~mv2.webp',
-    description: 'Vent options designed to support airflow and applicable local requirements.',
-  },
+  // {
+  //   title: 'Flood Vents',
+  //   image: '/images/components/5eef9e_4865d582e7024fd7a33984cd0b8c405e~mv2.webp',
+  //   description: 'Vent options designed to support airflow and applicable local requirements.',
+  // },
   {
     title: 'Color-Matched Screws',
     image: '/images/components/5eef9e_d33e6de533ef40dfa99a38ece0fdf35f~mv2.webp',
@@ -53,11 +53,11 @@ const buildingComponents = [
     description:
       'Finished trim packages protect exposed edges and complete the building appearance.',
   },
-  {
-    title: 'Lap Siding',
-    image: '/images/components/5eef9e_bfbc7436e03d4aa795af78898b8b5714~mv2.webp',
-    description: 'Alternative siding profiles available for a more residential appearance.',
-  },
+  // {
+  //   title: 'Lap Siding',
+  //   image: '/images/components/5eef9e_bfbc7436e03d4aa795af78898b8b5714~mv2.webp',
+  //   description: 'Alternative siding profiles available for a more residential appearance.',
+  // },
   {
     title: 'Headers',
     image: '/images/components/5eef9e_9b52bf37eded4d3c8fdd3490ecbd393e~mv2.webp',
@@ -139,7 +139,7 @@ export default function ConcreteSection() {
         {/* Desktop layout */}
         <div className="mt-14 hidden grid-cols-[1fr_1.2fr_1fr] items-center gap-5 lg:grid">
           {/* Left buttons */}
-          <div className="space-y-3">{renderComponentButtons(0, 6)}</div>
+          <div className="space-y-3">{renderComponentButtons(0, buildingComponents.length / 2)}</div>
 
           {/* Active component card */}
           <article className="overflow-hidden rounded-[20px] border border-black/20 bg-[#101012] shadow-[0_30px_60px_-28px_rgba(0,0,0,0.65)]">
@@ -173,7 +173,7 @@ export default function ConcreteSection() {
           </article>
 
           {/* Right buttons */}
-          <div className="space-y-3">{renderComponentButtons(6, 12)}</div>
+          <div className="space-y-3">{renderComponentButtons(buildingComponents.length / 2, buildingComponents.length)}</div>
         </div>
 
         {/* Tablet and mobile layout */}
