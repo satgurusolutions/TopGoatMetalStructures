@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
 };
 
-const teamMembers = [
+/*const teamMembers = [
   {
     name: 'Cliff Owen',
     role: 'Founder & Owner',
@@ -95,7 +95,7 @@ const teamMembers = [
     description:
       'Sarah keeps customers informed, answers project questions, and helps make every stage of the process straightforward.',
   },
-];
+];*/
 
 const companyValues = [
   {
