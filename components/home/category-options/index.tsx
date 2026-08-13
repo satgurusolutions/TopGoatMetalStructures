@@ -5,7 +5,7 @@ const products = [
   {
     title: 'Metal Garages',
     description:
-      'Fully enclosed single- and multi-car garages with insulation, walk doors, windows, and custom storage options.',
+      'Fully enclosed single- and multi-car garages with insulation, walk-in doors, windows, and custom storage options.',
     price: '$3,995',
     image: '/images/garage.webp',
     href: '/metal-garages',
@@ -21,7 +21,7 @@ const products = [
   {
     title: 'Metal Barns',
     description:
-      'Horse, hay, and raised-center barns with practical lean-tos designed for working properties.',
+      'Horse, Dropdown and Straight roof barns with practical lean-tos designed for working properties.',
     price: '$7,450',
     image: '/images/barn.webp',
     href: '/metal-barns',
@@ -37,7 +37,7 @@ const products = [
   {
     title: 'Commercial Buildings',
     description:
-      'Clear-span workshops, warehouses, retail spaces, and commercial steel structures with engineer-stamped plans for permitting in all 40+ states we serve.',
+      'Clear-span workshops, warehouses, retail spaces, and commercial steel structures with engineer-stamped plans for permitting in all states we service.',
     price: '$12,900',
     image: '/images/garage3.webp',
     href: '/commercial',
@@ -65,7 +65,7 @@ export default function CategoryOptions() {
           </h2>
 
           <p className="mx-auto mt-5 max-w-[650px] text-sm leading-6 text-[#6e685e] sm:text-base sm:leading-7">
-            Pick a starting point, then customize size, roof style, colour, gauge, doors, windows,
+            Pick a starting point, then customize size, roof style, color, gauge, doors, windows,
             and openings with a real building specialist.
           </p>
         </header>
@@ -87,27 +87,27 @@ export default function CategoryOptions() {
                 />
               </div>
 
-              <div className="flex min-h-[235px] flex-col bg-[#101011] p-5 sm:p-6">
+              <div className="flex min-h-[180px] flex-col bg-[#101011] p-5 sm:p-6">
                 <h3 className="font-oswald text-xl font-semibold tracking-[0.01em] text-white uppercase sm:text-2xl">
                   {product.title}
                 </h3>
 
                 <p className="mt-3 text-sm leading-6 text-[#a29d93]">{product.description}</p>
 
-                <div className="mt-auto pt-5">
-                  <span className="text-[10px] font-medium tracking-[0.14em] text-[#777269] uppercase">
+                <div>
+                  {/*<span className="text-[10px] font-medium tracking-[0.14em] text-[#777269] uppercase">
                     From
                   </span>
 
                   <strong className="font-oswald mt-1 block text-xl font-semibold text-[#d59a24] sm:text-2xl">
                     {product.price}
-                  </strong>
+                  </strong>*/}
 
                   <Link
                     href={product.href}
                     className="font-oswald mt-4 inline-flex items-center gap-2 text-xs font-semibold tracking-[0.1em] text-[#d59a24] uppercase transition duration-300 hover:gap-3 hover:text-[#f2bd43]"
                   >
-                    Configure and price
+                    View More
                     <span aria-hidden="true">→</span>
                   </Link>
                 </div>
@@ -137,20 +137,20 @@ export default function CategoryOptions() {
               {commercialProduct.description}
             </p>
 
-            <div className="mt-5">
-              <span className="text-[10px] font-medium tracking-[0.14em] text-[#777269] uppercase">
+            <div>
+              {/*<span className="text-[10px] font-medium tracking-[0.14em] text-[#777269] uppercase">
                 From
               </span>
 
               <strong className="font-oswald mt-1 block text-xl font-semibold text-[#d59a24] sm:text-2xl">
                 {commercialProduct.price}
-              </strong>
+              </strong>*/}
 
               <Link
                 href={commercialProduct.href}
                 className="font-oswald mt-4 inline-flex items-center gap-2 text-xs font-semibold tracking-[0.1em] text-[#d59a24] uppercase transition duration-300 hover:gap-3 hover:text-[#f2bd43]"
               >
-                Request commercial quote
+                View More
                 <span aria-hidden="true">→</span>
               </Link>
             </div>

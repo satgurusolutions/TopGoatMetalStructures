@@ -11,14 +11,14 @@ export default function NeedToTalk() {
             Service area
           </span>
           <h2 className="font-oswald mt-4 text-5xl leading-[1.02] font-bold uppercase lg:text-[45px]">
-            Delivering across{' '}
+            Service Area
+            {/*Delivering across{' '}
             <span className="bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] bg-clip-text text-transparent">
               40+ states
-            </span>
+            </span>*/}
           </h2>
           <p className="mt-6 text-base leading-7 text-[#a29c8e]">
-            From the Carolinas to Texas and out to the Mountain West, our crews deliver and install
-            where you need it. Not sure if we reach you? Drop your ZIP in a quote and we&apos;ll
+            Not sure if we reach you? Drop your ZIP in a quote and we&apos;ll
             confirm in minutes.
           </p>
           <Link

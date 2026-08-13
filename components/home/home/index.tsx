@@ -1,13 +1,13 @@
 import {
-  Blogs,
+  // Blogs,
   CategoryOptions,
   ConcreteSection,
   Designer,
   Finance,
   HeroSection,
-  InfiniteTicker,
+  // InfiniteTicker,
   NeedToTalk,
-  Process,
+  // Process,
   Projects,
   Review,
   VideoGallery,
@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className="overflow-hidden bg-[#0a0a0b] text-white">
       <HeroSection />
-      <InfiniteTicker />
+      {/*<InfiniteTicker />*/}
       <CategoryOptions />
       <Designer />
       <Projects />
@@ -26,8 +26,8 @@ export default function Home() {
       <Review />
       <VideoGallery />
       <NeedToTalk />
-      <Process />
-      <Blogs />
+      {/*<Process />*/}
+      {/*<Blogs />*/}
     </main>
   );
 }

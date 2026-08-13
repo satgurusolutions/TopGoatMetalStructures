@@ -155,12 +155,12 @@ export default function HeroSection() {
         <div className="max-w-[680px]">
           {/* Eyebrow */}
           <span className="font-oswald relative mb-[18px] inline-block pl-[34px] text-[0.72rem] font-semibold tracking-[0.22em] text-[#e7b53c] uppercase before:absolute before:top-1/2 before:left-0 before:h-[2px] before:w-6 before:-translate-y-1/2 before:bg-gradient-to-r before:from-[#f6cf63] before:via-[#e7b53c] before:to-[#a87a1c]">
-            Built tougher. Engineered to last.
+            BUILT TOUGHER. ENGINEERED TO LAST.
           </span>
 
           {/* Hero Title */}
           <h1 className="font-anton mb-6 text-[clamp(2.7rem,7vw,4.6rem)] leading-[0.96] font-normal tracking-[-0.01em] uppercase">
-            America&apos;s Trusted Source for
+            AMERICAN STEEL BUILT AROUND YOUR NEEDS
             <span className="mt-1 block bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] bg-clip-text text-transparent">
               Custom Metal Buildings
             </span>
@@ -168,9 +168,7 @@ export default function HeroSection() {
 
           {/* Description */}
           <p className="mb-[34px] max-w-[560px] text-[1rem] leading-[1.6] text-[#a29c8e]">
-            Heavy-gauge American steel, certified engineering, and a price you can actually finance.
-            From a single carport to a clear-span commercial shop — we build it, deliver it, and
-            install it like our name&apos;s on it. Because it is.
+            From carports and garages to clear-span commercial shops, we build with heavy-gauge American steel, engineered for strength and designed around your needs. Flexible financing, professional delivery, and installation from start to finish.
           </p>
 
           {/* Buttons */}
@@ -213,7 +211,7 @@ export default function HeroSection() {
               </span>
             </div>
 
-            <div className="flex flex-col">
+            {/*<div className="flex flex-col">
               <strong className="font-anton text-[2.4rem] leading-none font-normal text-[#f4f1ea]">
                 <AnimatedCounter end={40} suffix="+" duration={1600} />
               </strong>
@@ -221,7 +219,7 @@ export default function HeroSection() {
               <span className="mt-1.5 text-[0.85rem] tracking-[0.06em] text-[#a29c8e] uppercase">
                 States served
               </span>
-            </div>
+            </div>*/}
           </div>
         </div>
 
