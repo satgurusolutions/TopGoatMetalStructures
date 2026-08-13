@@ -93,7 +93,7 @@ export default function Footer() {
           </div>
 
           <p className="font-oswald mt-2 text-[13px] tracking-[0.08em] text-[#b9ac99] uppercase sm:text-[15px]">
-            4.9★ from 2,300+ owners 
+            4.9★ from 2,300+ building owners 
           </p>
         </div>
       </section>

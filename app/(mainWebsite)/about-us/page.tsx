@@ -335,7 +335,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* Team */}
-      <section className="bg-[#f5f2eb] py-20 lg:py-28">
+      {/*<section className="bg-[#f5f2eb] py-20 lg:py-28">
         <div className="mx-auto max-w-[1240px] px-5 sm:px-7">
           <header className="mx-auto max-w-[760px] text-center">
             <span className="font-oswald inline-flex items-center gap-3 text-[11px] font-semibold tracking-[0.22em] text-[#a87a1c] uppercase">
@@ -385,7 +385,7 @@ export default function AboutUsPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/ }
 
       <div>
         <NeedToTalk />

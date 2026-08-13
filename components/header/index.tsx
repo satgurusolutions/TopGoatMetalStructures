@@ -158,11 +158,10 @@ export default function Header() {
 
             {/* Desktop CTA */}
             <Link
-              href={METAL_3D_LINK}
-              target="_blank"
+              href="/free-quote"
               className="font-jost ml-5 hidden h-[53px] min-w-[174px] items-center justify-center rounded-[12px] bg-gradient-to-r from-[#f3c54a] to-[#c89411] px-6 text-[16px] font-extrabold text-[#15120a] uppercase shadow-[0_8px_24px_rgba(210,161,24,0.18)] transition duration-200 hover:-translate-y-0.5 hover:brightness-110 xl:flex"
             >
-              Design Your Own
+              Get A Quote
             </Link>
 
             {/* Mobile controls */}
