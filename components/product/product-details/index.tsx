@@ -17,11 +17,11 @@ import {
 } from '@/components/ui/dialog';
 import { colorOptions } from '@/configs/colours';
 import { TELEPHONE_NUMBER } from '@/configs/navigation.config';
-import { FreeDeliveryIcon, HomeIcon, PriceIcon, ServiceReplacementIcon } from '@/icons';
+import { FreeDeliveryIcon, PriceIcon, ServiceReplacementIcon } from '@/icons';
 import WarrantyPolicy from '@/icons/warranty-policy';
 import { Product } from '@/types';
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 import { useState } from 'react';
 
 export default function ProductDetail({
