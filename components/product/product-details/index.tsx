@@ -200,22 +200,6 @@ export default function ProductDetail({
               />
             </DialogContent>
           </Dialog>
-
-          <Link
-            target="_blank"
-            href={product.meta_data.find((item) => item.key === '3d_link')?.value ?? '/'}
-            className="flex-1"
-          >
-            <Button
-              variant="metallic"
-              className="flex h-14 w-full items-center justify-between gap-2 rounded-[15px] py-6 text-xs font-medium text-white uppercase shadow-md [background:linear-gradient(180deg,var(--accent)_0%,color-mix(in_srgb,var(--accent)_70%,black)_100%)] xl:h-[66px] xl:text-sm"
-            >
-              CUSTOMIZE IN 3D ESTIMATOR{' '}
-              <span className="h-[40px]! w-[40px]! xl:h-[50px]! xl:w-[50px]! [@media(width=1280px)]:h-[40px]! [@media(width=1280px)]:w-[40px]!">
-                <HomeIcon />
-              </span>
-            </Button>
-          </Link>
         </div>
         <div className="border-b border-[#D2D2D5] py-8">
           <div className="grid w-full grid-cols-3 divide-x divide-[#D2D2D5] text-center">

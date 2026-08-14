@@ -58,9 +58,9 @@ export default function Review() {
           </span>
 
           <h2 className="font-anton mt-5 text-[clamp(3rem,5.6vw,4.7rem)] leading-[0.92] font-normal tracking-[-0.02em] uppercase">
-            Owners don&apos;t{' '}
+            Customer {' '}
             <span className="bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] bg-clip-text text-transparent">
-              mince words
+              Reviews
             </span>
           </h2>
         </header>
