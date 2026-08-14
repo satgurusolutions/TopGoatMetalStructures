@@ -1,40 +1,38 @@
 [
   {
-    "id": 3805,
-    "name": "20x40x15 RV Garage",
-    "slug": "20x40x15-rv-garage-10",
-    "permalink": "https://www.topgoatmetalstructures.com/product/20x40x15-rv-garage-10/",
+    "id": 1,
+    "name": "14’x30’x14′ Metal Garage with Vertical Siding",
+    "slug": "14x30-metal-garage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/14x30-metal-garage/",
     "type": "simple",
-    "short_description": "",
-    "sku": "TG184",
+    "short_description": "The 14×30 metal garage by Swift Steel Structures is a reliable solution for vehicle protection, storage, and workshop space. Built with high-quality steel framing, these garages are designed for long-lasting durability and superior weather resistance. The spacious 420 sq. ft. layout provides enough room for cars, trucks, tools, and equipment while maintaining a clean and modern appearance. Customers can customize their garage with different roof styles, colors, doors, and windows to fit their needs. Swift Steel Structures delivers affordable, low-maintenance metal buildings engineered for strength and performance.",
+    "sku": "TG1",
     "price": "9395",
     "dimensions": {
-      "length": "",
-      "width": "",
-      "height": ""
+      "width": "14",
+      "length": "30",
+      "height": "14"
     },
     "categories": [
       {
         "id": 2,
         "name": "Metal Buildings",
         "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
       }
     ],
     "images": [
       {
-        "src": "/products/WB184/1.webp"
-      },
-      {
-        "src": "/products/WB184/2.webp"
-      },
-      {
-        "src": "/products/WB184/3.webp"
+        "src": "/products/TG1/1.webp"
       }
     ],
     "menu_order": 0,
-    "related_ids": [2604, 2610, 2612, 2609, 2611],
     "yoast_head_json": {
-      "title": "20x40x15 RV Garage - Top Goat Metal Structures",
+      "title": "14’x30’x14′ Metal Garage - Top Goat Metal Structures",
       "robots": {
         "index": "index",
         "follow": "follow",
@@ -42,11 +40,11 @@
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.topgoatmetalstructures.com/product/20x40x15-rv-garage-10/",
+      "canonical": "https://www.topgoatmetalstructures.com/product/14x30-metal-garage/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "20x40x15 RV Garage - Top Goat Metal Structures",
-      "og_url": "https://www.topgoatmetalstructures.com/product/20x40x15-rv-garage-10/",
+      "og_title": "14’x30’x14′ Metal Garage - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/14x30-metal-garage/",
       "og_site_name": "Top Goat Metal Structures",
       "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
       "article_modified_time": "2025-11-18T13:25:35+00:00",
@@ -54,7 +52,7 @@
         {
           "width": 1000,
           "height": 572,
-          "url": "https://www.topgoatmetalstructures.com/wp-content/uploads/2025/10/12-2.webp",
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG1/1.webp",
           "type": "image/webp"
         }
       ],
@@ -64,5 +62,1202 @@
       }
     }
 
+  },
+  {
+    "id": 2,
+    "name": "16’x25’x12′ One Car Vertical Garage",
+    "slug": "16x25-metal-garage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/16x25-metal-garage/",
+    "type": "simple",
+    "short_description": "The 16×25 metal garage from Swift Steel Structures offers the perfect combination of durability, storage, and vehicle protection. Built with premium-quality steel, this garage is designed to handle harsh weather while providing secure space for cars, trucks, tools, and equipment. Its versatile layout makes it ideal for residential, agricultural, or light commercial use. Customers can customize roof styles, colors, doors, and windows to create a garage that fits their exact needs. Swift Steel Structures delivers affordable, long-lasting metal garages engineered for strength, functionality, and low maintenance.",
+    "sku": "TG2",
+    "price": "9395",
+    "dimensions": {
+      "width": "16",
+      "length": "25",
+      "height": "12"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG2/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "16’x25’x12′ One Car Vertical Garage - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/16x25-metal-garage/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "16’x25’x12′ One Car Vertical Garage - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/16x25-metal-garage/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG2/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "18’x30′ One Car Garage With Lean-to",
+    "slug": "18x30-metal-garage-with-lean-to",
+    "permalink": "https://www.topgoatmetalstructures.com/product/18x30-metal-garage-with-lean-to/",
+    "type": "simple",
+    "short_description": "The 18×30 metal garage with lean-to from Swift Steel Structures is designed to provide secure parking, extra storage, and versatile covered space in one durable structure. Built with premium-grade steel framing, this garage offers long-lasting protection against harsh weather, rust, and everyday wear. The attached lean-to adds convenient side coverage for equipment, trailers, tools, or outdoor storage needs. Customers can customize the building with various roof styles, colors, doors, and window options to match their property and functionality requirements. Swift Steel Structures delivers affordable, low-maintenance metal garages engineered for strength, reliability, and modern style.",
+    "sku": "TG3",
+    "price": "9395",
+    "dimensions": {
+      "width": "18",
+      "length": "30",
+      "height": "10"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG3/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "18’x30′ One Car Garage With Lean-to - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/18x30-metal-garage-with-lean-to/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "18’x30′ One Car Garage With Lean-to - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/18x30-metal-garage-with-lean-to/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG3/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "20’x20’x9′ Boxed Eave Storage Building",
+    "slug": "20x20-boxed-eave-storage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/20x20-boxed-eave-storage/",
+    "type": "simple",
+    "short_description": "The 20’x20’x9′ Boxed Eave Storage Building from Swift Steel Structures is a strong and dependable solution for secure storage and vehicle protection. Constructed with premium-grade steel framing and a durable boxed eave roof design, this building is engineered to withstand harsh weather conditions while maintaining long-term performance. The spacious interior provides ample room for storing cars, tools, equipment, and household items with ease. Customers can personalize their building with different colors, doors, windows, and layout options to fit their property and storage needs. Swift Steel Structures offers affordable, low-maintenance metal storage buildings built for durability, functionality, and everyday convenience.",
+    "sku": "TG4",
+    "price": "9395",
+    "dimensions": {
+      "width": "20",
+      "length": "20",
+      "height": "9"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG4/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "20’x20’x9′ Boxed Eave Storage Building - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/20x20-boxed-eave-storage/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "20’x20’x9′ Boxed Eave Storage Building - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/20x20-boxed-eave-storage/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG4/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "22’x36’x11′ Two Tone Metal Garage",
+    "slug": "22x36-two-tone-color-garage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/22x36-two-tone-color-garage/",
+    "type": "simple",
+    "short_description": "The 22’x36’x11′ Two Tone Metal Garage from Swift Steel Structures is designed to provide durable vehicle protection, spacious storage, and a modern two-tone appearance. Built with high-quality steel framing, this garage offers long-lasting strength and dependable resistance against harsh weather conditions. Its spacious interior is perfect for storing cars, trucks, equipment, tools, or creating a functional workshop area. Customers can customize roof styles, doors, windows, and color combinations to match their property and storage needs. Swift Steel Structures delivers affordable, low-maintenance metal garages engineered for reliability, performance, and lasting value.",
+    "sku": "TG5",
+    "price": "9395",
+    "dimensions": {
+      "width": "22",
+      "length": "36",
+      "height": "11"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG5/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "22’x36’x11′ Two Tone Metal Garage - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/22x36-two-tone-color-garage/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "22’x36’x11′ Two Tone Metal Garage - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/22x36-two-tone-color-garage/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG5/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "22’x40’x11′ Standard Garage",
+    "slug": "22x40x11-standard-garage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/22x40x11-standard-garage/",
+    "type": "simple",
+    "short_description": "The 22’x40’x11′ Standard Garage from Swift Steel Structures offers a durable and spacious solution for vehicle protection, equipment storage, and workshop use. Built with high-quality steel framing, this garage is engineered to provide long-lasting strength and dependable resistance against harsh weather conditions. Its roomy interior is ideal for storing multiple vehicles, tools, machinery, and other valuable belongings while maintaining a clean and functional design. Customers can customize roof styles, doors, windows, and color options to match their specific needs and property style. Swift Steel Structures delivers affordable, low-maintenance metal garages designed for reliability, performance, and everyday convenience.",
+    "sku": "TG6",
+    "price": "9395",
+    "dimensions": {
+      "width": "22",
+      "length": "40",
+      "height": "11"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG6/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "22’x40’x11′ Standard Garage - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/22x40x11-standard-garage/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "22’x40’x11′ Standard Garage - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/22x40x11-standard-garage/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG6/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "24’x40’x10′ Three Car Side Entry Garage",
+    "slug": "24x40x10-three-car-side-entry-garage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/24x40x10-three-car-side-entry-garage/",
+    "type": "simple",
+    "short_description": "The 24x40x10 Three Car Side Entry Garage from Swift Steel Structures is designed to provide spacious vehicle protection with a convenient and modern side-entry layout. Built with high-quality steel framing, this durable garage offers reliable resistance against harsh weather conditions while delivering long-lasting performance. The wide interior space is perfect for storing up to three vehicles, along with tools, equipment, and workshop essentials. Customers can customize roof styles, doors, windows, and color options to match their property and functional needs. Swift Steel Structures delivers affordable, low-maintenance metal garages engineered for strength, style, and everyday convenience.",
+    "sku": "TG7",
+    "price": "9395",
+    "dimensions": {
+      "width": "24",
+      "length": "40",
+      "height": "10"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG7/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "24’x40’x10′ Three Car Side Entry Garage - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/24x40x10-three-car-side-entry-garage/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "24’x40’x10′ Three Car Side Entry Garage - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/24x40x10-three-car-side-entry-garage/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG7/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "26’x45’x12′ Side Entry Garage",
+    "slug": "26x45x12-side-entry-garage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/26x45x12-side-entry-garage/",
+    "type": "simple",
+    "short_description": "The 26’x45’x12′ Side Entry Garage from Swift Steel Structures is built to provide spacious vehicle storage, enhanced accessibility, and long-lasting durability. Designed with a convenient side-entry layout and premium steel framing, this garage offers reliable protection against harsh weather while maintaining a clean and modern appearance. The large interior space is ideal for storing multiple vehicles, equipment, tools, and workshop essentials with ease. Customers can customize roof styles, doors, windows, and color options to create a garage that perfectly fits their property and storage needs. Swift Steel Structures delivers affordable, low-maintenance metal garages engineered for strength, functionality, and dependable performance.",
+    "sku": "TG8",
+    "price": "9395",
+    "dimensions": {
+      "width": "26",
+      "length": "45",
+      "height": "12"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG8/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "26’x45’x12′ Side Entry Garage - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/26x45x12-side-entry-garage/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "26’x45’x12′ Side Entry Garage - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/26x45x12-side-entry-garage/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG8/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "28’x40’x10′ Metal Garage with 12x40x7 Lean-to",
+    "slug": "28x40x10-metal-garage-with-12x40x7-lean-to",
+    "permalink": "https://www.topgoatmetalstructures.com/product/28x40x10-metal-garage-with-12x40x7-lean-to/",
+    "type": "simple",
+    "short_description": "The 28’x40’x10′ Metal Garage with 12x40x7 Lean-to from Swift Steel Structures offers the perfect combination of secure vehicle storage and additional covered space for equipment or outdoor use. Built with premium-quality steel framing, this durable structure is engineered to withstand harsh weather conditions while delivering long-lasting performance. The spacious garage area provides ample room for vehicles, tools, and workshop needs, while the attached lean-to adds convenient side coverage for trailers, machinery, or extra storage. Customers can customize roof styles, doors, windows, and color options to match their property and functionality requirements. Swift Steel Structures delivers affordable, low-maintenance metal garages designed for strength, versatility, and everyday convenience.",
+    "sku": "TG9",
+    "price": "9395",
+    "dimensions": {
+      "width": "28",
+      "length": "40",
+      "height": "10"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG9/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "28’x40’x10′ Metal Garage with 12x40x7 Lean-to - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/28x40x10-metal-garage-with-12x40x7-lean-to/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "28’x40’x10′ Metal Garage with 12x40x7 Lean-to - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/28x40x10-metal-garage-with-12x40x7-lean-to/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG9/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "30’x25’x12′ Metal Garage with 12x25x9 Lean-to",
+    "slug": "30x25x12-metal-garage-with-12x25x9-lean-to",
+    "permalink": "https://www.topgoatmetalstructures.com/product/30x25x12-metal-garage-with-12x25x9-lean-to/",
+    "type": "simple",
+    "short_description": "The 30’x25’x12′ Metal Garage with 12x25x9 Lean-to from Swift Steel Structures provides the perfect blend of secure vehicle storage and versatile covered space. Built with premium-quality steel framing, this durable structure is engineered to withstand harsh weather conditions while delivering long-lasting performance and reliability. The spacious garage area offers ample room for vehicles, tools, equipment, and workshop needs, while the attached lean-to creates additional covered space for trailers, outdoor storage, or machinery. Customers can customize roof styles, doors, windows, and color options to match their property and functional requirements. Swift Steel Structures delivers affordable, low-maintenance metal garages designed for strength, versatility, and everyday convenience.",
+    "sku": "TG10",
+    "price": "9395",
+    "dimensions": {
+      "width": "30",
+      "length": "25",
+      "height": "12"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG10/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "30’x25’x12′ Metal Garage with 12x25x9 Lean-to - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/30x25x12-metal-garage-with-12x25x9-lean-to/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "30’x25’x12′ Metal Garage with 12x25x9 Lean-to - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/30x25x12-metal-garage-with-12x25x9-lean-to/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG10/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "32’x33’x12′ Metal Garage",
+    "slug": "32x33x12-metal-garage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/32x33x12-metal-garage/",
+    "type": "simple",
+    "short_description": "The 32’x33’x12′ Metal Garage from Swift Steel Structures is a durable and spacious solution designed for vehicle protection, storage, and workshop needs. Constructed with premium-quality steel framing and a strong vertical roof design, this garage provides superior durability and dependable resistance against harsh weather conditions. The large interior space is ideal for storing multiple vehicles, tools, equipment, and other valuable belongings while maintaining a clean and modern appearance. Customers can customize roof styles, doors, windows, and color options to match their property and functional requirements. Swift Steel Structures delivers affordable, low-maintenance metal garages engineered for strength, performance, and long-lasting reliability.",
+    "sku": "TG11",
+    "price": "9395",
+    "dimensions": {
+      "width": "32",
+      "length": "33",
+      "height": "12"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG11/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "32’x33’x12′ Metal Garage - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/32x33x12-metal-garage/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "32’x33’x12′ Metal Garage - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/32x33x12-metal-garage/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG11/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "34’x44’x14′ Side Entry Commercial Garage",
+    "slug": "34x44x14-side-entry-commercial-garage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/34x44x14-side-entry-commercial-garage/",
+    "type": "simple",
+    "short_description": "The 34’x44’x14′ Side Entry Commercial Garage from Swift Steel Structures is built for maximum durability, spacious storage, and convenient commercial access. Designed with a functional side-entry layout and premium steel framing, this building provides reliable protection for vehicles, equipment, machinery, and business operations. The tall 14-foot height offers excellent clearance for larger vehicles, trailers, and commercial storage needs while maintaining a clean and professional appearance. Customers can customize roof styles, doors, windows, and color options to match their operational requirements and property style. Swift Steel Structures delivers affordable, low-maintenance commercial metal garages engineered for strength, versatility, and long-lasting performance.",
+    "sku": "TG12",
+    "price": "9395",
+    "dimensions": {
+      "width": "34",
+      "length": "44",
+      "height": "14"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG12/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "34’x44’x14′ Side Entry Commercial Garage - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/34x44x14-side-entry-commercial-garage/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "34’x44’x14′ Side Entry Commercial Garage - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/34x44x14-side-entry-commercial-garage/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG12/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "36’x35’x12′ Two Car Garage with Lean-to",
+    "slug": "36x35x12-two-car-garage-with-lean-to",
+    "permalink": "https://www.topgoatmetalstructures.com/product/36x35x12-two-car-garage-with-lean-to/",
+    "type": "simple",
+    "short_description": "The 36’x35’x12′ Two Car Garage with Lean-to from Swift Steel Structures is designed to provide secure vehicle storage along with additional covered space for everyday convenience. Built with premium-quality steel framing, this durable structure offers reliable protection against harsh weather conditions while delivering long-lasting performance. The spacious two-car garage area is perfect for storing vehicles, tools, and equipment, while the attached lean-to creates extra covered space for trailers, outdoor storage, or workspace needs. Customers can customize roof styles, doors, windows, and color options to match their property and functional requirements. Swift Steel Structures delivers affordable, low-maintenance metal garages engineered for strength, versatility, and dependable performance.",
+    "sku": "TG13",
+    "price": "9395",
+    "dimensions": {
+      "width": "36",
+      "length": "35",
+      "height": "12"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG13/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "36’x35’x12′ Two Car Garage with Lean-to - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/36x35x12-two-car-garage-with-lean-to/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "36’x35’x12′ Two Car Garage with Lean-to - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/36x35x12-two-car-garage-with-lean-to/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG13/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "38’x28′ Large Garage Building",
+    "slug": "38x28-large-garage-building",
+    "permalink": "https://www.topgoatmetalstructures.com/product/38x28-large-garage-building/",
+    "type": "simple",
+    "short_description": "The 38’x28′ Large Garage Building from Swift Steel Structures is designed to provide spacious storage, reliable vehicle protection, and long-lasting durability for residential or commercial use. Built with premium-quality steel framing, this garage offers exceptional strength and dependable resistance against harsh weather conditions year-round. The large interior space is ideal for storing multiple vehicles, equipment, tools, trailers, or creating a functional workshop area. Customers can customize roof styles, doors, windows, and color options to match their property and specific storage requirements. Swift Steel Structures delivers affordable, low-maintenance metal garage buildings engineered for durability, versatility, and everyday performance.",
+    "sku": "TG14",
+    "price": "9395",
+    "dimensions": {
+      "width": "38",
+      "length": "28",
+      "height": "12"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG14/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "38’x28′ Large Garage Building - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/38x28-large-garage-building/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "38’x28′ Large Garage Building - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/38x28-large-garage-building/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG14/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "40’x24′ Garage with Lean-to",
+    "slug": "40x24-garage-with-lean-to",
+    "permalink": "https://www.topgoatmetalstructures.com/product/40x24-garage-with-lean-to/",
+    "type": "simple",
+    "short_description": "The 40’x24′ Garage with Lean-to from Swift Steel Structures is designed to provide spacious vehicle protection, secure storage, and versatile covered space in one durable steel building. Constructed with premium-quality steel framing, this garage delivers long-lasting strength and reliable resistance against harsh weather conditions. The attached lean-to adds convenient side coverage for equipment, trailers, outdoor storage, or workspace needs while maintaining a clean and modern appearance. Customers can customize roof styles, doors, windows, and color options to create a structure that fits their exact requirements. Swift Steel Structures offers affordable, low-maintenance metal garages engineered for durability, functionality, and everyday performance.",
+    "sku": "TG15",
+    "price": "9395",
+    "dimensions": {
+      "width": "40",
+      "length": "24",
+      "height": "12"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG15/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "40’x24′ Garage with Lean-to - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/40x24-garage-with-lean-to/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "40’x24′ Garage with Lean-to - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/40x24-garage-with-lean-to/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG15/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "42’x52′ Commercial Metal Building",
+    "slug": "42x52-commercial-metal-building",
+    "permalink": "https://www.topgoatmetalstructures.com/product/42x52-commercial-metal-building/",
+    "type": "simple",
+    "short_description": "The 42’x52′ Commercial Metal Building from Swift Steel Structures is engineered to provide maximum durability, spacious functionality, and long-term performance for commercial and industrial applications. Built with premium-quality steel framing, this structure offers reliable protection for equipment, inventory, vehicles, workshops, and business operations in all weather conditions. Its expansive interior layout provides ample space for warehouses, garages, agricultural storage, or commercial workspace needs while maintaining a clean and professional appearance. Customers can customize roof styles, doors, windows, insulation, and color options to match their exact operational requirements. Swift Steel Structures delivers affordable, low-maintenance commercial metal buildings designed for strength, versatility, and dependable everyday performance.",
+    "sku": "TG16",
+    "price": "9395",
+    "dimensions": {
+      "width": "42",
+      "length": "52",
+      "height": "14"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG16/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "42’x52′ Commercial Metal Building - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/42x52-commercial-metal-building/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "42’x52′ Commercial Metal Building - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/42x52-commercial-metal-building/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG16/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "44’x40′ Commercial Steel Building",
+    "slug": "44x40-commercial-steel-building",
+    "permalink": "https://www.topgoatmetalstructures.com/product/44x40-commercial-steel-building/",
+    "type": "simple",
+    "short_description": "The 44’x40′ Commercial Steel Building from Swift Steel Structures is designed to deliver exceptional durability, spacious functionality, and reliable performance for commercial and industrial applications. Constructed with premium-quality steel framing, this building provides dependable protection for vehicles, equipment, inventory, workshops, and business operations in all weather conditions. Its large open interior offers flexible space for warehouses, garages, agricultural storage, or commercial workspace needs while maintaining a clean and professional appearance. Customers can customize roof styles, doors, windows, insulation, and color options to meet their exact operational requirements. Swift Steel Structures delivers affordable, low-maintenance commercial metal buildings engineered for strength, versatility, and long-lasting value.",
+    "sku": "TG17",
+    "price": "9395",
+    "dimensions": {
+      "width": "44",
+      "length": "40",
+      "height": "16"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG17/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "44’x40′ Commercial Steel Building - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/44x40-commercial-steel-building/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "44’x40′ Commercial Steel Building - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/44x40-commercial-steel-building/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG17/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "46’x28′ Commercial Building with Lean-To",
+    "slug": "46x28-commercial-building-with-lean-to",
+    "permalink": "https://www.topgoatmetalstructures.com/product/46x28-commercial-building-with-lean-to/",
+    "type": "simple",
+    "short_description": "The 46’x28′ Commercial Building with Lean-to from Swift Steel Structures is designed to provide durable workspace, secure storage, and additional covered area for commercial operations. Built with premium-quality steel framing, this structure delivers long-lasting strength and dependable protection against harsh weather conditions. The spacious interior is ideal for equipment storage, workshops, business operations, or vehicle parking, while the attached lean-to adds convenient covered space for loading, outdoor storage, or machinery protection. Customers can customize roof styles, doors, windows, insulation, and color options to fit their exact commercial needs. Swift Steel Structures offers affordable, low-maintenance commercial metal buildings engineered for versatility, reliability, and everyday performance.",
+    "sku": "TG18",
+    "price": "9395",
+    "dimensions": {
+      "width": "46",
+      "length": "28",
+      "height": "16"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG18/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "46’x28′ Commercial Building with Lean-To - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/46x28-commercial-building-with-lean-to/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "46’x28′ Commercial Building with Lean-To - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/46x28-commercial-building-with-lean-to/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG18/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "48’x48′ Commercial Building",
+    "slug": "48x48-commercial-building",
+    "permalink": "https://www.topgoatmetalstructures.com/product/48x48-commercial-building/",
+    "type": "simple",
+    "short_description": "The 48’x48′ Commercial Building from Swift Steel Structures is engineered to provide exceptional durability, expansive workspace, and reliable protection for commercial and industrial applications. Constructed with premium-quality steel framing, this building delivers long-lasting strength and dependable performance in harsh weather conditions. Its large open interior is ideal for warehouses, workshops, equipment storage, vehicle parking, agricultural operations, or business facilities requiring maximum usable space. Customers can customize roof styles, doors, windows, insulation, and color options to match their exact operational needs and property design. Swift Steel Structures offers affordable, low-maintenance commercial metal buildings built for versatility, efficiency, and long-term value.",
+    "sku": "TG19",
+    "price": "9395",
+    "dimensions": {
+      "width": "48",
+      "length": "48",
+      "height": "16"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG19/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "48’x48′ Commercial Building - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/48x48-commercial-building/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "48’x48′ Commercial Building - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/48x48-commercial-building/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG19/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "50’x60’x18′ Commercial Building",
+    "slug": "50x60x18-commercial-building",
+    "permalink": "https://www.topgoatmetalstructures.com/product/50x60x18-commercial-building/",
+    "type": "simple",
+    "short_description": "The 50’x60’x18′ Commercial Building from Swift Steel Structures is engineered for large-scale commercial, industrial, and storage applications that demand strength, durability, and maximum usable space. Constructed with premium-quality steel framing and vertical roof panels, this building delivers long-lasting performance and reliable protection against harsh weather conditions. The expansive interior and tall 18-foot clearance make it ideal for warehouses, workshops, heavy equipment storage, fleet parking, and business operations requiring extra room and accessibility. Customers can customize doors, windows, insulation, roof styles, and color options to meet their exact operational needs and property design. Swift Steel Structures provides affordable, low-maintenance commercial metal buildings built for versatility, efficiency, and dependable long-term value.",
+    "sku": "TG20",
+    "price": "9395",
+    "dimensions": {
+      "width": "60",
+      "length": "50",
+      "height": "18"
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Metal Buildings",
+        "slug": "metal-buildings"
+      },
+      {
+        "id": 4,
+        "name": "Metal Garages",
+        "slug": "metal-garages"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/TG20/1.webp"
+      }
+    ],
+    "menu_order": 0,
+    "yoast_head_json": {
+      "title": "50’x60’x18′ Commercial Building - Top Goat Metal Structures",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://www.topgoatmetalstructures.com/product/50x60x18-commercial-building/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "50’x60’x18′ Commercial Building - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/50x60x18-commercial-building/",
+      "og_site_name": "Top Goat Metal Structures",
+      "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161//",
+      "article_modified_time": "2025-11-18T13:25:35+00:00",
+      "og_image": [
+        {
+          "width": 1000,
+          "height": 572,
+          "url": "https://www.topgoatmetalstructures.com/images/products/TG20/1.webp",
+          "type": "image/webp"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      }
+    }
   }
 ]
