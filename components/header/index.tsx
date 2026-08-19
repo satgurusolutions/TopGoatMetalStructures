@@ -137,7 +137,7 @@ export default function Header() {
               aria-label="Main navigation"
             >
               {NAV_ITEMS.map((item) =>
-                item.href === '/product-category/metal-buildings' ? (
+                item.href === '/metal-buildings' ? (
                   <MetalBuildingsMegaMenu key={item.label} item={item} />
                 ) : (
                   <NavItem key={item.label} item={item} />
