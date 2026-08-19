@@ -33,6 +33,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FC, useEffect, useState } from 'react';
 
+import { Warehouse, ArrowLeftRight, ArrowUpDown, Ruler } from 'lucide-react';
+
 const ProductCard: FC<{
   product: Product;
   variant?: number; // Test this for marketing pages
@@ -195,6 +197,181 @@ const ProductCard: FC<{
         <div className="mb-3 text-[24px] leading-[120%] font-medium">
           {parse(product.name ?? '')}
         </div>
+        <div className="flex items-center justify-between pt-2 pb-3 text-center">
+          <div>
+            {/* <HouseLengthIcon /> */}
+            <svg
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-20 w-20"
+            >
+              <g
+                stroke="currentColor"
+                className="text-[#E3A300]"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {/* Building */}
+                <path d="M13 27L31 11L50 27" />
+                <path d="M17 24V43H47V24" />
+                <path d="M11 27H52" />
+
+                {/* Roof detail */}
+                <path d="M22 19L31 12L40 19" />
+
+                {/* Garage */}
+                <rect x="27" y="30" width="14" height="13" rx="0.5" />
+                <path d="M27 34H41" />
+                <path d="M27 38H41" />
+
+                {/* Door */}
+                <rect x="19" y="31" width="6" height="12" />
+
+                {/* Window */}
+                <rect x="29" y="19" width="6" height="6" />
+                <path d="M32 19V25" />
+                <path d="M29 22H35" />
+
+                <path d="M15 44H49" />
+
+                {/* Length - diagonal */}
+                <path d="M17 55L31 47" />
+
+                {/* Start arrow */}
+                <path d="M17 55L19 50" />
+                <path d="M17 55L22 55" />
+
+                {/* End arrow */}
+                <path d="M31 47L26 47" />
+                <path d="M31 47L29 52" />
+              </g>
+            </svg>
+            <p className="pt-2 text-[16px] font-normal">Length</p>
+            <p className="text-[18px] font-medium text-[#4A4C56]">
+              {' '}
+              {/* {product.meta_data?.find((a) => a.key === 'length')?.value ?? '—'}
+              &apos; */}
+              {product.dimensions?.length ? `${product.dimensions.length}'` : '—'}
+            </p>
+          </div>
+          <div>
+            {/* <HouseWidthIcon /> */}
+            <svg
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-20 w-20"
+            >
+              <g
+                stroke="currentColor"
+                className="text-[#E3A300]"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {/* Building */}
+                <path d="M13 27L31 11L50 27" />
+                <path d="M17 24V43H47V24" />
+                <path d="M11 27H52" />
+
+                {/* Roof detail */}
+                <path d="M22 19L31 12L40 19" />
+
+                {/* Garage */}
+                <rect x="27" y="30" width="14" height="13" rx="0.5" />
+                <path d="M27 34H41" />
+                <path d="M27 38H41" />
+
+                {/* Door */}
+                <rect x="19" y="31" width="6" height="12" />
+
+                {/* Window */}
+                <rect x="29" y="19" width="6" height="6" />
+                <path d="M32 19V25" />
+                <path d="M29 22H35" />
+
+                <path d="M15 44H49" />
+
+                {/* Width */}
+                <path d="M17 50H47" />
+
+                <path d="M17 50L21 47" />
+                <path d="M17 50L21 53" />
+
+                <path d="M47 50L43 47" />
+                <path d="M47 50L43 53" />
+              </g>
+            </svg>
+            <p className="pt-2 text-[16px] font-normal">Width</p>
+            <p className="text-[18px] font-medium text-[#4A4C56]">
+              {' '}
+              {/* {product.dimensions?.find((a) => a.key === 'width')?.value ?? '—'}
+              &apos; */}
+              {product.dimensions?.width ? `${product.dimensions.width}'` : '—'}
+            </p>
+          </div>
+          <div>
+            {/* <HouseHeightIcon /> */}
+            <svg
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-20 w-20"
+            >
+              <g
+                stroke="currentColor"
+                className="text-[#E3A300]"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {/* Building */}
+                <path d="M13 27L31 11L50 27" />
+                <path d="M17 24V43H47V24" />
+                <path d="M11 27H52" />
+
+                {/* Roof detail */}
+                <path d="M22 19L31 12L40 19" />
+
+                {/* Garage */}
+                <rect x="27" y="30" width="14" height="13" rx="0.5" />
+                <path d="M27 34H41" />
+                <path d="M27 38H41" />
+
+                {/* Door */}
+                <rect x="19" y="31" width="6" height="12" />
+
+                {/* Window */}
+                <rect x="29" y="19" width="6" height="6" />
+                <path d="M32 19V25" />
+                <path d="M29 22H35" />
+
+                <path d="M15 44H49" />
+
+                {/* Height */}
+                <path d="M56 18V44" />
+
+                {/* Top arrow */}
+                <path d="M56 18L53 22" />
+                <path d="M56 18L59 22" />
+
+                {/* Bottom arrow */}
+                <path d="M56 44L53 40" />
+                <path d="M56 44L59 40" />
+              </g>
+            </svg>
+            <p className="pt-2 text-[16px] font-normal">Height</p>
+            <p className="text-[18px] font-medium text-[#4A4C56]">
+              {' '}
+              {/* {product.meta_data?.find((a) => a.key === 'height')?.value ?? '—'}
+              &apos; */}
+              {product.dimensions?.height ? `${product.dimensions.height}'` : '—'}
+            </p>
+          </div>
+        </div>
+
         {/* Price Row */}
         <div className="flex flex-col justify-between gap-3 md:flex-row md:items-center md:gap-1">
           <Link href={TELEPHONE_NUMBER.href}>
@@ -243,35 +420,6 @@ const ProductCard: FC<{
             SKU: {product.sku}
           </div>
         )} */}
-        {/* <div className="flex items-center justify-between pt-4">
-          <div>
-            <HouseLengthIcon />
-            <p className="pt-2 text-[16px] font-normal">Length</p>
-            <p className="text-[18px] font-medium text-[#4A4C56]">
-              {' '}
-              {product.meta_data?.find((a) => a.key === 'length')?.value ?? '—'}
-              &apos;
-            </p>
-          </div>
-          <div>
-            <HouseWidthIcon />
-            <p className="pt-2 text-[16px] font-normal">Width</p>
-            <p className="text-[18px] font-medium text-[#4A4C56]">
-              {' '}
-              {product.meta_data?.find((a) => a.key === 'width')?.value ?? '—'}
-              &apos;
-            </p>
-          </div>
-          <div>
-            <HouseHeightIcon />
-            <p className="pt-2 text-[16px] font-normal">Height</p>
-            <p className="text-[18px] font-medium text-[#4A4C56]">
-              {' '}
-              {product.meta_data?.find((a) => a.key === 'height')?.value ?? '—'}
-              &apos;
-            </p>
-          </div>
-        </div> */}
       </div>
     </div>
   );
