@@ -188,7 +188,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
               <ProductListingViewMore
                 viewMore
                 products={products ?? []}
-                name={`Top Selling Metal Buildings`}
+                name={`Metal Buildings`}
                 productsPerPage={9}
                 titleSizeClass="text-lg xl:text-3xl"
                 searchTextSizeClass="text-base xl:text-lg px-0! pb-0!"

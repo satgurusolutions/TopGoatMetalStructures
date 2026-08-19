@@ -84,8 +84,8 @@ const SearchListingViewMore: FC<SearchListingProps> = ({
             }}
           >
             <SelectTrigger
-              className={`h-12! w-full rounded-[38px] bg-black px-4 text-xs text-white md:text-sm lg:text-base ${
-                open || dropDownValue ? '' : 'text-[#777980]'
+              className={`h-12! w-full rounded-[38px] px-4 text-xs text-black md:text-sm lg:text-base ${
+                open || dropDownValue ? '' : 'text-[#000000]!'
               }`}
             >
               <SelectValue placeholder="Select Filter" />

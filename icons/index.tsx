@@ -39,3 +39,4 @@ export { default as MilitaryDiscountSmall } from './military-discount-small';
 export { default as CarouselLeftIcon } from './carousel-left';
 export { default as CarouselRightIcon } from './carousel-right';
 export { default as Customize3DIcon } from './customize-3d-icon';
+export { default as CallSpeakerIcon } from './call-speaker-icon';

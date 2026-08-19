@@ -5,11 +5,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const buildingLinks = [
-  { label: 'Metal Garages', href: '/metal-garages' },
-  { label: 'Metal Carports', href: '/metal-carports' },
-  { label: 'Metal Barns', href: '/metal-barns' },
-  { label: 'RV Garages', href: '/rv-garages' },
-  { label: 'Commercial', href: '/commercial' },
+  { label: 'Metal Garages', href: '/product-category/metal-garages' },
+  { label: 'Metal Carports', href: '/product-category/metal-carports' },
+  { label: 'Metal Barns', href: '/product-category/metal-barns' },
+  { label: 'RV Garages', href: '/product-category/rv-garages' },
+  { label: 'Commercial', href: '/product-category/commercial' },
 ];
 
 const companyLinks = [
@@ -93,7 +93,7 @@ export default function Footer() {
           </div>
 
           <p className="font-oswald mt-2 text-[13px] tracking-[0.08em] text-[#b9ac99] uppercase sm:text-[15px]">
-            4.9★ from 2,300+ building owners 
+            4.9★ from 2,300+ building owners
           </p>
         </div>
       </section>

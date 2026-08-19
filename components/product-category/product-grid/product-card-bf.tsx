@@ -2,14 +2,14 @@
 
 import { QuoteFormSmall2 } from '@/components/shared';
 import { Button } from '@/components/ui/button';
-import {
-  Carousel,
-  CarouselApi,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from '@/components/ui/carousel';
+// import {
+//   Carousel,
+//   CarouselApi,
+//   CarouselContent,
+//   CarouselItem,
+//   CarouselNext,
+//   CarouselPrevious,
+// } from '@/components/ui/carousel';
 import {
   Dialog,
   DialogContent,
@@ -100,7 +100,14 @@ const ProductCard: FC<{
     <div className="group flex flex-col gap-4 overflow-hidden border-none bg-transparent p-0 shadow-none">
       {/* IMAGE */}
       <div className="relative">
-        {/* <Link href={`/product/${product.slug}`}>{imageBlock}</Link> */}
+        <Link href={`/product/${product.slug}`}>
+          {imageBlock}
+          {product.sku && (
+            <div className="absolute top-4 left-4 z-20 rounded-2xl bg-black/40 px-3 py-1">
+              <span className="text-[20px] font-medium text-white">SKU: {product.sku}</span>
+            </div>
+          )}
+        </Link>
         {/* <Link
           target="_blank"
           href={
@@ -120,7 +127,7 @@ const ProductCard: FC<{
           />
         </Link> */}
       </div>
-      {openModalOnClick ? (
+      {/* {openModalOnClick ? (
         <Dialog open={isCarouselOpen} onOpenChange={setIsCarouselOpen}>
           <DialogTrigger asChild>{imageBlock}</DialogTrigger>
           <DialogContent className="flex h-[50vh] flex-col rounded-2xl bg-white p-6 text-black lg:h-[90vh] lg:max-w-[80vw]">
@@ -158,17 +165,14 @@ const ProductCard: FC<{
             </div>
           </DialogContent>
         </Dialog>
-      ) : (
-        <div className="relative">
-          <Link href={`/product/${product.slug}`}>
-            {imageBlock}
-            {product.sku && (
-              <div className="absolute top-4 left-4 z-20 rounded-2xl bg-black/40 px-3 py-1">
-                <span className="text-[20px] font-medium text-white">SKU: {product.sku}</span>
-              </div>
-            )}
-          </Link>
-          {/* <Link
+      ) : ( */}
+      {/* <div className="relative">
+          <Link href={`/product/${product.slug}`}> */}
+      {/* {imageBlock} */}
+      {/* SKU badge */}
+
+      {/* </Link> */}
+      {/* <Link
             target="_blank"
             href={
               product.new3DLink ??
@@ -186,20 +190,20 @@ const ProductCard: FC<{
               className="w-[150px] cursor-pointer transition-transform hover:scale-95"
             />
           </Link> */}
-        </div>
-      )}
+      {/* </div>
+      )} */}
 
       {/* CARD CONTENT */}
       <div className="mb-2 rounded-xl bg-white p-6 shadow-[18px_21px_80px_0px_rgba(0,0,0,0.05)] transition-all duration-300">
-        {/* Product Name + Address line-clamp-1*/}
-        <div className="mb-3 text-[24px] leading-[120%] font-medium">
+        {/* Product Name + Address line-clamp-1 */}
+        <div className="mb-2 text-[24px] leading-[120%] font-medium">
           {parse(product.name ?? '')}
         </div>
         {/* Price Row */}
-        <div className="flex flex-col justify-between gap-3 md:flex-row md:items-center md:gap-1">
+        <div className="flex items-center justify-between">
           <Link href={TELEPHONE_NUMBER.href}>
-            <Button className="bg-primary hover:bg-primary/90 h-12 w-full cursor-pointer rounded-[38px] px-8 text-base text-[16px] text-white">
-              <CallSpeakerIcon className="h-5! w-5!" />
+            <Button className="bg-primary hover:bg-primary/90 h-12 w-full cursor-pointer rounded-[38px] px-8 text-base text-white">
+              <CallSpeakerIcon className="mr-0 h-5! w-5!" />
               {TELEPHONE_NUMBER.formatted}
             </Button>
           </Link>
@@ -207,10 +211,10 @@ const ProductCard: FC<{
             <DialogTrigger asChild>
               <Button
                 variant={'metallicBlack'}
-                className="flex h-12 w-full items-center justify-center gap-2 rounded-full px-6 py-4 font-normal text-white sm:w-auto md:w-fit"
+                className="flex h-12 w-fit items-center justify-center gap-2 rounded-full px-6 py-4 text-sm font-normal text-white sm:w-auto"
               >
                 <LinkActiveIcon className="h-6! w-6!" />
-                <span className="pr-2 text-[16px] font-normal lg:text-base">Request Price</span>
+                <span className="px-2 text-xs font-normal lg:text-base">Request Price</span>
               </Button>
             </DialogTrigger>
             <DialogContent className="max-h-[90vh] max-w-2xl overflow-y-auto rounded-2xl bg-white text-black">
@@ -237,7 +241,6 @@ const ProductCard: FC<{
               : '—'}
           </p>
         </div> */}
-
         {/* {product.short_description && (
           <div className="pt-2 text-[16px] leading-[120%] font-normal text-[#4A4C56]">
             SKU: {product.sku}

@@ -29,10 +29,9 @@ export default function ProductDetail({
   products,
 }: Readonly<{ product: Product; products: Product[] }>) {
   const price = parseFloat(product.price) || 0;
-  if (product.sku == 'WB203' || product.sku == 'WB204') {
-    //replace first image with 4th image
-    product.images[0] = product.images?.[3] || product.images[0];
-  }
+  // if (product.sku == 'WB203' || product.sku == 'WB204') {
+  //   product.images[0] = product.images?.[3] || product.images[0];
+  // }
   const image = product.images?.[0]?.src || '/images/products/placeholder.png';
   const [selected, setSelected] = useState(image);
   const [open, setOpen] = useState(false);

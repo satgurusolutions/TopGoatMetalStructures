@@ -28,8 +28,16 @@ export default function ProductGrid({
       className={`grid grid-cols-1 gap-6 sm:grid-cols-2 ${isTwoColumn ? 'lg:grid-cols-2' : 'lg:grid-cols-3'}`}
     >
       {products.map((product) => (
+        // <ProductCard
+        //   products={allProducts}
+        //   variant={productCardVariant}
+        //   key={product.id}
+        //   product={product}
+        //   leadSourceName={leadSourceName}
+        //   openModalOnClick={openModalOnClick}
+        // />
         <ProductCard
-          products={allProducts}
+          products={allProducts ?? products}
           variant={productCardVariant}
           key={product.id}
           product={product}
