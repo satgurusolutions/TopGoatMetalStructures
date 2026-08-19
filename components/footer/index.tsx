@@ -5,11 +5,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const buildingLinks = [
-  { label: 'Metal Garages', href: '/product-category/metal-garages' },
-  { label: 'Metal Carports', href: '/product-category/metal-carports' },
-  { label: 'Metal Barns', href: '/product-category/metal-barns' },
-  { label: 'RV Garages', href: '/product-category/rv-garages' },
-  { label: 'Commercial', href: '/product-category/commercial' },
+  { label: 'Metal Garages', href: '/metal-garages' },
+  { label: 'Metal Carports', href: '/metal-carports' },
+  { label: 'Metal Barns', href: '/metal-barns' },
+  { label: 'RV Garages', href: '/rv-garages' },
+  { label: 'Commercial', href: '/commercial' },
 ];
 
 const companyLinks = [

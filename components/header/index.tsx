@@ -75,7 +75,7 @@ export default function Header() {
             </div>
 
             <div className="flex items-center gap-6 text-[13px]">
-              <button
+              {/* <button
                 type="button"
                 onClick={() => setIsQuoteOpen(true)}
                 className="text-[#efbd2d] transition-colors hover:text-[#ffd766]"
@@ -83,7 +83,7 @@ export default function Header() {
                 Get Free Quote
               </button>
 
-              {/* <a
+              <a
                 href={TELEPHONE_NUMBER.href}
                 className="font-jost text-[15px] font-extrabold text-white uppercase transition-colors hover:text-[#efbd2d]"
               >
@@ -137,7 +137,7 @@ export default function Header() {
               aria-label="Main navigation"
             >
               {NAV_ITEMS.map((item) =>
-                item.href === '/product-category/metal-buildings' ? (
+                item.href === '/metal-buildings' ? (
                   <MetalBuildingsMegaMenu key={item.label} item={item} />
                 ) : (
                   <NavItem key={item.label} item={item} />
@@ -185,7 +185,7 @@ export default function Header() {
 
               <span className="flex flex-col leading-none">
                 <span className="text-[10px] font-semibold tracking-[0.12em] text-[#888681] uppercase">
-                  Talk to a Builder
+                  Talk to an Expert
                 </span>
 
                 <span className="font-jost mt-1 text-[17px] font-extrabold text-white">

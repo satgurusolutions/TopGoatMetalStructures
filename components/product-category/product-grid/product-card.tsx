@@ -33,7 +33,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FC, useEffect, useState } from 'react';
 
-import { Warehouse, ArrowLeftRight, ArrowUpDown, Ruler } from 'lucide-react';
+// import { Warehouse, ArrowLeftRight, ArrowUpDown, Ruler } from 'lucide-react';
 
 const ProductCard: FC<{
   product: Product;

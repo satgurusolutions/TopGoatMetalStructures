@@ -35,26 +35,26 @@ export type NavItemType = {
 export const NAV_ITEMS: NavItemType[] = [
   {
     label: 'Metal Buildings',
-    href: '/product-category/metal-buildings',
+    href: '/metal-buildings',
     groups: [
       {
         title: '',
         links: [
           {
             label: 'Metal Buildings',
-            href: '/product-category/metal-buildings',
+            href: '/metal-buildings',
             description: 'Workshops & clear-span steel',
             icon: 'building',
           },
           {
             label: 'Metal Carports',
-            href: '/product-category/metal-carports',
+            href: '/metal-carports',
             description: 'Open, regular & vertical roof',
             icon: 'carport',
           },
           {
             label: 'RV Garages',
-            href: '/product-category/rv-garages',
+            href: '/rv-garages',
             description: 'Enclosed garages for RV protection',
             icon: 'rv',
           },
@@ -65,19 +65,19 @@ export const NAV_ITEMS: NavItemType[] = [
         links: [
           {
             label: 'Metal Garages',
-            href: '/product-category/metal-garages',
+            href: '/metal-garages',
             description: 'Single & multi-car, fully enclosed',
             icon: 'garage',
           },
           {
             label: 'Metal Barns',
-            href: '/product-category/metal-barns',
+            href: '/metal-barns',
             description: 'Horse, hay & raised-center barns',
             icon: 'barn',
           },
           {
             label: 'Commercial',
-            href: '/product-category/commercial',
+            href: '/commercial',
             description: 'Workshops & clear-span steel',
             icon: 'commercial',
           },
