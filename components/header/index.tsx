@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ChevronDown, Menu, Phone, X, Facebook } from 'lucide-react';
 
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
@@ -10,12 +10,20 @@ import { METAL_3D_LINK, NAV_ITEMS, TELEPHONE_NUMBER } from '@/configs/navigation
 import QuoteFormSmall from '../shared/quote-form/quote-form-small';
 import MetalBuildingsMegaMenu from './MetalBuildingsMegaMenu';
 import { NavItem } from './NavItem';
+import { Input } from '@/components/ui/input';
+// import { Button } from '@/components/ui/button';
+import { useRouter } from 'next/navigation';
+import { SearchIcon } from '@/icons';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
   const [mobileSection, setMobileSection] = useState<string | null>(null);
+
+  const router = useRouter();
+  const searchInputRef = useRef<HTMLInputElement>(null);
+  const searchInputRef2 = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 10);
@@ -61,10 +69,12 @@ export default function Header() {
               <span className="h-4 w-px bg-white/10" />
               <span>Made in the USA steel</span>
               <span className="h-4 w-px bg-white/10" />
-              <span>Financing available</span>
+              <Link href="/financing" className="transition-colors hover:text-[#efbd2d]">
+                <span>Financing available</span>
+              </Link>
             </div>
 
-            <div className="flex items-center gap-6 text-[13px] font-bold">
+            <div className="flex items-center gap-6 text-[13px]">
               <button
                 type="button"
                 onClick={() => setIsQuoteOpen(true)}
@@ -127,13 +137,41 @@ export default function Header() {
               aria-label="Main navigation"
             >
               {NAV_ITEMS.map((item) =>
-                item.href === '/metal-buildings' ? (
+                item.href === '/product-category/metal-buildings' ? (
                   <MetalBuildingsMegaMenu key={item.label} item={item} />
                 ) : (
                   <NavItem key={item.label} item={item} />
                 ),
               )}
             </nav>
+            {/* Desktop Search */}
+            <div className="relative hidden xl:block">
+              <Input
+                ref={searchInputRef2}
+                type="text"
+                placeholder="Type to search..."
+                // autoFocus
+                className="h-[44px] w-[170px] flex-1 rounded-[8px] bg-black pr-[30px]! text-white placeholder:text-gray-400"
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    e.preventDefault(); // prevent any default submit behavior
+                    // setIsSearchOpen(false);
+                    router.push(`/search?s=${searchInputRef2?.current?.value}`);
+                  }
+                }}
+              />
+              <button
+                className="absolute top-3 right-1.5 cursor-pointer"
+                type="button"
+                aria-label="Search"
+                onClick={() => {
+                  // setIsSearchOpen(false);
+                  router.push(`/search?s=${searchInputRef2?.current?.value}`);
+                }}
+              >
+                <SearchIcon className="h-5! w-5!" />
+              </button>
+            </div>
 
             {/* Builder phone */}
             <a
@@ -269,6 +307,34 @@ export default function Header() {
                 </div>
               );
             })}
+
+            <div className="relative">
+              <Input
+                ref={searchInputRef}
+                type="text"
+                placeholder="Type to search..."
+                // autoFocus
+                className="h-[48px] w-full flex-1 rounded-[8px] bg-black pr-[30px]! text-sm text-white placeholder:text-gray-400"
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    e.preventDefault(); // prevent any default submit behavior
+                    // setIsSearchOpen(false);
+                    router.push(`/search?s=${searchInputRef?.current?.value}`);
+                  }
+                }}
+              />
+              <button
+                className="absolute top-3 right-1.5 cursor-pointer"
+                type="button"
+                aria-label="Search"
+                onClick={() => {
+                  // setIsSearchOpen(false);
+                  router.push(`/search?s=${searchInputRef?.current?.value}`);
+                }}
+              >
+                <SearchIcon className="h-5! w-5!" />
+              </button>
+            </div>
 
             <div className="mt-6 grid gap-3 sm:grid-cols-2">
               <button

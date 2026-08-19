@@ -148,7 +148,7 @@ export default function QuoteFormSmall2({
 
       toast.success('Your request has been submitted successfully!');
       form.reset();
-      window.location.href = '/homepage-thankyou'; // triggers full reload
+      window.location.href = '/thank-you-quote'; // triggers full reload
     } catch (err) {
       console.error(err);
       toast.error('Something went wrong. Please try again.');
@@ -157,7 +157,10 @@ export default function QuoteFormSmall2({
     }
   }
   return (
-    <form className="mx-auto max-w-5xl space-y-3 px-0" onSubmit={form.handleSubmit(onSubmit)}>
+    <form
+      className="mx-auto max-w-5xl space-y-3 px-4 xl:px-0"
+      onSubmit={form.handleSubmit(onSubmit)}
+    >
       {isMilitary ? (
         <div>
           <Label className="mb-4 block text-lg font-semibold">Select your branch:</Label>
@@ -214,7 +217,7 @@ export default function QuoteFormSmall2({
                 <div>
                   <Input
                     placeholder="First Name *"
-                    className="h-12 rounded-[38px] px-4"
+                    className="h-10 rounded-[38px] px-4"
                     {...field}
                   />
                   {form?.formState?.errors?.FirstName && (
@@ -232,7 +235,7 @@ export default function QuoteFormSmall2({
                 <div>
                   <Input
                     placeholder="Last Name *"
-                    className="h-12 rounded-[38px] px-4"
+                    className="h-10 rounded-[38px] px-4"
                     {...field}
                   />
                   {form?.formState?.errors?.LastName && (
@@ -255,7 +258,7 @@ export default function QuoteFormSmall2({
                   <Input
                     placeholder="Email *"
                     type="email"
-                    className="h-12 rounded-[38px] px-4"
+                    className="h-10 rounded-[38px] px-4"
                     {...field}
                   />
                   {form?.formState?.errors?.Email && (
@@ -276,7 +279,7 @@ export default function QuoteFormSmall2({
                   <Input
                     placeholder="Phone Number *"
                     type="tel"
-                    className="h-12 rounded-[38px] px-4"
+                    className="h-10 rounded-[38px] px-4"
                     {...field}
                   />
                   {form?.formState?.errors?.Phone && (
@@ -308,7 +311,7 @@ export default function QuoteFormSmall2({
                   {...field}
                 >
                   <SelectTrigger
-                    className={`h-12! w-full rounded-[38px] px-4 text-xs text-[#4a4c56]! md:text-sm lg:text-base ${isStateOpen || field.value ? '' : 'text-[#4a4c56]!'}`}
+                    className={`h-12! w-full rounded-[38px] px-4 text-xs md:text-sm lg:text-base ${isStateOpen || field.value ? '' : 'text-[#777980]'}`}
                   >
                     <SelectValue placeholder="State of Install *" />
                   </SelectTrigger>
@@ -347,7 +350,7 @@ export default function QuoteFormSmall2({
       <div
         className={`grid grid-cols-1 ${buildingStyle === 'Other' ? 'gap-2 lg:grid-cols-2' : ''}`}
       >
-        {/* Building Type text-[#4a4c56]*/}
+        {/* Building Type */}
         <div>
           <Controller
             name="BuildingStyle"
@@ -362,7 +365,7 @@ export default function QuoteFormSmall2({
                 {...field}
               >
                 <SelectTrigger
-                  className={`h-12! w-full rounded-[38px] px-4 text-xs text-[#4a4c56]! md:text-sm lg:text-base ${open || field.value ? '' : 'text-[#4a4c56]!'}`}
+                  className={`h-12! w-full rounded-[38px] px-4 text-xs md:text-sm lg:text-base ${open || field.value ? '' : 'text-[#777980]'}`}
                 >
                   <SelectValue placeholder="Select Building Type" />
                 </SelectTrigger>
@@ -425,7 +428,7 @@ export default function QuoteFormSmall2({
             >
               <SelectTrigger
                 className={`h-12! w-full rounded-[38px] px-4 text-xs md:text-sm lg:text-base ${
-                  open || field.value ? '' : 'text-[#4a4c56]!'
+                  open || field.value ? '' : 'text-[#777980]'
                 }`}
               >
                 <SelectValue placeholder="Select Estimated Budget" />
@@ -462,7 +465,7 @@ export default function QuoteFormSmall2({
                 {...field}
               >
                 <SelectTrigger
-                  className={`h-12! w-full rounded-[38px] px-4 text-xs text-[#4a4c56]! md:text-sm lg:text-base ${isStateOpen || field.value ? '' : 'text-[#4a4c56]!'}`}
+                  className={`h-12! w-full rounded-[38px] px-4 text-xs md:text-sm lg:text-base ${isStateOpen || field.value ? '' : 'text-[#777980]'}`}
                 >
                   <SelectValue placeholder="Select Building" />
                 </SelectTrigger>
@@ -507,6 +510,7 @@ export default function QuoteFormSmall2({
       </div>
 
       <Button
+        variant={'metallic'}
         type="submit"
         disabled={loading || (isMilitary && !form.getValues('Terms'))}
         className="flex h-[56px] w-full items-center justify-between gap-2 rounded-full px-6 py-6 text-xs font-medium lg:text-base"

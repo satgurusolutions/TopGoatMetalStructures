@@ -35,26 +35,26 @@ export type NavItemType = {
 export const NAV_ITEMS: NavItemType[] = [
   {
     label: 'Metal Buildings',
-    href: '/metal-buildings',
+    href: '/product-category/metal-buildings',
     groups: [
       {
         title: '',
         links: [
           {
             label: 'Metal Buildings',
-            href: '/metal-buildings',
+            href: '/product-category/metal-buildings',
             description: 'Workshops & clear-span steel',
             icon: 'building',
           },
           {
             label: 'Metal Carports',
-            href: '/metal-carports',
+            href: '/product-category/metal-carports',
             description: 'Open, regular & vertical roof',
             icon: 'carport',
           },
           {
             label: 'RV Garages',
-            href: '/rv-garages',
+            href: '/product-category/rv-garages',
             description: 'Enclosed garages for RV protection',
             icon: 'rv',
           },
@@ -65,19 +65,19 @@ export const NAV_ITEMS: NavItemType[] = [
         links: [
           {
             label: 'Metal Garages',
-            href: '/metal-garages',
+            href: '/product-category/metal-garages',
             description: 'Single & multi-car, fully enclosed',
             icon: 'garage',
           },
           {
             label: 'Metal Barns',
-            href: '/metal-barns',
+            href: '/product-category/metal-barns',
             description: 'Horse, hay & raised-center barns',
             icon: 'barn',
           },
           {
             label: 'Commercial',
-            href: '/commercial',
+            href: '/product-category/commercial',
             description: 'Workshops & clear-span steel',
             icon: 'commercial',
           },
@@ -86,10 +86,10 @@ export const NAV_ITEMS: NavItemType[] = [
     ],
   },
 
-  {
-    label: 'Financing',
-    href: '/financing',
-  },
+  // {
+  //   label: 'Financing',
+  //   href: '/financing',
+  // },
 
   {
     label: 'About',
