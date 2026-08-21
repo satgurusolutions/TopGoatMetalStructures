@@ -8,7 +8,7 @@ const buildingLinks = [
   { label: 'Metal Garages', href: '/metal-garages' },
   { label: 'Metal Carports', href: '/metal-carports' },
   { label: 'Metal Barns', href: '/metal-barns' },
-  { label: 'RV Garages', href: '/rv-garages' },
+  { label: 'Utility Buildings', href: '/utility-buildings' },
   { label: 'Commercial', href: '/commercial' },
 ];
 

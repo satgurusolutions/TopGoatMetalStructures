@@ -53,9 +53,9 @@ export const NAV_ITEMS: NavItemType[] = [
             icon: 'carport',
           },
           {
-            label: 'RV Garages',
-            href: '/rv-garages',
-            description: 'Enclosed garages for RV protection',
+            label: 'Utility Buildings',
+            href: '/utility-buildings',
+            description: 'Enclosed garages with Utility attached',
             icon: 'rv',
           },
         ],

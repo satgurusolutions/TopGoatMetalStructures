@@ -618,8 +618,8 @@
   },
   {
     "id": 6,
-    "name": "RV Garages",
-    "slug": "rv-garages",
+    "name": "Utility Buildings",
+    "slug": "utility-buildings",
     "parent": 0,
     "description": "<h2><strong>What is an RV Garage?</strong></h2>\r\nAn RV garage is exactly what the name suggests — a metal building sized for recreational vehicles, motorhomes, and campers. The difference is scale: taller walls, wider bays, and more interior room than a standard garage can offer, because a Class A coach doesn’t fit in a space built for a sedan.\r\n\r\nSize is only part of it. These buildings are engineered to keep harsh weather, UV exposure, and everything else that degrades a rig from reaching it. Between customizable entry points and reinforced framing, an RV garage is a solid answer for anyone who wants their vehicle protected during the months it isn’t on the road.\r\n<h2><strong>Customization Options for RV Garages</strong></h2>\r\nRV garages from <a href=\"https://www.topgoatmetalstructures.com/\">Top Goat Metal Structures</a> reflect the people who own them. Our options let you land on a structure that fits both the rig and the property. Here’s what you can adjust:\r\n<ul>\r\n \t<li><strong>Size and Dimensions: </strong>Set the height, width, and length around your RV — plus whatever else you plan to keep in there.</li>\r\n</ul>\r\n<ul>\r\n \t<li><strong>Doors and Entryways: </strong>Roll-up doors, walk-in doors, or side entries make getting in and out simple.</li>\r\n</ul>\r\n<ul>\r\n \t<li><strong>Roof Styles: </strong>Regular, boxed-eave, or vertical roofing, chosen for your taste and your local weather.</li>\r\n</ul>\r\n<ul>\r\n \t<li><strong>Colors and Finishes: </strong>Walls, roof, and trim can be finished in a range of colors to complement the house and the rest of the property.</li>\r\n</ul>\r\n<ul>\r\n \t<li><strong>Insulation: </strong>Insulation packages steady the interior temperature and shield your RV from extreme heat and cold.</li>\r\n</ul>\r\n<h2><strong>The Many Uses for RV Garages</strong></h2>\r\nVery few of these buildings end up storing only an RV. Owners regularly use them for:\r\n<ul>\r\n \t<li><strong>Vehicle Protection: </strong>Boats, trailers, and trucks can share the space, staying sheltered and secure alongside the RV.</li>\r\n</ul>\r\n<ul>\r\n \t<li><strong>Maintenance and Repairs: </strong>An indoor bay makes routine service and DIY repair work far easier, whatever you’re working on.</li>\r\n</ul>\r\n<ul>\r\n \t<li><strong>Storage Space: </strong>Camping gear, tools, and other bulky items stay out of the weather and out of the yard.</li>\r\n</ul>\r\n<ul>\r\n \t<li><strong>Workshop or Hobby Space: </strong>Partition off a section for woodworking, crafting, or whatever project keeps you busy between trips.</li>\r\n</ul>\r\n<h2><strong>Top Goat Metal Structures is Your Premier Source for RV Garages</strong></h2>\r\nGive your RV a <a href=\"https://www.topgoatmetalstructures.com/metal-garages/\">garage kits</a> that does more than you expected it to. Top Goat Metal Structures brings industry-leading craftsmanship, durable materials, and a deep list of options so the finished building goes the distance right along with the vehicle inside it.\r\n\r\nPaying for it should be straightforward too. We work with nationally recognized lenders to offer flexible financing across our buildings, with fast approvals and no penalty for paying off early — so you can settle on terms that fit your situation.\r\n\r\nGive your vehicle the armor it deserves. Call Top Goat Metal Structures at <strong>[site_phone]</strong> to start designing your RV metal garage. We’ll guide you through every step and show you exactly why these buildings carry the Top Goat name.",
     "display": "default",
@@ -645,97 +645,14 @@
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.topgoatmetalstructures.com/rv-garages/",
+      "canonical": "https://www.topgoatmetalstructures.com/utility-buildings/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "RV Garages - Suitable for Any Camper and Motorhome Sizes",
       "og_description": "Top Goat Metal Structures offers highly durable and custom made RV garages that are suitable for any vehicle size from camper van, motorhome to trucks. Explore now!",
-      "og_url": "https://www.topgoatmetalstructures.com/rv-garages/",
+      "og_url": "https://www.topgoatmetalstructures.com/utility-buildings/",
       "og_site_name": "Top Goat Metal Structures",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "CollectionPage",
-            "@id": "https://www.topgoatmetalstructures.com/rv-garages/",
-            "url": "https://www.topgoatmetalstructures.com/rv-garages/",
-            "name": "RV Garages - Suitable for Any Camper and Motorhome Sizes",
-            "isPartOf": {
-              "@id": "https://www.topgoatmetalstructures.com/#website"
-            },
-            "description": "Top Goat Metal Structures offers highly durable and custom made RV garages that are suitable for any vehicle size from camper van, motorhome to trucks. Explore now!",
-            "breadcrumb": {
-              "@id": "https://www.topgoatmetalstructures.com/rv-garages/#breadcrumb"
-            },
-            "inLanguage": "en-US"
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.topgoatmetalstructures.com/rv-garages/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.topgoatmetalstructures.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "RV Garages"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.topgoatmetalstructures.com/#website",
-            "url": "https://www.topgoatmetalstructures.com/",
-            "name": "Top Goat Metal Structures",
-            "description": "The best in the industry",
-            "publisher": {
-              "@id": "https://www.topgoatmetalstructures.com/#organization"
-            },
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.topgoatmetalstructures.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          },
-          {
-            "@type": "Organization",
-            "@id": "https://www.topgoatmetalstructures.com/#organization",
-            "name": "Top Goat Metal Structures",
-            "url": "https://www.topgoatmetalstructures.com/",
-            "logo": {
-              "@type": "ImageObject",
-              "inLanguage": "en-US",
-              "@id": "https://www.topgoatmetalstructures.com/#/schema/logo/image/",
-              "url": "https://www.topgoatmetalstructures.com/wp-content/uploads/2024/11/logo.webp",
-              "contentUrl": "https://www.topgoatmetalstructures.com/wp-content/uploads/2024/11/logo.webp",
-              "width": 198,
-              "height": 180,
-              "caption": "Top Goat Metal Structures"
-            },
-            "image": {
-              "@id": "https://www.topgoatmetalstructures.com/#/schema/logo/image/"
-            },
-            "sameAs": [
-              "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"
-            ]
-          }
-        ]
-      }
+      "twitter_card": "summary_large_image"
     },
     "short_description": "Custom garages for RVs & motorhomes"
   }
