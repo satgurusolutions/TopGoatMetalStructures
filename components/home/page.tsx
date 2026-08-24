@@ -8,7 +8,7 @@ import {
   // InfiniteTicker,
   NeedToTalk,
   Process,
-  Projects,
+  // Projects,
   Review,
   VideoGallery,
 } from '@/components/home';
