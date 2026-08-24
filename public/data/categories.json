@@ -12,7 +12,7 @@
       "date_created_gmt": "2025-10-30T11:09:33",
       "date_modified": "2025-10-30T11:09:33",
       "date_modified_gmt": "2025-10-30T11:09:33",
-      "src": "/categories/49/1.webp",
+      "src": "/products/TG23/1.webp",
       "name": "11",
       "alt": ""
     },
@@ -113,9 +113,7 @@
             "image": {
               "@id": "https://www.topgoatmetalstructures.com/#/schema/logo/image/"
             },
-            "sameAs": [
-              "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"
-            ]
+            "sameAs": ["https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"]
           }
         ]
       }
@@ -235,9 +233,7 @@
             "image": {
               "@id": "https://www.topgoatmetalstructures.com/#/schema/logo/image/"
             },
-            "sameAs": [
-              "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"
-            ]
+            "sameAs": ["https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"]
           }
         ]
       }
@@ -357,9 +353,7 @@
             "image": {
               "@id": "https://www.topgoatmetalstructures.com/#/schema/logo/image/"
             },
-            "sameAs": [
-              "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"
-            ]
+            "sameAs": ["https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"]
           }
         ]
       }
@@ -378,7 +372,7 @@
       "date_created_gmt": "2025-10-30T11:06:31",
       "date_modified": "2025-10-30T11:06:31",
       "date_modified_gmt": "2025-10-30T11:06:31",
-      "src": "/categories/46/1.webp",
+      "src": "/products/TG10/1.webp",
       "name": "b3a90123",
       "alt": ""
     },
@@ -479,9 +473,7 @@
             "image": {
               "@id": "https://www.topgoatmetalstructures.com/#/schema/logo/image/"
             },
-            "sameAs": [
-              "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"
-            ]
+            "sameAs": ["https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"]
           }
         ]
       }
@@ -501,8 +493,8 @@
       "date_created_gmt": "2024-11-28T06:37:51",
       "date_modified": "2024-11-28T06:37:51",
       "date_modified_gmt": "2024-11-28T06:37:51",
-      "src": "/images/gif/commercial.gif",
-      "name": "60x80x20-commercial-metal-building-1.webp",
+      "src": "/products/TG59/1.webp",
+      "name": "commercial-metal-building",
       "alt": ""
     },
     "menu_order": 0,
@@ -608,9 +600,7 @@
             "image": {
               "@id": "https://www.topgoatmetalstructures.com/#/schema/logo/image/"
             },
-            "sameAs": [
-              "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"
-            ]
+            "sameAs": ["https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/"]
           }
         ]
       }
@@ -629,7 +619,7 @@
       "date_created_gmt": "2024-11-28T06:36:30",
       "date_modified": "2024-11-28T06:36:30",
       "date_modified_gmt": "2024-11-28T06:36:30",
-      "src": "/categories/65/1.webp",
+      "src": "/products/TG68/1.webp",
       "name": "20x40x15-garage-with-lean-to.webp",
       "alt": ""
     },

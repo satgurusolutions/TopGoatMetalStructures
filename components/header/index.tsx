@@ -69,7 +69,10 @@ export default function Header() {
               <span className="h-4 w-px bg-white/10" />
               <span>Made in the USA steel</span>
               <span className="h-4 w-px bg-white/10" />
-              <Link href="/financing" className="transition-colors hover:text-[#efbd2d]">
+              <Link
+                href="/financing"
+                className="inline-flex [animation:gradient_1.5s_linear_infinite] items-center gap-1 bg-gradient-to-r from-[#ffb800] via-[#fff700] to-[#ff3d00] bg-[length:300%_auto] bg-clip-text font-black! tracking-wide text-transparent! drop-shadow-[0_0_6px_rgba(255,190,0,0.9)] transition-all duration-300 hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(255,215,0,1)]"
+              >
                 <span>Financing available</span>
               </Link>
             </div>

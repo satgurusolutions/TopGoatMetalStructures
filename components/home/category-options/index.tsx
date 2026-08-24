@@ -7,7 +7,7 @@ const products = [
     description:
       'Fully enclosed single- and multi-car garages with insulation, walk-in doors, windows, and custom storage options.',
     price: '$3,995',
-    image: '/images/garage.webp',
+    image: '/products/TG10/1.webp',
     href: '/metal-garages',
   },
   {
@@ -23,23 +23,23 @@ const products = [
     description:
       'Horse, Dropdown and Straight roof barns with practical lean-tos designed for working properties.',
     price: '$7,450',
-    image: '/images/barn.webp',
+    image: '/products/TG23/1.webp',
     href: '/metal-barns',
   },
   {
-    title: 'RV Covers',
+    title: 'Utility Buildings',
     description:
-      'Tall RV covers and fully enclosed garages built to clear Class A motorhomes with room to spare.',
+      'Versatile utility buildings designed for secure storage, workshops, equipment, tools, and everyday property needs.',
     price: '$2,650',
-    image: '/images/rvcover3.webp',
-    href: '/rv-covers',
+    image: '/products/TG68/1.webp',
+    href: '/utility-buildings',
   },
   {
     title: 'Commercial Buildings',
     description:
       'Clear-span workshops, warehouses, retail spaces, and commercial steel structures with engineer-stamped plans for permitting in all states we service.',
     price: '$12,900',
-    image: '/images/garage3.webp',
+    image: '/products/TG59/1.webp',
     href: '/commercial',
   },
 ];

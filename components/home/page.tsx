@@ -8,7 +8,7 @@ import {
   // InfiniteTicker,
   NeedToTalk,
   Process,
-  Projects,
+  // Projects,
   Review,
   VideoGallery,
 } from '@/components/home';
@@ -28,9 +28,9 @@ export default function HomePage() {
         <Designer />
       </section>
 
-      <section className="py-20 lg:py-28">
+      {/*<section className="py-20 lg:py-28">
         <Projects />
-      </section>
+      </section>*/}
 
       <section className="py-20 lg:py-28">
         <Finance />

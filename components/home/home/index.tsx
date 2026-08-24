@@ -8,7 +8,7 @@ import {
   // InfiniteTicker,
   NeedToTalk,
   // Process,
-  Projects,
+  // Projects,
   Review,
   VideoGallery,
 } from '..';
@@ -20,7 +20,7 @@ export default function Home() {
       {/*<InfiniteTicker />*/}
       <CategoryOptions />
       <Designer />
-      <Projects />
+      {/*<Projects />*/}
       <Finance />
       <ConcreteSection />
       <Review />
