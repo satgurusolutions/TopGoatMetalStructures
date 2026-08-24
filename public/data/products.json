@@ -632,16 +632,16 @@
   },
   {
     "id": 11,
-    "name": "32’x33’x12′ Metal Garage",
-    "slug": "32x33x12-metal-garage",
-    "permalink": "https://www.topgoatmetalstructures.com/product/32x33x12-metal-garage/",
+    "name": "32’x40’x12′ Metal Garage",
+    "slug": "32x40x12-metal-garage",
+    "permalink": "https://www.topgoatmetalstructures.com/product/32x40x12-metal-garage/",
     "type": "simple",
     "short_description": "The 32’x33’x12′ Metal Garage from Top Goat Metal Structures is a durable and spacious solution designed for vehicle protection, storage, and workshop needs. Constructed with premium-quality steel framing and a strong vertical roof design, this garage provides superior durability and dependable resistance against harsh weather conditions. The large interior space is ideal for storing multiple vehicles, tools, equipment, and other valuable belongings while maintaining a clean and modern appearance. Customers can customize roof styles, doors, windows, and color options to match their property and functional requirements. Top Goat Metal Structures delivers affordable, low-maintenance metal garages engineered for strength, performance, and long-lasting reliability.",
     "sku": "TG11",
     "price": "9395",
     "dimensions": {
       "width": "32",
-      "length": "33",
+      "length": "40",
       "height": "12"
     },
     "categories": [
@@ -663,7 +663,7 @@
     ],
     "menu_order": 0,
     "yoast_head_json": {
-      "title": "32’x33’x12′ Metal Garage - Top Goat Metal Structures",
+      "title": "32’x40’x12′ Metal Garage - Top Goat Metal Structures",
       "robots": {
         "index": "index",
         "follow": "follow",
@@ -671,11 +671,11 @@
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.topgoatmetalstructures.com/product/32x33x12-metal-garage/",
+      "canonical": "https://www.topgoatmetalstructures.com/product/32x40x12-metal-garage/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "32’x33’x12′ Metal Garage - Top Goat Metal Structures",
-      "og_url": "https://www.topgoatmetalstructures.com/product/32x33x12-metal-garage/",
+      "og_title": "32’x40’x12′ Metal Garage - Top Goat Metal Structures",
+      "og_url": "https://www.topgoatmetalstructures.com/product/32x40x12-metal-garage/",
       "og_site_name": "Top Goat Metal Structures",
       "article_publisher": "https://www.facebook.com/people/Top-Goat-Metal-Structures/61572160021161/",
       "article_modified_time": "2025-11-18T13:25:35+00:00",
