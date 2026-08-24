@@ -6,49 +6,61 @@ import { useMemo, useState } from 'react';
 type GalleryItem = {
   image: string;
   title: string;
-  category: 'garage' | 'carport' | 'barn' | 'rv' | 'commercial';
+  category: 'garage' | 'carport' | 'barn' | 'utility' | 'commercial';
 };
 
 const galleryItems: GalleryItem[] = [
   {
-    image: '/images/garage.webp',
+    image: '/products/TG1/1.webp',
     title: 'Three-Car Garage',
     category: 'garage',
   },
+
   {
-    image: '/images/barn.webp',
+    image: '/products/TG22/1.webp',
     title: 'Raised-Center Barn',
     category: 'barn',
   },
+
   {
-    image: '/images/rvcover.webp',
+    image: '/products/TG61/1.webp',
     title: 'Enclosed RV Garage',
-    category: 'rv',
+    category: 'utility',
   },
   {
-    image: '/images/5.webp',
+    image: '/products/TG62/1.webp',
+    title: 'Enclosed RV Garage',
+    category: 'utility',
+  },
+  {
+    image: '/products/TG41/1.webp',
     title: 'Commercial Shop',
     category: 'commercial',
   },
   {
-    image: '/images/carport.webp',
+    image: '/products/TG48/1.webp',
     title: 'Four-Car Carport',
     category: 'carport',
   },
   {
-    image: '/images/garage.webp',
-    title: 'Two-Car Garage',
+    image: '/products/TG2/1.webp',
+    title: 'Three-Car Garage',
     category: 'garage',
   },
   {
-    image: '/images/5.webp',
-    title: 'Clear-Span Workshop',
-    category: 'commercial',
+    image: '/products/TG21/1.webp',
+    title: 'Raised-Center Barn',
+    category: 'barn',
   },
   {
-    image: '/images/carport.webp',
-    title: 'Boxed-Eave Carport',
+    image: '/products/TG54/1.webp',
+    title: 'Four-Car Carport',
     category: 'carport',
+  },
+  {
+    image: '/products/TG42/1.webp',
+    title: 'Clear-Span Workshop',
+    category: 'commercial',
   },
 ];
 
@@ -57,7 +69,7 @@ const filters = [
   { value: 'garage', label: 'Garages' },
   { value: 'carport', label: 'Carports' },
   { value: 'barn', label: 'Barns' },
-  { value: 'rv', label: 'RV Covers' },
+  { value: 'utility', label: 'Utitlity Buildings' },
   { value: 'commercial', label: 'Commercial' },
 ] as const;
 
