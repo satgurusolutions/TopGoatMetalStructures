@@ -58,9 +58,160 @@ const galleryItems: GalleryItem[] = [
     category: 'carport',
   },
   {
+    image: '/products/TG55/1.webp',
+    title: 'Four-Car Carport',
+    category: 'carport',
+  },
+  {
+    image: '/products/TG56/1.webp',
+    title: 'Four-Car Carport',
+    category: 'carport',
+  },
+  {
     image: '/products/TG42/1.webp',
     title: 'Clear-Span Workshop',
     category: 'commercial',
+  },
+  {
+    image: '/products/TG3/1.webp',
+    title: 'Three-Car Garage',
+    category: 'garage',
+  },
+  {
+    image: '/products/TG59/1.webp',
+    title: 'Four-Car Carport',
+    category: 'carport',
+  },
+  {
+    image: '/products/TG71/1.webp',
+    title: 'Four-Car Carport',
+    category: 'carport',
+  },
+  {
+    image: '/products/TG4/1.webp',
+    title: 'Three-Car Garage',
+    category: 'garage',
+  },
+  {
+    image: '/products/TG5/1.webp',
+    title: 'Three-Car Garage',
+    category: 'garage',
+  },
+  {
+    image: '/products/TG6/1.webp',
+    title: 'Three-Car Garage',
+    category: 'garage',
+  },
+  {
+    image: '/products/TG63/1.webp',
+    title: 'Enclosed RV Garage',
+    category: 'utility',
+  },
+  {
+    image: '/products/TG64/1.webp',
+    title: 'Enclosed RV Garage',
+    category: 'utility',
+  },
+  {
+    image: '/products/TG65/1.webp',
+    title: 'Enclosed RV Garage',
+    category: 'utility',
+  },
+  {
+    image: '/products/TG66/1.webp',
+    title: 'Enclosed RV Garage',
+    category: 'utility',
+  },
+  {
+    image: '/products/TG7/1.webp',
+    title: 'Three-Car Garage',
+    category: 'garage',
+  },
+  {
+    image: '/products/TG8/1.webp',
+    title: 'Three-Car Garage',
+    category: 'garage',
+  },
+  {
+    image: '/products/TG67/1.webp',
+    title: 'Enclosed RV Garage',
+    category: 'utility',
+  },
+  {
+    image: '/products/TG23/1.webp',
+    title: 'Raised-Center Barn',
+    category: 'barn',
+  },
+  {
+    image: '/products/TG43/1.webp',
+    title: 'Clear-Span Workshop',
+    category: 'commercial',
+  },
+  {
+    image: '/products/TG44/1.webp',
+    title: 'Clear-Span Workshop',
+    category: 'commercial',
+  },
+  {
+    image: '/products/TG45/1.webp',
+    title: 'Clear-Span Workshop',
+    category: 'commercial',
+  },
+  {
+    image: '/products/TG46/1.webp',
+    title: 'Clear-Span Workshop',
+    category: 'commercial',
+  },
+  {
+    image: '/products/TG24/1.webp',
+    title: 'Raised-Center Barn',
+    category: 'barn',
+  },
+  {
+    image: '/products/TG25/1.webp',
+    title: 'Raised-Center Barn',
+    category: 'barn',
+  },
+  {
+    image: '/products/TG26/1.webp',
+    title: 'Raised-Center Barn',
+    category: 'barn',
+  },
+  {
+    image: '/products/TG68/1.webp',
+    title: 'Enclosed RV Garage',
+    category: 'utility',
+  },
+
+  {
+    image: '/products/TG27/1.webp',
+    title: 'Raised-Center Barn',
+    category: 'barn',
+  },
+  {
+    image: '/products/TG28/1.webp',
+    title: 'Raised-Center Barn',
+    category: 'barn',
+  },
+  {
+    image: '/products/TG47/1.webp',
+    title: 'Clear-Span Workshop',
+    category: 'commercial',
+  },
+  {
+    image: '/products/TG48/1.webp',
+    title: 'Clear-Span Workshop',
+    category: 'commercial',
+  },
+  {
+    image: '/products/TG80/1.webp',
+    title: 'Four-Car Carport',
+    category: 'carport',
+  },
+  {
+    image: '/products/TG81/1.webp',
+    title: 'Four-Car Carport',
+    category: 'carport',
   },
 ];
 
