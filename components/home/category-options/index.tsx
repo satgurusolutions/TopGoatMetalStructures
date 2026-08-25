@@ -154,8 +154,10 @@ export default function CategoryOptions() {
                 href={commercialProduct.href}
                 className="font-oswald mt-4 inline-flex items-center gap-2 text-xs font-semibold tracking-[0.1em] text-[#d59a24] uppercase transition duration-300 hover:gap-3 hover:text-[#f2bd43]"
               >
-                View More
-                <span aria-hidden="true">→</span>
+                <Button className="bg-primary hover:bg-primary/90 h-12 w-full cursor-pointer rounded-[38px] px-8 text-base text-[16px] text-white">
+                  View More
+                  <span aria-hidden="true">→</span>
+                </Button>
               </Link>
             </div>
           </div>
