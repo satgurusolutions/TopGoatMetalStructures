@@ -14,7 +14,7 @@ const buildingLinks = [
 
 const companyLinks = [
   { label: 'Why Top Goat', href: '/#why' },
-  { label: 'Recent Builds', href: '/#showcase' },
+  // { label: 'Recent Builds', href: '/#showcase' },
   { label: 'Reviews', href: '/#reviews' },
   { label: 'Service Area', href: '/service-area' },
 ];

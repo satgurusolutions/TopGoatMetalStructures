@@ -7,6 +7,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
+import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
   title: 'Metal Building Financing | Top Goat Metal Structures',
@@ -109,27 +110,27 @@ const financingSteps = [
 const buildingTypes = [
   {
     title: 'Metal Garages',
-    image: '/images/finance-page/2.png',
+    image: '/products/TG10/1.webp',
     description:
       'Finance a secure garage for vehicles, storage, equipment, or a personal workshop.',
   },
   {
     title: 'Metal Carports',
-    image: '/images/finance-page/3.png',
+    image: '/images/carport3.webp',
     description:
       'Protect cars, trucks, boats, trailers, and outdoor equipment with a custom steel carport.',
   },
   {
     title: 'Metal Barns',
     image:
-      'https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=1200&q=85',
+      '/products/TG23/1.webp',
     description:
       'Create dependable agricultural space for livestock, farm equipment, feed, and storage.',
   },
   {
     title: 'Commercial Buildings',
     image:
-      'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=85',
+      '/products/TG59/1.webp',
     description:
       'Explore financing for qualifying warehouses, workshops, retail spaces, and commercial structures.',
   },
@@ -212,7 +213,7 @@ export default function FinancingPage() {
       {/* Hero */}
       <HeroSection
         name="Financing Top Goat Metal Structures"
-        bgImg="/images/finance-page/banner.png"
+        bgImg="/images/free-quote.png"
       />
 
       <div className="pb-8 lg:pb-16">
@@ -403,8 +404,10 @@ export default function FinancingPage() {
                     href="/contact-us?subject=Building%20Financing"
                     className="font-oswald mt-6 inline-flex items-center gap-2 text-sm font-bold tracking-[0.06em] text-[#e7b53c] uppercase"
                   >
-                    Check Financing
-                    <span aria-hidden="true">→</span>
+                    <Button className="bg-primary hover:bg-primary/90 h-12 w-full cursor-pointer rounded-[38px] px-8 text-base text-[16px] text-white">
+                      Check Financing
+                      <span aria-hidden="true">→</span>
+                    </Button>
                   </Link>
                 </div>
               </article>

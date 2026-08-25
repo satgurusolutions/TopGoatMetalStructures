@@ -1,13 +1,13 @@
 import Footer from '@/components/footer';
 import { HeroSection } from '@/components/product-category';
 // import { ChooseArea } from '@/components/service-area';
-import { Ruler } from '@/components/shared';
+// import { Ruler } from '@/components/shared';
 import { baseUrl, ogImage } from '@/configs/meta-data';
 import { NeedToTalk } from '@/components/home';
 
 import type { Metadata } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
+// import Image from 'next/image';
+// import Link from 'next/link';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
@@ -206,12 +206,12 @@ export default function AboutUsPage() {
 
       <HeroSection name="About Top Goat Metal Structures" bgImg="/images/about-us/banner.png" />
 
-      <div className="pb-8 lg:pb-16">
+      {/*<div className="pb-8 lg:pb-16">
         <Ruler />
-      </div>
+      </div>*/}
 
       {/* Founder story */}
-      <section className="pb-20 lg:pb-28">
+      {/*<section className="pb-20 lg:pb-28">
         <div className="mx-auto grid max-w-[1240px] items-center gap-12 px-5 sm:px-7 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
           <div className="relative">
             <div className="relative min-h-[470px] overflow-hidden rounded-[24px] bg-[#151517] sm:min-h-[620px]">
@@ -295,7 +295,7 @@ export default function AboutUsPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* Mission statement */}
       <section className="bg-[#0b0b0d] py-20 text-white lg:py-28">
