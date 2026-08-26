@@ -216,7 +216,7 @@ const galleryItems: GalleryItem[] = [
 ];
 
 const filters = [
-  { value: 'all', label: 'All' },
+  // { value: 'all', label: 'All' },
   { value: 'garage', label: 'Garages' },
   { value: 'carport', label: 'Carports' },
   { value: 'barn', label: 'Barns' },
@@ -227,7 +227,7 @@ const filters = [
 type FilterValue = (typeof filters)[number]['value'];
 
 export default function VideoGallery() {
-  const [activeFilter, setActiveFilter] = useState<FilterValue>('all');
+  const [activeFilter, setActiveFilter] = useState<FilterValue>('garage');
 
   const visibleItems = useMemo(() => {
     if (activeFilter === 'all') return galleryItems;
