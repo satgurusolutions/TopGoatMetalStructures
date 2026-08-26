@@ -230,7 +230,7 @@ export default function VideoGallery() {
   const [activeFilter, setActiveFilter] = useState<FilterValue>('garage');
 
   const visibleItems = useMemo(() => {
-    if (activeFilter === 'all') return galleryItems;
+    // if (activeFilter === 'all') return galleryItems;
 
     return galleryItems.filter((item) => item.category === activeFilter);
   }, [activeFilter]);
