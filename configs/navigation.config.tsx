@@ -170,7 +170,7 @@ export const FACEBOOK_LINK = 'https://www.facebook.com/profile.php?id=6157216002
 export const states = [
   'South Carolina',
   'North Carolina',
-  'Alabama',
+  // 'Alabama',
   'Georgia',
   'Kentucky',
   'Maryland',
