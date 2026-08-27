@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
 import { Button } from '@/components/ui/button';
+import RTOPaymentsForm from '@/components/shared/quote-form/rto-payment-form';
 
 export const metadata: Metadata = {
   title: 'Metal Building Financing | Top Goat Metal Structures',
@@ -122,15 +123,13 @@ const buildingTypes = [
   },
   {
     title: 'Metal Barns',
-    image:
-      '/products/TG23/1.webp',
+    image: '/products/TG23/1.webp',
     description:
       'Create dependable agricultural space for livestock, farm equipment, feed, and storage.',
   },
   {
     title: 'Commercial Buildings',
-    image:
-      '/products/TG59/1.webp',
+    image: '/products/TG59/1.webp',
     description:
       'Explore financing for qualifying warehouses, workshops, retail spaces, and commercial structures.',
   },
@@ -211,10 +210,7 @@ export default function FinancingPage() {
       </Script>
 
       {/* Hero */}
-      <HeroSection
-        name="Financing Top Goat Metal Structures"
-        bgImg="/images/free-quote.png"
-      />
+      <HeroSection name="Financing Top Goat Metal Structures" bgImg="/images/free-quote.png" />
 
       <div className="pb-8 lg:pb-16">
         <Ruler />
@@ -293,13 +289,6 @@ export default function FinancingPage() {
               >
                 Explore Financing
               </Link>
-
-              <Link
-                href="/building-gallery"
-                className="font-oswald inline-flex min-h-[56px] items-center justify-center rounded-[9px] border border-black/20 px-7 text-sm font-bold tracking-[0.04em] uppercase transition hover:border-[#a87a1c] hover:text-[#a87a1c]"
-              >
-                Browse Buildings
-              </Link>
             </div>
           </div>
         </div>
@@ -308,7 +297,7 @@ export default function FinancingPage() {
       {/* Benefits */}
       <section className="bg-[#0b0b0d] py-20 text-white lg:py-28">
         <div className="mx-auto max-w-[1240px] px-5 sm:px-7">
-          <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
+          <div className="grid gap-10 lg:grid-cols-[2fr_1fr] lg:items-end">
             <div>
               <span className="font-oswald text-[11px] font-semibold tracking-[0.22em] text-[#e7b53c] uppercase">
                 Financing Benefits
@@ -318,33 +307,41 @@ export default function FinancingPage() {
                 Flexible Options
                 <span className="block text-[#e7b53c]">Built Around You</span>
               </h2>
+              <p className="mt-5 text-[17px] leading-8 text-[#aaa397]">
+                Move forward with the building your property needs while keeping more of your
+                available cash for equipment, improvements, operations, or other priorities.
+              </p>
+              <div className="mt-14 grid gap-4 sm:grid-cols-2">
+                {financeFeatures.map((feature) => (
+                  <article
+                    key={feature.number}
+                    className="group rounded-[16px] border border-white/10 bg-[#151517] p-6 transition duration-300 hover:-translate-y-1 hover:border-[#e7b53c]/45"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="font-anton text-4xl text-[#e7b53c]">{feature.number}</span>
+
+                      <span className="flex h-9 w-9 items-center justify-center rounded-full border border-[#e7b53c]/25 text-[#e7b53c] transition group-hover:bg-[#e7b53c] group-hover:text-black">
+                        →
+                      </span>
+                    </div>
+
+                    <h3 className="font-oswald mt-7 text-xl font-bold uppercase">
+                      {feature.title}
+                    </h3>
+
+                    <p className="mt-3 text-sm leading-6 text-[#aaa397]">{feature.description}</p>
+                  </article>
+                ))}
+              </div>
             </div>
 
-            <p className="max-w-[650px] text-[17px] leading-8 text-[#aaa397]">
+            {/* <p className="max-w-[650px] text-[17px] leading-8 text-[#aaa397]">
               Move forward with the building your property needs while keeping more of your
               available cash for equipment, improvements, operations, or other priorities.
-            </p>
-          </div>
-
-          <div className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {financeFeatures.map((feature) => (
-              <article
-                key={feature.number}
-                className="group rounded-[16px] border border-white/10 bg-[#151517] p-6 transition duration-300 hover:-translate-y-1 hover:border-[#e7b53c]/45"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="font-anton text-4xl text-[#e7b53c]">{feature.number}</span>
-
-                  <span className="flex h-9 w-9 items-center justify-center rounded-full border border-[#e7b53c]/25 text-[#e7b53c] transition group-hover:bg-[#e7b53c] group-hover:text-black">
-                    →
-                  </span>
-                </div>
-
-                <h3 className="font-oswald mt-7 text-xl font-bold uppercase">{feature.title}</h3>
-
-                <p className="mt-3 text-sm leading-6 text-[#aaa397]">{feature.description}</p>
-              </article>
-            ))}
+            </p> */}
+            <div className="relative z-10">
+              <RTOPaymentsForm />
+            </div>
           </div>
         </div>
       </section>

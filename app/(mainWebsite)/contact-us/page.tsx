@@ -4,7 +4,7 @@ import { Ruler } from '@/components/shared';
 import { ADDRESS, ADDRESS_HREF, EMAIL_ADDRESS } from '@/configs/navigation.config';
 import { baseUrl, ogImage } from '@/configs/meta-data';
 import type { Metadata } from 'next';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Script from 'next/script';
 
 const PHONE_DISPLAY = '(336) 509-3443';
@@ -390,12 +390,6 @@ export default function ContactUsPage() {
                 >
                   Call {PHONE_DISPLAY}
                 </a>
-                <Link
-                  href="/building-gallery/"
-                  className="inline-flex min-h-12 items-center justify-center rounded-full border-2 border-white px-7 py-3 text-center font-bold text-white transition hover:bg-white hover:text-[#1A1A1A]"
-                >
-                  View Building Gallery
-                </Link>
               </div>
             </div>
           </div>
@@ -403,15 +397,14 @@ export default function ContactUsPage() {
 
         <section aria-label="Top Goat Metal Structures location">
           <iframe
-            title="Top Goat Metal Structures office location"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5996.694107153751!2d-80.725935!3d36.394226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885228cc0a1b4153%3A0x3db4e4fcc1286e64!2s317%20W%20Atkins%20St%2C%20Dobson%2C%20NC%2027017%2C%20USA!5e1!3m2!1sen!2sin!4v1763723773899!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.9757576942607!2d-80.61549392360507!3d36.50644728420235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88523ca2fc0800d3%3A0x161997e5740108d1!2s715%20Willow%20St%2C%20Mt%20Airy%2C%20NC%2027030%2C%20USA!5e0!3m2!1sen!2s!4v1787822309327!5m2!1sen!2s"
             width="100%"
             height="480"
             className="block w-full border-0"
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-          />
+          ></iframe>
         </section>
       </main>
 

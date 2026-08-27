@@ -269,39 +269,41 @@ const ProductCard: FC<{
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
-                {/* Building */}
-                <path d="M13 27L31 11L50 27" />
-                <path d="M17 24V43H47V24" />
-                <path d="M11 27H52" />
+                {/* Roof */}
+                <path d="M9 20L15 14H49L55 20" />
+                <path d="M9 20H55" />
 
-                {/* Roof detail */}
-                <path d="M22 19L31 12L40 19" />
+                {/* Roof side details */}
+                <path d="M15 14V20" />
+                <path d="M49 14V20" />
 
-                {/* Garage */}
-                <rect x="27" y="30" width="14" height="13" rx="0.5" />
-                <path d="M27 34H41" />
-                <path d="M27 38H41" />
+                {/* Building walls */}
+                <path d="M12 20V45" />
+                <path d="M52 20V45" />
 
-                {/* Door */}
-                <rect x="19" y="31" width="6" height="12" />
+                {/* Walk-in door */}
+                <rect x="17" y="29" width="8" height="16" rx="0.5" />
+                <path d="M23 37H23.5" />
 
-                {/* Window */}
-                <rect x="29" y="19" width="6" height="6" />
-                <path d="M32 19V25" />
-                <path d="M29 22H35" />
+                {/* Garage door */}
+                <rect x="31" y="27" width="16" height="18" rx="0.5" />
+                <path d="M31 31.5H47" />
+                <path d="M31 36H47" />
+                <path d="M31 40.5H47" />
 
-                <path d="M15 44H49" />
+                {/* Ground */}
+                <path d="M9 45H55" />
 
-                {/* Length - diagonal */}
-                <path d="M17 55L31 47" />
+                {/* Length dimension */}
+                <path d="M12 54H52" />
 
-                {/* Start arrow */}
-                <path d="M17 55L19 50" />
-                <path d="M17 55L22 55" />
+                {/* Left arrow */}
+                <path d="M12 54L17 50" />
+                <path d="M12 54L17 58" />
 
-                {/* End arrow */}
-                <path d="M31 47L26 47" />
-                <path d="M31 47L29 52" />
+                {/* Right arrow */}
+                <path d="M52 54L47 50" />
+                <path d="M52 54L47 58" />
               </g>
             </svg>
             <p className="pt-2 text-[16px] font-normal">Length</p>

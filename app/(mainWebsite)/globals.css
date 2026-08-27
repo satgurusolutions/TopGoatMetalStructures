@@ -569,7 +569,7 @@
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
-  transform: translateY(-12px);
+  transform: translateY(-13px);
 }
 
 /* Shadcn animation support */
