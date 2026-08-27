@@ -3,6 +3,12 @@
 // import { FileText, Phone } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import {
+  ADDRESS,
+  ADDRESS_HREF,
+  EMAIL_ADDRESS,
+  TELEPHONE_NUMBER,
+} from '@/configs/navigation.config';
 
 const buildingLinks = [
   { label: 'Metal Garages', href: '/metal-garages' },
@@ -46,8 +52,8 @@ const resourceLinks = [
   },
 ];
 
-const phoneNumber = '(336) 509-3443';
-const phoneHref = 'tel:tel:+13365093443';
+// const phoneNumber = '(336) 509-3443';
+// const phoneHref = 'tel:tel:+13365093443';
 
 export default function Footer() {
   return (
@@ -132,12 +138,32 @@ export default function Footer() {
                 — engineered, delivered and installed.
               </p>
 
-              <Link
+              {/* <Link
                 href={phoneHref}
                 className="font-oswald mt-6 inline-flex text-[26px] font-bold text-[#e7b53c] transition hover:text-[#f6cf63]"
               >
                 {phoneNumber}
-              </Link>
+              </Link> */}
+              <ul className="mt-4 list-disc space-y-2 pl-4 text-sm text-[15px] text-[#b3aa9b]">
+                <li>
+                  <Link href={ADDRESS_HREF} target="_blank">
+                    {ADDRESS}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={TELEPHONE_NUMBER.href}>{TELEPHONE_NUMBER.formatted}</Link>
+                </li>
+                <li>
+                  <Link href={EMAIL_ADDRESS.href}>{EMAIL_ADDRESS.formatted}</Link>
+                </li>
+              </ul>
+              <h4 className="font-oswald my-4 text-sm font-bold tracking-[0.08em] text-[#e7b53c] uppercase">
+                Business Hours
+              </h4>
+              <ul className="list-disc space-y-2 pl-4 text-sm text-[15px] text-[#b3aa9b]">
+                <li>Mon - Fri: 8:00 AM - 5:00 PM</li>
+                <li>Saturday & Sunday: Closed</li>
+              </ul>
             </div>
 
             {/* Buildings */}
