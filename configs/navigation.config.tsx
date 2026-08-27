@@ -4,11 +4,13 @@ export const TELEPHONE_NUMBER = {
 };
 
 export const EMAIL_ADDRESS = {
-  formatted: 'topgoatmetalstructures@gmail.com',
-  href: 'mailto:topgoatmetalstructures@gmail.com',
+  // formatted: 'topgoatmetalstructures@gmail.com',
+  // href: 'mailto:topgoatmetalstructures@gmail.com',
+  formatted: 'info@topgoatmetalstructures.com',
+  href: 'mailto:info@topgoatmetalstructures.com',
 };
 
-export const ADDRESS = 'Mount Airy, North Carolina 27030';
+export const ADDRESS = '715 Willow St, Mount Airy, NC, United States, North Carolina';
 export const ADDRESS_HREF =
   'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(ADDRESS);
 
