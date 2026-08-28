@@ -107,7 +107,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative isolate overflow-hidden bg-[#0a0a0b] pt-[70px] text-[#f4f1ea]"
+      className="relative isolate overflow-hidden bg-[#0a0a0b] text-[#f4f1ea] lg:pt-[70px]"
     >
       {/* Background Video */}
       <div className="absolute inset-0 -z-20 overflow-hidden">
@@ -151,7 +151,7 @@ export default function HeroSection() {
       />
 
       {/* Main Hero Content */}
-      <div className="relative mx-auto flex min-h-[min(82vh,760px)] w-full max-w-[1240px] items-center px-5 py-[80px] pb-10 sm:px-7">
+      <div className="relative mx-auto flex w-full max-w-[1240px] items-center px-5 py-[40px] pb-10 sm:px-7 lg:min-h-[min(82vh,760px)] lg:py-[80px]">
         <div className="max-w-[680px]">
           {/* Eyebrow */}
           <span className="font-oswald relative mb-[18px] inline-block pl-[34px] text-[0.72rem] font-semibold tracking-[0.22em] text-[#e7b53c] uppercase before:absolute before:top-1/2 before:left-0 before:h-[2px] before:w-6 before:-translate-y-1/2 before:bg-gradient-to-r before:from-[#f6cf63] before:via-[#e7b53c] before:to-[#a87a1c]">
@@ -168,21 +168,23 @@ export default function HeroSection() {
 
           {/* Description */}
           <p className="mb-[34px] max-w-[560px] text-[1rem] leading-[1.6] text-[#a29c8e]">
-            From carports and garages to clear-span commercial shops, we build with heavy-gauge American steel, engineered for strength and designed around your needs. Flexible financing, professional delivery, and installation from start to finish.
+            From carports and garages to clear-span commercial shops, we build with heavy-gauge
+            American steel, engineered for strength and designed around your needs. Flexible
+            financing, professional delivery, and installation from start to finish.
           </p>
 
           {/* Buttons */}
-          <div className="mb-12 flex flex-wrap gap-[14px]">
+          <div className="flex-wrasp mb-12 flex gap-[14px]">
             <Link
               href="/free-quote"
-              className="font-oswald inline-flex min-h-[58px] items-center justify-center rounded-[10px] bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] px-[34px] text-base font-semibold tracking-[0.05em] text-[#1a1306] uppercase shadow-[0_20px_50px_-18px_rgba(231,181,60,0.35)] transition duration-300 hover:-translate-y-[3px] hover:shadow-[0_26px_60px_-16px_rgba(231,181,60,0.55)]"
+              className="font-oswald inline-flex min-h-[58px] w-full items-center justify-center rounded-[10px] bg-gradient-to-r from-[#f6cf63] via-[#e7b53c] to-[#a87a1c] px-[15px] text-sm font-semibold tracking-[0.05em] text-[#1a1306] uppercase shadow-[0_20px_50px_-18px_rgba(231,181,60,0.35)] transition duration-300 hover:-translate-y-[3px] hover:shadow-[0_26px_60px_-16px_rgba(231,181,60,0.55)] lg:w-auto lg:px-[34px] lg:text-base"
             >
               Get Free Quote
             </Link>
 
             <Link
               href="#products"
-              className="font-oswald inline-flex min-h-[58px] items-center justify-center rounded-[10px] border-[1.5px] border-[#e7b53c] px-[34px] text-base font-semibold tracking-[0.05em] text-[#e7b53c] uppercase transition duration-300 hover:-translate-y-[3px] hover:bg-[#e7b53c] hover:text-[#1a1306]"
+              className="font-oswald inline-flex min-h-[58px] w-full items-center justify-center rounded-[10px] border-[1.5px] border-[#e7b53c] px-[15px] text-sm font-semibold tracking-[0.05em] text-[#e7b53c] uppercase transition duration-300 hover:-translate-y-[3px] hover:bg-[#e7b53c] hover:text-[#1a1306] lg:w-auto lg:px-[34px] lg:text-base"
             >
               Explore Buildings
             </Link>
