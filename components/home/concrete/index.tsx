@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 
 interface ComponentItem {
@@ -116,13 +116,13 @@ export default function ConcreteSection({
 
   const total = components.length;
 
-  const nextSlide = () => {
-    setActiveIndex((prev) => (prev + 1) % total);
-  };
+  // const nextSlide = () => {
+  //   setActiveIndex((prev) => (prev + 1) % total);
+  // };
 
-  const prevSlide = () => {
-    setActiveIndex((prev) => (prev - 1 + total) % total);
-  };
+  // const prevSlide = () => {
+  //   setActiveIndex((prev) => (prev - 1 + total) % total);
+  // };
 
   const goToSlide = (index: number) => {
     setActiveIndex(index);
