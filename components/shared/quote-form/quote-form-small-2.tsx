@@ -148,7 +148,7 @@ export default function QuoteFormSmall2({
 
       toast.success('Your request has been submitted successfully!');
       form.reset();
-      window.location.href = '/homepage-thankyou'; // triggers full reload
+      window.location.href = '/thank-you-quote'; // triggers full reload
     } catch (err) {
       console.error(err);
       toast.error('Something went wrong. Please try again.');

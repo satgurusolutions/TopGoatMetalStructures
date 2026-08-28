@@ -249,14 +249,14 @@ export default function ConcreteSection({
 
           {/* MOBILE CONTROLS */}
           <div className="mt-5 flex items-center justify-between gap-4">
-            <button
+            {/*<button
               type="button"
               onClick={prevSlide}
               aria-label="Previous component"
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-black/10 bg-white text-black shadow-sm transition duration-300 hover:border-[#e3a300] hover:bg-[#e3a300]"
             >
               <ChevronLeft className="h-5 w-5" />
-            </button>
+            </button>*/}
 
             {/* DOTS */}
             <div className="flex flex-1 items-center justify-center gap-2">
@@ -277,14 +277,14 @@ export default function ConcreteSection({
               })}
             </div>
 
-            <button
+            {/*<button
               type="button"
               onClick={nextSlide}
               aria-label="Next component"
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-black/10 bg-white text-black shadow-sm transition duration-300 hover:border-[#e3a300] hover:bg-[#e3a300]"
             >
               <ChevronRight className="h-5 w-5" />
-            </button>
+            </button>*/}
           </div>
 
           {/* MOBILE COUNTER */}
