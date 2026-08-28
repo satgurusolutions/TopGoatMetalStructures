@@ -114,7 +114,7 @@ export default function ConcreteSection({
   const [activeIndex, setActiveIndex] = useState(0);
   const sliderRef = useRef<HTMLDivElement>(null);
 
-  const total = components.length;
+  // const total = components.length;
 
   // const nextSlide = () => {
   //   setActiveIndex((prev) => (prev + 1) % total);
