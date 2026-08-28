@@ -151,7 +151,7 @@ export default function HeroSection() {
       />
 
       {/* Main Hero Content */}
-      <div className="relative mx-auto flex min-h-[min(82vh,760px)] w-full max-w-[1240px] items-center px-5 py-[40px] pb-10 sm:px-7 lg:py-[80px]">
+      <div className="relative mx-auto flex w-full max-w-[1240px] items-center px-5 py-[40px] pb-10 sm:px-7 lg:min-h-[min(82vh,760px)] lg:py-[80px]">
         <div className="max-w-[680px]">
           {/* Eyebrow */}
           <span className="font-oswald relative mb-[18px] inline-block pl-[34px] text-[0.72rem] font-semibold tracking-[0.22em] text-[#e7b53c] uppercase before:absolute before:top-1/2 before:left-0 before:h-[2px] before:w-6 before:-translate-y-1/2 before:bg-gradient-to-r before:from-[#f6cf63] before:via-[#e7b53c] before:to-[#a87a1c]">
